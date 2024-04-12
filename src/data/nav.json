@@ -14,58 +14,58 @@
   {
     "id": "3",
     "label": "Services",
-    "link": "/service",
+    "link": "/services",
     "icon": true,
     "subMenu": [
       {
         "id": "1",
         "label": "Website Development",
-        "link": "/service"
+        "link": "/services/website-development"
       },
       {
         "id": "2",
         "label": "Software Development",
-        "link": "/service/service2"
+        "link": "/services/software-development"
       },
       {
         "id": "3",
         "label": "Mobile App Development",
-        "link": "/service/service3"
+        "link": "/services/mobile-app-development"
       },
       {
         "id": "4",
         "label": "AR & VR App Development",
-        "link": "/service/service4"
+        "link": "/services/ar-vr-app-development"
       },
       {
         "id": "5",
         "label": "Blockchain App Development",
-        "link": "/service/service-details"
+        "link": "/services/blockchain-app-development"
       },
       {
         "id": "6",
         "label": "AI, ML Development",
-        "link": "/service/service-details"
+        "link": "/services/ai-ml-development"
       },
       {
         "id": "7",
         "label": "Game Development",
-        "link": "/service/service-details"
+        "link": "/services/game-development"
       },
       {
         "id": "8",
         "label": "IoT",
-        "link": "/service/service-details"
+        "link": "/services/iot"
       },
       {
         "id": "9",
         "label": "Devops",
-        "link": "/service/service-details"
+        "link": "/services/devops"
       },
       {
         "id": "10",
         "label": "Wearable App Development",
-        "link": "/service/service-details"
+        "link": "/services/wearable-app-development"
       }
     ]
   },
