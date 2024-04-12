@@ -36,7 +36,7 @@ const Home1Contact = () => {
                       </g>
                     </svg>
                   </span>
-                  <h2>Connect with Zenfy</h2>
+                  <h2>Connect with Prakria.tech</h2>
                   <p>
                     Ready to take the first step towards unlocking
                     opportunities, realizing goals, and embracing innovation?
@@ -64,7 +64,7 @@ const Home1Contact = () => {
                     <div className="content">
                       <span>To More Inquiry</span>
                       <h6>
-                        <a href="tel:+990737621432">+990-737 621 432</a>
+                        <a href="tel:+919810810034">+91 981 0810 034</a>
                       </h6>
                     </div>
                   </div>
@@ -86,7 +86,7 @@ const Home1Contact = () => {
                     <div className="content">
                       <span>To Send Mail</span>
                       <h6>
-                        <a href="mailto:info@example.com">info@gmail.com</a>
+                        <a href="mailto:info@example.com">info@prakria.com</a>
                       </h6>
                     </div>
                   </div>
@@ -99,18 +99,18 @@ const Home1Contact = () => {
                   <h6>Social Just You Connected Us!</h6>
                   <ul className="social-list">
                     <li>
-                      <a href="https://www.linkedin.com/">
+                      <a href="https://in.linkedin.com/company/prakriauklimited">
                         <i className="bi bi-linkedin" />
                         <span>LinkedIn</span>
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.facebook.com/">
+                      <a href="https://www.facebook.com/prakria">
                         <i className="bi bi-facebook" />
                         <span>Facebook</span>
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="https://twitter.com/">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -124,9 +124,9 @@ const Home1Contact = () => {
                         </svg>
                         <span>Twitter</span>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
-                      <a href="https://www.instagram.com/">
+                      <a href="https://www.instagram.com/prakria">
                         <i className="bi bi-instagram" />
                         <span>Instagram</span>
                       </a>

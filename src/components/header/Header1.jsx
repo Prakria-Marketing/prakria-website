@@ -103,7 +103,7 @@ const Header1 = () => {
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="assets/img/logo-light.svg"
+                  src="assets/img/logo-white.png"
                 />
               </Link>
             </div>
@@ -130,7 +130,7 @@ const Header1 = () => {
                 {/* #--------------------FOr Mobile Navigation-------------------- */}
                 <ul className="main-menu">
                   <li>
-                    <Link href="/">Agency </Link>
+                    <Link href="/">Home </Link>
                     <span
                       className={`dropdown-icon2 ${
                         state.activeMenu === "home" ? "active" : ""
@@ -851,7 +851,7 @@ const Header1 = () => {
                       <div className="contact">
                         <span>Phone</span>
                         <h6>
-                          <a href="#">+991 - 763 684 4563</a>
+                          <a href="tel:+919810810034">+91 981 0810 034</a>
                         </h6>
                       </div>
                     </li>
@@ -869,7 +869,7 @@ const Header1 = () => {
                       <div className="contact">
                         <span>Email Now</span>
                         <h6>
-                          <a href="#">info@examplegmail.com</a>
+                          <a href="#">info@prakria.com</a>
                         </h6>
                       </div>
                     </li>
@@ -887,7 +887,8 @@ const Header1 = () => {
                       </div>
                       <div className="contact">
                         <h6>
-                          Canada City, Office-02, Road-11, House-3B/B, Section-H
+                          902, Aggarwal Corporate Heights, Netaji Subhash Place,
+                          Pitampura, Delhi 110034
                         </h6>
                       </div>
                     </li>
@@ -907,22 +908,22 @@ const Header1 = () => {
                   </h6>
                   <ul className="social-area">
                     <li>
-                      <a href="#">
-                        <i className="bi bi-dribbble" /> Dribbble
+                      <a href="https://www.instagram.com/prakria">
+                        <i className="bi bi-instagram" /> Instagram
                       </a>
                     </li>
                     <li>
-                      <a href="#">
-                        <i className="bi bi-behance" /> Behance
+                      <a href="https://www.instagram.com/prakria/">
+                        <i className="bi bi-linkedin" /> Linkedin
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="#">
                         <i className="bi bi-pinterest" /> Pinterest
                       </a>
-                    </li>
+                    </li> */}
                     <li>
-                      <a href="#">
+                      <a href="https://www.facebook.com/prakria">
                         <i className="bi bi-facebook" /> Facebook
                       </a>
                     </li>
@@ -944,14 +945,14 @@ const Header1 = () => {
               <img
                 alt="image"
                 className="img-fluid"
-                src="assets/img/logo.svg"
+                src="assets/img/logo-white.png"
               />
             </Link>
             <Link href="/" className="logo-light">
               <img
                 alt="image"
                 className="img-fluid"
-                src="assets/img/logo-light.svg"
+                src="assets/img/logo-white.png"
               />
             </Link>
           </div>
@@ -1048,7 +1049,7 @@ const Header1 = () => {
                 <div className="content">
                   <span>Any Question</span>
                   <h6>
-                    <Link href="tel:+990737621432">+990-737 621 432</Link>
+                    <Link href="tel:+919810810034">+91 981 0810 034</Link>
                   </h6>
                 </div>
               </div>
