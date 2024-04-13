@@ -20,7 +20,15 @@
       {
         "id": "1",
         "label": "Website Development",
-        "link": "/services/website-development"
+        "link": "/services/website-development",
+        "icon": true,
+        "subMenu": [
+          {
+            "id": "1",
+            "label": "Website Development",
+            "link": "/services/website-development"
+          }
+        ]
       },
       {
         "id": "2",
