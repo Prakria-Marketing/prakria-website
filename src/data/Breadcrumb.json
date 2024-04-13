@@ -105,5 +105,19 @@
     "slug": ["/services", "/services/wearable-app-development"],
     "pageTitle": "Wearable App Development",
     "section_down_scroll": "#service-section"
+  },
+  {
+    "id": "15",
+    "name": ["PRIVACY POLICY"],
+    "slug": ["/privacy-policy"],
+    "pageTitle": "PRIVACY POLICY",
+    "section_down_scroll": "#about-section"
+  },
+  {
+    "id": "16",
+    "name": ["DISCLAIMER"],
+    "slug": ["/disclaimer"],
+    "pageTitle": "DISCLAIMER",
+    "section_down_scroll": "#about-section"
   }
 ]

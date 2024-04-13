@@ -11,50 +11,56 @@ const Footer = () => {
               <div className="col-lg-4 col-md-6">
                 <div className="footer-widget">
                   <div className="widget-title">
-                    <h4>Our Solutions</h4>
+                    <h4>Our Services</h4>
                   </div>
                   <div className="menu-container">
                     <ul className="widget-list">
                       <li>
-                        <Link href="/service/service-details">
-                          Managed Services
+                        <Link href="/services/website-development">
+                          Website Development
                         </Link>
                       </li>
                       <li>
-                        <Link href="/service/service-details">
-                          IT Consulting &amp; Advisory
+                        <Link href="/services/software-development">
+                          SOftware Development
                         </Link>
                       </li>
                       <li>
-                        <Link href="/service/service-details">
-                          Cyber Security
+                        <Link href="/services/mobile-app-development">
+                          Mobile App Development
                         </Link>
                       </li>
                       <li>
-                        <Link href="/service/service-details">
-                          Web Development
+                        <Link href="/services/ar-vr-app-development">
+                          AR & VR App Development
                         </Link>
                       </li>
                       <li>
-                        <Link href="/service/service-details">
-                          Mobile Development
+                        <Link href="/services/blockchain-app-development">
+                          Blockchain App Development
                         </Link>
                       </li>
                     </ul>
                     <ul className="widget-list">
                       <li>
-                        <Link href="/service/service-details">
-                          Cloud Services
+                        <Link href="/services/ai-ml--development">
+                          AI & ML Development
                         </Link>
                       </li>
                       <li>
-                        <Link href="/service/service-details">
-                          Network Connectivity
+                        <Link href="/services/game-development">
+                          Game Development
                         </Link>
                       </li>
                       <li>
-                        <Link href="/service/service-details">
-                          ERP Solutions
+                        <Link href="/services/iot">IOT</Link>
+                      </li>
+                      <li>
+                        <Link href="/services/devops">Devops</Link>
+                      </li>
+                      <li>
+                        <Link href="/services/wearable-app-development">
+                          Wearable App Development
                         </Link>
                       </li>
                     </ul>
@@ -64,11 +70,7 @@ const Footer = () => {
               <div className="col-lg-4 col-md-6 d-flex justify-content-lg-center justify-content-md-end justify-content-sm-start">
                 <div className="footer-logo-area">
                   <div className="logo-bg">
-                    <img
-                      src="/assets/img/home1/footer-logo-bg.png"
-                      alt=""
-                      className="light"
-                    />
+                    <img src="/assets/img/logo.png" alt="" className="light" />
                     <img
                       src="/assets/img/home1/footer-logo-bg-dark.png"
                       alt=""
@@ -76,16 +78,8 @@ const Footer = () => {
                     />
                   </div>
                   <div className="logo">
-                    <img
-                      src="/assets/img/footer-logo.svg"
-                      alt=""
-                      className="light"
-                    />
-                    <img
-                      src="/assets/img/footer-logo-dark.svg"
-                      alt=""
-                      className="dark"
-                    />
+                    <img src="/assets/img/logo.png" alt="" className="light" />
+                    <img src="/assets/img/logo.png" alt="" className="dark" />
                   </div>
                 </div>
               </div>
@@ -122,9 +116,9 @@ const Footer = () => {
                   </div>
                   <div className="content">
                     <p>
-                      Welcome to Zenfy, where innovation meets our passion in a
-                      journey that started with a simple idea and a shared
-                      dream.
+                      A 360° Creative Tech Enterprise where cutting-edge quality
+                      meets lightning fast delivery. Start your journey with
+                      PRAKRIA now!
                     </p>
                   </div>
                   <ul className="rating-area">
@@ -223,7 +217,7 @@ const Footer = () => {
               <div className="content">
                 <span>Call Any Time</span>
                 <h6>
-                  <a href="tel:2-965-871-8617">2-965-871-8617</a>
+                  <a href="tel:+911147200902">+91 11 4720 0902</a>
                 </h6>
               </div>
             </div>
@@ -245,7 +239,9 @@ const Footer = () => {
                 <span>Address</span>
                 <h6>
                   <a href="https://www.google.com/maps/place/Egens+Lab/@23.8340712,90.3631117,17z/data=!3m1!4b1!4m6!3m5!1s0x3755c14c8682a473:0xa6c74743d52adb88!8m2!3d23.8340663!4d90.3656866!16s%2Fg%2F11rs9vlwsk?entry=ttu">
-                    Dhaka, Bangladesh
+                    902, Aggarwal Corporate Heights, Netaji Subhash Place,
+                    <br></br>
+                    Pitampura, Delhi 110034
                   </a>
                 </h6>
               </div>
@@ -270,7 +266,7 @@ const Footer = () => {
               <div className="content">
                 <span>Say Hello</span>
                 <h6>
-                  <a href="mailto:info@example.com">info@example.com</a>
+                  <a href="mailto:info@prakria.com">info@prakria.com</a>
                 </h6>
               </div>
             </div>
@@ -278,20 +274,20 @@ const Footer = () => {
           <div className="footer-bottom">
             <div className="copyright-area">
               <p>
-                Copyright 2024 <a href="#">Zenfy</a> | Design By{" "}
-                <a href="https://www.egenslab.com/">Egens Lab</a>
+                Copyright 2024{" "}
+                <a href="#">Prakria Marketing Services </a>| All Rights Reserved
               </p>
             </div>
             <div className="footer-bottom-right">
               <ul>
                 <li>
-                  <a href="#">Support Policy</a>
+                  <Link href="/disclaimer">Disclaimer</Link>
                 </li>
                 <li>
                   <a href="#">Terms &amp; Conditions</a>
                 </li>
                 <li>
-                  <a href="#">Privacy Policy</a>
+                  <Link href="/privacy-policy">Privacy Policy</Link>
                 </li>
               </ul>
             </div>
