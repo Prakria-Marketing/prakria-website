@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 
 const ThemeSwitch = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(true);
 
   useEffect(() => {
     // Check localStorage for saved theme preference
-    const savedTheme = localStorage.getItem("theme");
+    const savedTheme = localStorage.getItem("theme") || "dark";
     if (savedTheme === "dark") {
       setIsDarkMode(true);
       // Add 'dark' class to body on initial load if dark mode is enabled

@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
           type="image/x-icon"
           sizes="16x16"
         />
-        <title>Zenfy - Software, SaaS &amp; Digital Agency Template</title>
+        <title>Prakria Tech - Description</title>
       </head>
       <body>
         <ScrollProgress />

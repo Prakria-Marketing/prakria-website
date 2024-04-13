@@ -105,5 +105,26 @@
     "slug": ["/services", "/services/wearable-app-development"],
     "pageTitle": "Wearable App Development",
     "section_down_scroll": "#service-section"
+  },
+  {
+    "id": "15",
+    "name": ["Privacy Policy"],
+    "slug": ["/privacy-policy"],
+    "pageTitle": "Privacy Policy",
+    "section_down_scroll": "#privacy-section"
+  },
+  {
+    "id": "16",
+    "name": ["Support Policy"],
+    "slug": ["/support-policy"],
+    "pageTitle": "support Policy",
+    "section_down_scroll": "#support-section"
+  },
+  {
+    "id": "17",
+    "name": ["Terms & Conditions"],
+    "slug": ["/terms-conditions"],
+    "pageTitle": "Terms & Conditions",
+    "section_down_scroll": "#terms-conditions-section"
   }
 ]
