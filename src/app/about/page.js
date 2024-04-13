@@ -941,7 +941,7 @@ const Aboutpage = () => {
           </div>
         </div>
       </div>
-      <footer className="footer-section">
+      {/* <footer className="footer-section">
         <div className="container">
           <div className="footer-top">
             <div className="row align-items-center justify-content-center">
@@ -1234,7 +1234,7 @@ const Aboutpage = () => {
             </div>
           </div>
         </div>
-      </footer>
+      </footer> */}
     </MainLayout>
   );
 };
