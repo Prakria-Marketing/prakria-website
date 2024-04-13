@@ -6192,7 +6192,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .footer-section .footer-top .footer-widget .menu-container .widget-list li a {
   color: rgba(var(--title-color-opc), 0.7);
   font-family: var(--font-hankenGrotesk);
-  font-size: 17px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 1.3;
   letter-spacing: 0.34px;
