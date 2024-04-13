@@ -126,5 +126,12 @@
     "slug": ["/terms-conditions"],
     "pageTitle": "Terms & Conditions",
     "section_down_scroll": "#terms-conditions-section"
+  },
+  {
+    "id": "18",
+    "name": ["Disclaimer"],
+    "slug": ["/disclaimer"],
+    "pageTitle": "Disclaimer",
+    "section_down_scroll": "#disclaimer-section"
   }
 ]
