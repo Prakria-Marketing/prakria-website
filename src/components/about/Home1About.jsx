@@ -39,10 +39,7 @@ const Home1About = () => {
                   </span>
                   <h2>Best Mobile Application Development Firm</h2>
                   <p>
-                    We are regarded as one of the Best Mobile App Development
-                    Companies in the world. For Android, iOS, gaming, AR/VR,
-                    blockchain, artificial intelligence, and gaming, we offer
-                    custom app development services.
+                  We are regarded as one of the best Mobile App Development Companies in the world. For Android, iOS, Gaming, AR/VR, Blockchain, and Artificial Intelligence, we offer custom app development services.
                   </p>
                 </div>
               </div>
