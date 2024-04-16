@@ -33,7 +33,7 @@
     "id": "5",
     "name": ["CONTACT US"],
     "slug": ["/contact"],
-    "pageTitle": "Let’s Connecting With Prakria.tech",
+    "pageTitle": "Let’s Connect With Prakria.tech",
     "section_down_scroll": "#shop"
   },
   {
@@ -59,9 +59,9 @@
   },
   {
     "id": "9",
-    "name": ["Services & Solutions", "AR & VR App Development"],
-    "slug": ["/services", "/services/ar-vr-app-development"],
-    "pageTitle": "AR & VR App Development",
+    "name": ["Services & Solutions", "AR App Development"],
+    "slug": ["/services", "/services/ar-app-development"],
+    "pageTitle": "AR App Development",
     "section_down_scroll": "#service-section"
   },
   {
@@ -133,5 +133,12 @@
     "slug": ["/disclaimer"],
     "pageTitle": "Disclaimer",
     "section_down_scroll": "#disclaimer-section"
+  },
+  {
+    "id": "19",
+    "name": ["Services & Solutions", "VR App Development"],
+    "slug": ["/services", "/services/vr-app-development"],
+    "pageTitle": "VR App Development",
+    "section_down_scroll": "#service-section"
   }
 ]

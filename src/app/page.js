@@ -15,7 +15,7 @@ import Home1WorkProcess from "@/components/workProcess/Home1WorkProcess";
 
 export const metadata = {
   icons: {
-    icon: "/assets/img/sm-logo.svg",
+    icon: "/assets/img/favicon.png",
   },
 }
 export default function Home() {
@@ -26,13 +26,13 @@ export default function Home() {
       <Home1BannerMarquee />
       <Home1About />
       <Home1Solution />
-      <Home1Portfolio />
+      {/* <Home1Portfolio /> */}
       <Home1WorkProcess />
-      <BannerWithCaseStudySlider />
+      {/* <BannerWithCaseStudySlider /> */}
       <Home1Approach />
       <LogoMarquee />
-      <Home1Testimonial />
-      <Home1Blog />
+      {/* <Home1Testimonial /> */}
+      {/* <Home1Blog /> */}
       <Home1Contact />
       <Footer />
     </>

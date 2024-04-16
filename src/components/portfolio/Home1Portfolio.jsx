@@ -91,13 +91,13 @@ const Home1Portfolio = () => {
                 <h2>Our Creative Showcase</h2>
               </div>
               <Link
-                href="/portfolio"
+                href="/case-study"
                 className="primary-btn2 wow animate fadeInRight"
                 data-wow-delay="200ms"
                 data-wow-duration="1500ms"
                 data-text="View All Portfolio"
               >
-                <span>View All Portfolio</span>
+                <span>View All Case Studies</span>
               </Link>
             </div>
           </div>
@@ -109,11 +109,11 @@ const Home1Portfolio = () => {
                     <div className="eg-card">
                       <div className="card-img">
                         <img
-                          src="assets/img/home1/portfolio-img-01.jpg"
+                          src="/assets/img/case-study/1.png"
                           alt=""
                         />
                       </div>
-                      <div className="card-content">
+                      {/* <div className="card-content">
                         <Link
                           className="view-btn"
                           href="/portfolio/portfolio-details"
@@ -128,18 +128,18 @@ const Home1Portfolio = () => {
                             </Link>
                           </h5>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="eg-card">
                       <div className="card-img">
                         <img
-                          src="assets/img/home1/portfolio-img-02.jpg"
+                          src="/assets/img/case-study/2.png"
                           alt=""
                         />
                       </div>
-                      <div className="card-content">
+                      {/* <div className="card-content">
                         <Link
                           className="view-btn"
                           href="/portfolio/portfolio-details"
@@ -154,18 +154,18 @@ const Home1Portfolio = () => {
                             </Link>
                           </h5>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="eg-card">
                       <div className="card-img">
                         <img
-                          src="assets/img/home1/portfolio-img-03.jpg"
+                          src="/assets/img/case-study/3.png"
                           alt=""
                         />
                       </div>
-                      <div className="card-content">
+                      {/* <div className="card-content">
                         <Link
                           className="view-btn"
                           href="/portfolio/portfolio-details"
@@ -180,18 +180,18 @@ const Home1Portfolio = () => {
                             </Link>
                           </h5>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="eg-card">
                       <div className="card-img">
                         <img
-                          src="assets/img/home1/portfolio-img-04.jpg"
+                          src="/assets/img/case-study/4.png"
                           alt=""
                         />
                       </div>
-                      <div className="card-content">
+                      {/* <div className="card-content">
                         <Link
                           className="view-btn"
                           href="/portfolio/portfolio-details"
@@ -206,18 +206,18 @@ const Home1Portfolio = () => {
                             </Link>
                           </h5>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="eg-card">
                       <div className="card-img">
                         <img
-                          src="assets/img/home1/portfolio-img-05.jpg"
+                          src="assets/img/case-study/5.png"
                           alt=""
                         />
                       </div>
-                      <div className="card-content">
+                      {/* <div className="card-content">
                         <Link
                           className="view-btn"
                           href="/portfolio/portfolio-details"
@@ -232,18 +232,18 @@ const Home1Portfolio = () => {
                             </Link>
                           </h5>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="eg-card">
                       <div className="card-img">
                         <img
-                          src="assets/img/home1/portfolio-img-06.jpg"
+                          src="/assets/img/case-study/6.png"
                           alt=""
                         />
                       </div>
-                      <div className="card-content">
+                      {/* <div className="card-content">
                         <Link
                           className="view-btn"
                           href="/portfolio/portfolio-details"
@@ -258,7 +258,7 @@ const Home1Portfolio = () => {
                             </Link>
                           </h5>
                         </div>
-                      </div>
+                      </div> */}
                     </div>
                   </SwiperSlide>
                 </div>
