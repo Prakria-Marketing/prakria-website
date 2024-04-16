@@ -1,10 +1,12 @@
-"use client"
+"use client";
 import MainLayout from "@/components/layout/MainLayout";
 import useWow from "@/hooks/useWow";
 import React from "react";
+import Industries from "../../data/industries.json";
 
 const IndustryPage = () => {
-  useWow()
+  useWow();
+
   return (
     <MainLayout>
       <div
@@ -13,216 +15,28 @@ const IndustryPage = () => {
       >
         <div className="container">
           <div className="row g-4">
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
-              data-wow-delay="200ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="industry-card">
-                <div className="industry-img">
-                  <img src="/assets/img/home5/industry-01.jpg" alt="" />
+            {Industries.map((item, index) => {
+              return (
+                <div
+                  key={index}
+                  className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
+                  data-wow-delay="200ms"
+                  data-wow-duration="1500ms"
+                >
+                  <div className="industry-card">
+                    <div className="industry-img">
+                      <img
+                        src={`/assets/img/industries/${item.image}`}
+                        alt=""
+                      />
+                    </div>
+                    <div className="industry-content">
+                      <h5>{item.title}</h5>
+                    </div>
+                  </div>
                 </div>
-                <div className="industry-content">
-                  <h5>Finance and Banking</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
-              data-wow-delay="400ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="industry-card">
-                <div className="industry-img">
-                  <img src="/assets/img/home5/industry-02.jpg" alt="" />
-                </div>
-                <div className="industry-content">
-                  <h5>Retail and E-commerce </h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
-              data-wow-delay="600ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="industry-card">
-                <div className="industry-img">
-                  <img src="/assets/img/home5/industry-03.jpg" alt="" />
-                </div>
-                <div className="industry-content">
-                  <h5>Manufacturing</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
-              data-wow-delay="800ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="industry-card">
-                <div className="industry-img">
-                  <img src="/assets/img/home5/industry-04.jpg" alt="" />
-                </div>
-                <div className="industry-content">
-                  <h5>Education</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
-              data-wow-delay="800ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="industry-card">
-                <div className="industry-img">
-                  <img src="/assets/img/home5/industry-05.jpg" alt="" />
-                </div>
-                <div className="industry-content">
-                  <h5>Telecommunications</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
-              data-wow-delay="600ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="industry-card">
-                <div className="industry-img">
-                  <img src="/assets/img/home5/industry-06.jpg" alt="" />
-                </div>
-                <div className="industry-content">
-                  <h5>Energy and Utilities</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
-              data-wow-delay="400ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="industry-card">
-                <div className="industry-img">
-                  <img src="/assets/img/home5/industry-07.jpg" alt="" />
-                </div>
-                <div className="industry-content">
-                  <h5>Nonprofit and NGOs</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
-              data-wow-delay="400ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="industry-card">
-                <div className="industry-img">
-                  <img src="/assets/img/home5/industry-08.jpg" alt="" />
-                </div>
-                <div className="industry-content">
-                  <h5>Industry Manufacturing</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
-              data-wow-delay="600ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="industry-card">
-                <div className="industry-img">
-                  <img src="/assets/img/home5/industry-09.jpg" alt="" />
-                </div>
-                <div className="industry-content">
-                  <h5>Transportation Logistics</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
-              data-wow-delay="800ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="industry-card">
-                <div className="industry-img">
-                  <img src="/assets/img/home5/industry-10.jpg" alt="" />
-                </div>
-                <div className="industry-content">
-                  <h5>Healthcare</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
-              data-wow-delay="800ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="industry-card">
-                <div className="industry-img">
-                  <img src="/assets/img/home5/industry-11.jpg" alt="" />
-                </div>
-                <div className="industry-content">
-                  <h5>Banks &amp; Insurance</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
-              data-wow-delay="600ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="industry-card">
-                <div className="industry-img">
-                  <img src="/assets/img/home5/industry-12.jpg" alt="" />
-                </div>
-                <div className="industry-content">
-                  <h5>Consulting Providers</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
-              data-wow-delay="400ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="industry-card">
-                <div className="industry-img">
-                  <img src="/assets/img/home5/industry-13.jpg" alt="" />
-                </div>
-                <div className="industry-content">
-                  <h5>Hospitality and Tourism</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
-              data-wow-delay="400ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="industry-card">
-                <div className="industry-img">
-                  <img src="/assets/img/home5/industry-14.jpg" alt="" />
-                </div>
-                <div className="industry-content">
-                  <h5>Construction</h5>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-3 col-lg-4 col-md-6 wow animate fadeInDown"
-              data-wow-delay="600ms"
-              data-wow-duration="1500ms"
-            >
-              <div className="industry-card">
-                <div className="industry-img">
-                  <img src="/assets/img/home5/industry-15.jpg" alt="" />
-                </div>
-                <div className="industry-content">
-                  <h5>Entertainment and Media</h5>
-                </div>
-              </div>
-            </div>
+              );
+            })}
           </div>
         </div>
       </div>

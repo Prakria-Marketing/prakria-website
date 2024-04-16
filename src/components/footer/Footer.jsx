@@ -31,8 +31,13 @@ const Footer = () => {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/services/ar-vr-app-development">
-                          AR & VR App Development
+                        <Link href="/services/ar-app-development">
+                          AR App Development
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/services/vr-app-development">
+                          VR App Development
                         </Link>
                       </li>
                       <li>
@@ -122,7 +127,7 @@ const Footer = () => {
                     </p>
                   </div>
                   <ul className="rating-area">
-                    <li>
+                    {/* <li>
                       <a href="https://clutch.co/" className="single-rating">
                         <div className="review">
                           <span>Review On</span>
@@ -158,7 +163,7 @@ const Footer = () => {
                           <span>(50 reviews)</span>
                         </div>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a
                         href="https://www.google.com/"
@@ -217,7 +222,7 @@ const Footer = () => {
               <div className="content">
                 <span>Call Any Time</span>
                 <h6>
-                  <a href="tel:+911147200902">+91 11 4720 0902</a>
+                  <a href="tel:+919810810034">+91 981 0810 034</a>
                 </h6>
               </div>
             </div>
@@ -238,7 +243,7 @@ const Footer = () => {
               <div className="content">
                 <span>Address</span>
                 <h6>
-                  <a href="https://www.google.com/maps/place/Egens+Lab/@23.8340712,90.3631117,17z/data=!3m1!4b1!4m6!3m5!1s0x3755c14c8682a473:0xa6c74743d52adb88!8m2!3d23.8340663!4d90.3656866!16s%2Fg%2F11rs9vlwsk?entry=ttu">
+                  <a target="_blank" href="https://www.google.com/maps/place/PRAKRIA+Marketing+Services+Pvt+Ltd/@28.6923667,77.1490355,17z/data=!3m1!4b1!4m6!3m5!1s0x390d0233844eff5f:0xce5c8fad12791189!8m2!3d28.692362!4d77.1516158!16s%2Fg%2F11gz9qxl9?entry=ttu">
                     902, Aggarwal Corporate Heights, Netaji Subhash Place,
                     <br></br>
                     Pitampura, Delhi 110034

@@ -2622,7 +2622,7 @@ header.style-2 .main-menu > ul > li ul.sub-menu {
   top: auto;
   margin: 0;
   display: none;
-  min-width: 220px;
+  min-width: 240px;
   background: var(--dark-white-color);
   box-shadow: 0px 30px 80px rgba(8, 0, 42, 0.08);
   text-align: left;
@@ -23214,3 +23214,7 @@ body:not(.is-mobile) .tt-style-switch:hover {
     transform: none;
   }
 } /*# sourceMappingURL=style.css.map */
+
+#clients-logos img{
+  border-radius: 100%;
+}

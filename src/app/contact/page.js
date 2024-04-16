@@ -39,9 +39,8 @@ const ContactPage = () => {
                   Our Office <span>Locations.</span>
                 </h2>
                 <p>
-                  Feel free adapt this based on the specific managed services,
-                  features, and unique selling points your IT service company
-                  provides.
+                Our studio doesn’t have a reception. Just barge in and say Hi!
+(We don’t mind receiving gifts from clients unless it’s a law firm we’re working with!)
                 </p>
               </div>
             </div>

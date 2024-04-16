@@ -21,12 +21,15 @@ function WebsiteDevelopment() {
                     Website <span>Development.</span>
                   </h2>
                   <p>
-                    Where innovation meets passion in a journey that started
-                    with a simple idea and a shared dream. Founded in recent
-                    year we embarked on a mission to bring the new innovation
-                    and introduce the technology. From humble beginnings to our
-                    current aspirations, every step has been fueled by a
-                    relentless commitment.
+                    Your search is over if you're seeking for a web development
+                    firm that can build dynamic websites and offer custom web
+                    development services to support the expansion and successful
+                    online presence of your organization. With a staff of
+                    full-stack web designers and developers with ten years of
+                    experience, Prakria is a next-generation web development
+                    firm. We have provided best-in-class online projects, web
+                    applications, web portal development, and web solutions for
+                    a variety of company areas and industries.
                   </p>
                   <ul className="key-features">
                     <li>
@@ -139,7 +142,7 @@ function WebsiteDevelopment() {
                           aria-expanded="true"
                           aria-controls="faqcollapseOne"
                         >
-                          01. What is Task Management and how does it work?
+                          01. What is web development?
                         </button>
                       </h2>
                       <div
@@ -149,10 +152,13 @@ function WebsiteDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inci only Integer purus onthis felis non
-                          aliquam.Mauris nec just vitae ann auctor tol euismod
-                          sit amet non ipsul growing this
+                          Web development is the process of building and
+                          maintaining websites; it’s the work happening behind
+                          the scenes to make a website look great, work fast,
+                          and perform well with a seamless user experience. Web
+                          developers do this by using a variety of coding
+                          languages, depending on the tasks they are performing
+                          and the platforms on which they are working.
                         </div>
                       </div>
                     </div>
@@ -166,7 +172,7 @@ function WebsiteDevelopment() {
                           aria-expanded="false"
                           aria-controls="faqcollapseTwo"
                         >
-                          02. Is Zenfy suitable for my business?
+                          02. What are the different types of web development?
                         </button>
                       </h2>
                       <div
@@ -176,12 +182,17 @@ function WebsiteDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                          Front-end development involves building the parts of a
+                          website that users interact with directly. It's
+                          primarily concerned with the look and feel of a
+                          website.<br></br>
+                          Back-end development focuses on the server-side of a
+                          website. It manages the database through queries and
+                          APIs by client-side commands.<br></br>
+                          Full-stack development combines both front-end and
+                          back-end development. Full-stack developers are
+                          knowledgeable in both spheres and can build complete
+                          web applications.
                         </div>
                       </div>
                     </div>
@@ -195,7 +206,7 @@ function WebsiteDevelopment() {
                           aria-expanded="false"
                           aria-controls="faqcollapseThree"
                         >
-                          03. The system requirements using Task Management?
+                          03. What tools do web developers use?
                         </button>
                       </h2>
                       <div
@@ -205,12 +216,11 @@ function WebsiteDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                          Developers use a variety of tools including text
+                          editors (e.g., VSCode, Sublime Text), version control
+                          systems (e.g., Git), browsers for testing (e.g.,
+                          Chrome, Firefox), and frameworks/libraries (e.g.,
+                          React for front-end, Node.js for back-end).
                         </div>
                       </div>
                     </div>
@@ -224,7 +234,8 @@ function WebsiteDevelopment() {
                           aria-expanded="false"
                           aria-controls="faqcollapseFour"
                         >
-                          04. How can I upgrade my subscription?
+                          04. What are the most common programming languages
+                          used in web development?
                         </button>
                       </h2>
                       <div
@@ -234,12 +245,13 @@ function WebsiteDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                          HTML (HyperText Markup Language) for structuring
+                          content on the web.<br></br>
+                          CSS (Cascading Style Sheets) for styling content.
+                          <br></br>
+                          JavaScript for making web pages interactive.<br></br>
+                          For the back-end, languages like PHP, Python, Ruby,
+                          Java, and Node.js are widely used.
                         </div>
                       </div>
                     </div>
@@ -253,7 +265,7 @@ function WebsiteDevelopment() {
                           aria-expanded="true"
                           aria-controls="faqcollapseFive"
                         >
-                          05. How can I upgrade my subscription?
+                          05. How important is website security?
                         </button>
                       </h2>
                       <div
@@ -263,10 +275,12 @@ function WebsiteDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inci only Integer purus onthis felis non
-                          aliquam.Mauris nec just vitae ann auctor tol euismod
-                          sit amet non ipsul growing this
+                          Extremely important. Ensuring a website is secure
+                          protects it from hacking, data theft, and other
+                          malicious activities. Common practices include using
+                          HTTPS, implementing data encryption, regular security
+                          audits, and following best practices for secure
+                          coding.
                         </div>
                       </div>
                     </div>
