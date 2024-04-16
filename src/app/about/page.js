@@ -159,11 +159,10 @@ const Aboutpage = () => {
                     <div className="content">
                       <div className="number">
                         <h5 className="counter">
-                          <CountUp end={150} delay={5} />
+                          <CountUp end={500} delay={5} />+
                         </h5>
-                        <span>Project</span>
                       </div>
-                      <p>We Have Completed</p>
+                      <p>Projects Completed</p>
                     </div>
                   </li>
                   <li className="single-countdown">
@@ -185,9 +184,8 @@ const Aboutpage = () => {
                     <div className="content">
                       <div className="number">
                         <h5 className="counter">
-                          <CountUp end={90} delay={5} />
+                          <CountUp end={95} delay={5} />%
                         </h5>
-                        <span>%</span>
                       </div>
                       <p>Customer Satisfaction</p>
                     </div>
@@ -210,7 +208,7 @@ const Aboutpage = () => {
                         <h5 className="counter">
                           <CountUp end={3} delay={5} />
                         </h5>
-                        <span>Mins</span>
+                        <span>Mins.</span>
                       </div>
                       <p>Average Answer Time</p>
                     </div>

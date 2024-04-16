@@ -144,8 +144,8 @@ function ArAppDevelopment() {
               >
                 <div className="service-details-img">
                   <img
-                    src="/assets/img/innerpage/service-details-feature-img.jpg"
-                    alt=""
+                    src="/assets/img/innerservices/ar-development/1.jpg"
+                    alt="ar app development"
                   />
                 </div>
               </div>
@@ -160,8 +160,8 @@ function ArAppDevelopment() {
               <div className="col-lg-6">
                 <div className="service-details-faq-img">
                   <img
-                    src="/assets/img/innerpage/service-details-faq-img.jpg"
-                    alt=""
+                    src="/assets/img/innerservices/ar-development/2.jpg"
+                    alt="ar app development"
                   />
                 </div>
               </div>

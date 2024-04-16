@@ -104,7 +104,7 @@ function IoT() {
               >
                 <div className="service-details-img">
                   <img
-                    src="/assets/img/innerpage/service-details-feature-img.jpg"
+                    src="/assets/img/innerservices/iot/2.jpg"
                     alt=""
                   />
                 </div>
@@ -120,7 +120,7 @@ function IoT() {
               <div className="col-lg-6">
                 <div className="service-details-faq-img">
                   <img
-                    src="/assets/img/innerpage/service-details-faq-img.jpg"
+                    src="/assets/img/innerservices/iot/1.jpg"
                     alt=""
                   />
                 </div>

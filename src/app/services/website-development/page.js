@@ -108,8 +108,8 @@ function WebsiteDevelopment() {
               >
                 <div className="service-details-img">
                   <img
-                    src="/assets/img/innerpage/service-details-feature-img.jpg"
-                    alt=""
+                    src="/assets/img/innerservices/website-development/1.jpg"
+                    alt="website development"
                   />
                 </div>
               </div>
@@ -124,8 +124,8 @@ function WebsiteDevelopment() {
               <div className="col-lg-6">
                 <div className="service-details-faq-img">
                   <img
-                    src="/assets/img/innerpage/service-details-faq-img.jpg"
-                    alt=""
+                    src="/assets/img/innerservices/website-development/2.jpg"
+                    alt="website development"
                   />
                 </div>
               </div>

@@ -22,7 +22,7 @@ const Footer = () => {
                       </li>
                       <li>
                         <Link href="/services/software-development">
-                          SOftware Development
+                          Software Development
                         </Link>
                       </li>
                       <li>
@@ -61,7 +61,7 @@ const Footer = () => {
                         <Link href="/services/iot">IOT</Link>
                       </li>
                       <li>
-                        <Link href="/services/devops">Devops</Link>
+                        <Link href="/services/devops">DevOps</Link>
                       </li>
                       <li>
                         <Link href="/services/wearable-app-development">
@@ -117,7 +117,7 @@ const Footer = () => {
                         </g>
                       </svg>
                     </span>
-                    <h3>What Sets Us Apart?</h3>
+                    <h3>What sets us apart?</h3>
                   </div>
                   <div className="content">
                     <p>
@@ -165,8 +165,8 @@ const Footer = () => {
                       </a>
                     </li> */}
                     <li>
-                      <a
-                        href="https://www.google.com/"
+                      <a target="_blank"
+                        href="https://www.google.com/search?q=prakria&rlz=1C1ONGR_en-GBIN1075IN1075&oq=prakria&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyBggBEEUYPDIQCAIQLhivARjHARiABBiOBTIJCAMQABgKGIAEMgkIBBAAGAoYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg5Njc3ajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8#ip=1&lrd=0x390d0233844eff5f:0xce5c8fad12791189,1,,,,"
                         className="single-rating google"
                       >
                         <div className="review">
@@ -220,9 +220,9 @@ const Footer = () => {
                 </svg>
               </div>
               <div className="content">
-                <span>Call Any Time</span>
+                <span>Call us</span>
                 <h6>
-                  <a href="tel:+919810810034">+91 981 0810 034</a>
+                  <a href="tel:+918800024166">+91 88000 24166</a>
                 </h6>
               </div>
             </div>
@@ -241,7 +241,7 @@ const Footer = () => {
                 </svg>
               </div>
               <div className="content">
-                <span>Address</span>
+                <span>Reach us</span>
                 <h6>
                   <a target="_blank" href="https://www.google.com/maps/place/PRAKRIA+Marketing+Services+Pvt+Ltd/@28.6923667,77.1490355,17z/data=!3m1!4b1!4m6!3m5!1s0x390d0233844eff5f:0xce5c8fad12791189!8m2!3d28.692362!4d77.1516158!16s%2Fg%2F11gz9qxl9?entry=ttu">
                     902, Aggarwal Corporate Heights, Netaji Subhash Place,
@@ -280,7 +280,7 @@ const Footer = () => {
             <div className="copyright-area">
               <p>
                 Copyright 2024{" "}
-                <a href="#">Prakria Marketing Services </a>| All Rights Reserved
+                <a href="#">PRAKRIA Marketing Services </a>| All Rights Reserved
               </p>
             </div>
             <div className="footer-bottom-right">

@@ -35,7 +35,7 @@ const Home1Approach = () => {
                     </g>
                   </svg>
                 </span>
-                <h2>The Prakria Approach</h2>
+                <h2>The PRAKRIA Approach</h2>
               </div>
             </div>
           </div>
@@ -60,27 +60,23 @@ const Home1Approach = () => {
                       <div className="content scrollTextAni">
                         <span>Step 01</span>
                         <h5>Discovery &amp; Consultation</h5>
-                        <p>
-                          Foren your case studies issoni crucial touris then
-                          attention of your audience.
-                        </p>
+                        {/* <p>
+                        Discover groundbreaking solutions tailored to your business needs with our expert consultation services.
+                        At PRAKRIA, we leverage cutting-edge technology to ensure your success. 
+                        Contact us today to explore innovative strategies and transformative solutions that will elevate your business operations. 
+                        Start your journey towards tech-driven excellence now
+                        </p> */}
                         <ul>
-                          <li>
-                            <strong>Brainstorming: </strong>Collaborate to
-                            generate and refine innovative ideas.
+                          <li>Discover groundbreaking solutions tailored to your business needs with our expert consultation services.
+                        
+                          </li>
+                          <li>At PRAKRIA, we leverage cutting-edge technology to ensure your success. 
                           </li>
                           <li>
-                            <strong>Problem Identification: </strong>Identify
-                            market gaps and challenges your startup.
+                          Contact us today to explore innovative strategies and transformative solutions that will elevate your business operations.
                           </li>
                           <li>
-                            <strong>Strategic Planning: </strong>Develop a
-                            roadmap by strategically aligning innovative ideas.
-                          </li>
-                          <li>
-                            <strong>Solution Proposals: </strong>Offer
-                            specialised remedies based on identified market
-                            gaps.
+                          Start your journey towards tech-driven excellence now.
                           </li>
                         </ul>
                       </div>
@@ -105,29 +101,11 @@ const Home1Approach = () => {
                       <div className="content scrollTextAni">
                         <span>Step 02</span>
                         <h5>Planning and Strategy </h5>
-                        <p>
-                          Strategic planning for optimal results in a concise,
-                          effective approach.
-                        </p>
+                        
                         <ul>
-                          <li>
-                            <strong>Collaborating: </strong>Work together to
-                            produce and improve creative concepts.
-                          </li>
-                          <li>
-                            <strong>Resource Allocation: </strong>Optimize
-                            planning by efficiently allocating resources and
-                            ensuring a streamlined approach.
-                          </li>
-                          <li>
-                            <strong>Problem Identification: </strong>Determine
-                            your startup's obstacles and market gaps.
-                          </li>
-                          <li>
-                            <strong>Solution Development: </strong>Translate
-                            identified challenges into strategic solutions and
-                            business growth.
-                          </li>
+                          <li>At PRAKRIA, we prioritize meticulous planning and strategic implementation to drive your tech ambitions to fruition.</li>
+                          <li>Our team of experts crafts customized strategies that align with your specific objectives, ensuring every step is geared towards maximizing efficiency and achieving sustainable growth.</li>
+                          <li>Plan your success with us today.</li>
                         </ul>
                       </div>
                     </div>
@@ -151,29 +129,11 @@ const Home1Approach = () => {
                       <div className="content scrollTextAni">
                         <span>Step 03</span>
                         <h5>Design &amp; Development</h5>
-                        <p>
-                          Crafting seamless experiences through innovative
-                          design and development.
-                        </p>
                         <ul>
-                          <li>
-                            <strong>Generating ideas: </strong>Come up with and
-                            work through creative ideas together.
-                          </li>
-                          <li>
-                            <strong>Prototyping Excellence: </strong>Transform
-                            ideas into tangible prototypes and user-centric
-                            design.
-                          </li>
-                          <li>
-                            <strong>Iterative Development: </strong>Continuously
-                            refine and enhance solutions based on identified
-                            problems.
-                          </li>
-                          <li>
-                            <strong>Problem Identification: </strong>Identify
-                            market gaps and challenges your startup.
-                          </li>
+                          <li>Elevate your digital presence with PRAKRIA's superior design and development services. </li>
+                          <li>Our creative and technical expertise converge to deliver stunning, user-centric websites and applications that drive engagement and results.</li>
+                          <li>Trust us to transform your ideas into reality with precision and innovation.</li>
+                          <li>Start your project with us today.</li>
                         </ul>
                       </div>
                     </div>
@@ -197,29 +157,10 @@ const Home1Approach = () => {
                       <div className="content scrollTextAni">
                         <span>Step 04</span>
                         <h5>Quality Assurance</h5>
-                        <p>
-                          Ensuring excellence through meticulous testing and
-                          validation processes.
-                        </p>
                         <ul>
-                          <li>
-                            <strong>Idea generation: </strong>Collaborate
-                            together to generate and develop creative ideas.
-                          </li>
-                          <li>
-                            <strong>Continuous Testing:: </strong>Rigorous
-                            quality assurance through ongoing testing ensures
-                            robust solutions.
-                          </li>
-                          <li>
-                            <strong>Performance Testing: </strong>Rigorously
-                            evaluate the functionality and efficiency of your
-                            startup's systems.
-                          </li>
-                          <li>
-                            <strong>Problem Identification: </strong>Identify
-                            market gaps and challenges your startup.
-                          </li>
+                          <li>At PRAKRIA, quality assurance is at the core of our delivery process. Our rigorous testing methodologies ensure that your tech solutions are robust, reliable, and ready for real-world challenges.</li>
+                          <li>Partner with us to guarantee your projects meet the highest standards of excellence and functionality.</li>
+                          <li>Your success is our commitment.</li>
                         </ul>
                       </div>
                     </div>

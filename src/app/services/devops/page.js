@@ -158,7 +158,7 @@ function Devops() {
               >
                 <div className="service-details-img">
                   <img
-                    src="/assets/img/innerpage/service-details-feature-img.jpg"
+                    src="/assets/img/innerservices/devops/2.jpg"
                     alt=""
                   />
                 </div>
@@ -174,7 +174,7 @@ function Devops() {
               <div className="col-lg-6">
                 <div className="service-details-faq-img">
                   <img
-                    src="/assets/img/innerpage/service-details-faq-img.jpg"
+                    src="/assets/img/innerservices/devops/1.jpg"
                     alt=""
                   />
                 </div>
