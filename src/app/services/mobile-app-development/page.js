@@ -75,8 +75,8 @@ function MobileAppDevelopment() {
               >
                 <div className="service-details-img">
                   <img
-                    src="/assets/img/innerpage/service-details-feature-img.jpg"
-                    alt=""
+                    src="/assets/img/innerservices/mobile-app-development/2.jpg"
+                    alt="mobile app development"
                   />
                 </div>
               </div>
@@ -91,8 +91,8 @@ function MobileAppDevelopment() {
               <div className="col-lg-6">
                 <div className="service-details-faq-img">
                   <img
-                    src="/assets/img/innerpage/service-details-faq-img.jpg"
-                    alt=""
+                    src="/assets/img/innerservices/mobile-app-development/1.jpg"
+                    alt="mobile app development"
                   />
                 </div>
               </div>

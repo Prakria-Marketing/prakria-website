@@ -59,7 +59,7 @@ const Home1Solution = () => {
                 <div className="content">
                   <h4>
                     <Link href="/service/service-details">
-                      Software development
+                      Software Development
                     </Link>
                   </h4>
                   <svg
@@ -167,7 +167,7 @@ const Home1Solution = () => {
                 <div className="content">
                   <h4>
                     <Link href="/services/data-engineering">
-                    AR & VR APP Development
+                    AR & VR App Development
                     </Link>
                   </h4>
                   <svg
@@ -209,7 +209,7 @@ const Home1Solution = () => {
               <div className="service-card">
                 <div className="content">
                   <h4>
-                    <Link href="/services/cloud-services">Devops</Link>
+                    <Link href="/services/cloud-services">DevOps</Link>
                   </h4>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

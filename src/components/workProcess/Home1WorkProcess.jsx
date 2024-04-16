@@ -205,7 +205,7 @@ const Home1WorkProcess = () => {
                         <div className="content">
                           <h4>Collaborative Planning</h4>
                           <p>
-                            Streamline teamwork with Collaborative Planning,
+                            Streamline teamwork with collaborative planning,
                             fostering efficiency and synergy in achieving shared
                             goals seamlessly.
                           </p>

@@ -36,7 +36,7 @@ const Home1Contact = () => {
                       </g>
                     </svg>
                   </span>
-                  <h2>Connect with Prakria.tech</h2>
+                  <h2>Connect with PRAKRIA.tech</h2>
                   <p>
                     Ready to take the first step towards unlocking
                     opportunities, realizing goals, and embracing innovation?
@@ -62,7 +62,7 @@ const Home1Contact = () => {
                       </svg>
                     </div>
                     <div className="content">
-                      <span>To More Inquiry</span>
+                      <span>Call us at:</span>
                       <h6>
                         <a href="tel:+919810810034">+91 981 0810 034</a>
                       </h6>
@@ -84,7 +84,7 @@ const Home1Contact = () => {
                       </svg>
                     </div>
                     <div className="content">
-                      <span>To Send Mail</span>
+                      <span>Mail us:</span>
                       <h6>
                         <a href="mailto:info@example.com">info@prakria.com</a>
                       </h6>
@@ -96,7 +96,7 @@ const Home1Contact = () => {
                   data-wow-delay="400ms"
                   data-wow-duration="1500ms"
                 >
-                  <h6>Social Just You Connected Us!</h6>
+                  <h6>Our Social presence</h6>
                   <ul className="social-list">
                     <li>
                       <a href="https://in.linkedin.com/company/prakriauklimited">
@@ -142,12 +142,12 @@ const Home1Contact = () => {
             >
               <div className="contact-form-wrap">
                 <div className="contact-form-area">
-                  <h3>Your Success Starts Here!</h3>
+                  <h3>Let's foster meaningful conversations!</h3>
                   <form>
                     <div className="row">
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
-                          <label>Full Name</label>
+                          <label>Full name</label>
                           <input type="text" />
                         </div>
                       </div>
@@ -171,7 +171,7 @@ const Home1Contact = () => {
                       </div>
                       <div className="col-lg-12 mb-20">
                         <div className="form-inner">
-                          <label>Your Subject *</label>
+                          <label>Your subject *</label>
                           <input type="text" />
                         </div>
                       </div>

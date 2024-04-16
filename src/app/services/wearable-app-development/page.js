@@ -122,7 +122,7 @@ function WearableAppDevelopment() {
               >
                 <div className="service-details-img">
                   <img
-                    src="/assets/img/innerpage/service-details-feature-img.jpg"
+                    src="/assets/img/innerservices/wearable-app-development/1.jpg"
                     alt=""
                   />
                 </div>
@@ -138,7 +138,7 @@ function WearableAppDevelopment() {
               <div className="col-lg-6">
                 <div className="service-details-faq-img">
                   <img
-                    src="/assets/img/innerpage/service-details-faq-img.jpg"
+                    src="/assets/img/innerservices/wearable-app-development/2.jpg"
                     alt=""
                   />
                 </div>

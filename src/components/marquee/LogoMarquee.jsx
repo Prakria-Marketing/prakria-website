@@ -10,7 +10,7 @@ const LogoMarquee = () => {
       <div className="container-fluid">
         <div className="logo-wrap">
           <div className="logo-title">
-            <h6>We Worked With Global Largest Brand</h6>
+            <h6>World's Leading Brands- our esteemed Clients</h6>
           </div>
           <div className="logo-area">
             <div className="marquee_text2" id="clients-logos">

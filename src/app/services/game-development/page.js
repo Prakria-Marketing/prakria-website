@@ -117,8 +117,7 @@ function GameDevelopment() {
               >
                 <div className="service-details-img">
                   <img
-                    src="/assets/img/innerpage/service-details-feature-img.jpg"
-                    alt=""
+                    src="/assets/img/innerservices/game-development/1.jpg"
                   />
                 </div>
               </div>
@@ -133,7 +132,7 @@ function GameDevelopment() {
               <div className="col-lg-6">
                 <div className="service-details-faq-img">
                   <img
-                    src="/assets/img/innerpage/service-details-faq-img.jpg"
+                    src="/assets/img/innerservices/game-development/2.jpg"
                     alt=""
                   />
                 </div>

@@ -436,9 +436,9 @@ const Header1 = () => {
                   </svg>
                 </div>
                 <div className="content">
-                  <span>Any Question</span>
+                  <span>Call us at:</span>
                   <h6>
-                    <Link href="tel:+919810810034">+91 981 0810 034</Link>
+                    <Link href="tel:+918800024166">+91 88000 24166</Link>
                   </h6>
                 </div>
               </div>
