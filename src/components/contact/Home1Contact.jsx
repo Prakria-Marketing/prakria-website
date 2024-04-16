@@ -36,7 +36,7 @@ const Home1Contact = () => {
                       </g>
                     </svg>
                   </span>
-                  <h2>Connect with PRAKRIA.tech</h2>
+                  <h2>Get in touch</h2>
                   <p>
                     Ready to take the first step towards unlocking
                     opportunities, realizing goals, and embracing innovation?
@@ -96,7 +96,7 @@ const Home1Contact = () => {
                   data-wow-delay="400ms"
                   data-wow-duration="1500ms"
                 >
-                  <h6>Our Social presence</h6>
+                  <h6>Our Social Media presence</h6>
                   <ul className="social-list">
                     <li>
                       <a href="https://in.linkedin.com/company/prakriauklimited">
