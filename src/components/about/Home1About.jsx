@@ -37,17 +37,12 @@ const Home1About = () => {
                       </g>
                     </svg>
                   </span>
-                  <h2>
-                    We are a Startup agency working with young talents on
-                    delivering unique ideas and creative work.
-                  </h2>
+                  <h2>Best Mobile Application Development Firm</h2>
                   <p>
-                    Where innovation meets passion in a journey that started
-                    with a simple idea and a shared dream. Founded in recent
-                    year we embarked on a mission to bring the new innovation
-                    and introduce the technology. From humble beginnings to our
-                    current aspirations, every step has been fueled by a
-                    relentless commitment
+                    We are regarded as one of the Best Mobile App Development
+                    Companies in the world. For Android, iOS, gaming, AR/VR,
+                    blockchain, artificial intelligence, and gaming, we offer
+                    custom app development services.
                   </p>
                 </div>
               </div>

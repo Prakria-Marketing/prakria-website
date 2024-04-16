@@ -26,7 +26,9 @@ function ArVrAppDevelopment() {
                     With experience creating cutting-edge blockchain
                     applications and solutions, including NFT marketplaces,
                     crypto tokens, smart contracts, and wallet apps, we are the
-                    industry leader in the blockchain space.
+                    industry leader in the blockchain space.<br></br><br></br>
+                    Prakria is the answer to your search! We make the most of our technological prowess, product mentality, and experience to provide clients with an unparalleled experience that is unmatched in the industry! 
+
                   </p>
                   <ul className="key-features">
                     <li>
@@ -139,7 +141,7 @@ function ArVrAppDevelopment() {
                           aria-expanded="true"
                           aria-controls="faqcollapseOne"
                         >
-                          01. What is Task Management and how does it work?
+                          01. What is blockchain?
                         </button>
                       </h2>
                       <div
@@ -149,10 +151,11 @@ function ArVrAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inci only Integer purus onthis felis non
-                          aliquam.Mauris nec just vitae ann auctor tol euismod
-                          sit amet non ipsul growing this
+                          Blockchain is a decentralized digital ledger that
+                          records transactions across many computers in such a
+                          way that the registered transactions cannot be altered
+                          retroactively. This technology is the foundation of
+                          all cryptocurrencies.
                         </div>
                       </div>
                     </div>
@@ -166,7 +169,7 @@ function ArVrAppDevelopment() {
                           aria-expanded="false"
                           aria-controls="faqcollapseTwo"
                         >
-                          02. Is Zenfy suitable for my business?
+                          02. How does blockchain work?
                         </button>
                       </h2>
                       <div
@@ -176,12 +179,11 @@ function ArVrAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                          A blockchain is a series of immutable records called
+                          blocks, which are chained together using cryptographic
+                          principles. Each block contains a cryptographic hash
+                          of the previous block, a timestamp, and transaction
+                          data. This structure ensures security and integrity.
                         </div>
                       </div>
                     </div>
@@ -195,7 +197,7 @@ function ArVrAppDevelopment() {
                           aria-expanded="false"
                           aria-controls="faqcollapseThree"
                         >
-                          03. The system requirements using Task Management?
+                          03. What are the main types of blockchain?
                         </button>
                       </h2>
                       <div
@@ -205,12 +207,13 @@ function ArVrAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                          Public blockchains are open and anyone can join and
+                          participate in the network (e.g., Bitcoin, Ethereum).
+                          <br></br>
+                          Private blockchains are controlled by a single
+                          organization and restrict who can join.<br></br>
+                          Consortium blockchains are governed by a group of
+                          organizations, rather than a single entity.
                         </div>
                       </div>
                     </div>
@@ -224,7 +227,8 @@ function ArVrAppDevelopment() {
                           aria-expanded="false"
                           aria-controls="faqcollapseFour"
                         >
-                          04. How can I upgrade my subscription?
+                          04. Which programming languages are used in blockchain
+                          development?
                         </button>
                       </h2>
                       <div
@@ -234,12 +238,9 @@ function ArVrAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                          Solidity (primarily used for Ethereum), Go,
+                          JavaScript, Python, and Java are commonly used
+                          languages in blockchain development.
                         </div>
                       </div>
                     </div>
@@ -253,7 +254,7 @@ function ArVrAppDevelopment() {
                           aria-expanded="true"
                           aria-controls="faqcollapseFive"
                         >
-                          05. How can I upgrade my subscription?
+                          05. What are smart contracts?
                         </button>
                       </h2>
                       <div
@@ -263,10 +264,12 @@ function ArVrAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inci only Integer purus onthis felis non
-                          aliquam.Mauris nec just vitae ann auctor tol euismod
-                          sit amet non ipsul growing this
+                          Smart contracts are self-executing contracts with the
+                          terms of the agreement directly written into code.
+                          They automatically execute, control, or document
+                          legally relevant events according to the terms of the
+                          contract or an agreement. They run on blockchain
+                          networks, like Ethereum.
                         </div>
                       </div>
                     </div>

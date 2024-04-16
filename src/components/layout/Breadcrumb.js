@@ -5,8 +5,9 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 
 const Breadcrumb = () => {
-  const currentSlug = usePathname(); // Get the current route's slug
+  const currentSlug = usePathname(); // Get the current route's slugz
 
+  console.log();
   // Filter breadcrumbData based on matching slugs
   const filteredBreadcrumbData = breadcrumbData.filter(
     (item) => item.slug[item.slug?.length - 1] === currentSlug
@@ -49,8 +50,7 @@ const Breadcrumb = () => {
       <div
         className="breadcrumb-section"
         style={{
-          backgroundImage:
-            "url(/assets/img/innerpage/breadcrumb-bg1.png), linear-gradient(180deg, #121212 0%, #121212 100%)",
+          backgroundImage: `url(/assets/img/bg/${currentSlug}.jpg), linear-gradient(180deg, #121212 0%, #121212 100%)`,
         }}
       >
         <div className="container">

@@ -35,7 +35,7 @@ const Home1Approach = () => {
                     </g>
                   </svg>
                 </span>
-                <h2>The Zenfy Approach</h2>
+                <h2>The Prakria Approach</h2>
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@ const Home1Approach = () => {
               >
                 <div className="single-approach">
                   <div className="img-area">
-                    <img src="assets/img/home1/approach-img1.png" alt="" />
+                    <img src="assets/img/home1/discovery.jpg" alt="" />
                   </div>
                   <div className="dot">
                     <span />
@@ -95,7 +95,7 @@ const Home1Approach = () => {
               >
                 <div className="single-approach">
                   <div className="img-area">
-                    <img src="assets/img/home1/approach-img2.png" alt="" />
+                    <img src="assets/img/home1/planning.jpg" alt="" />
                   </div>
                   <div className="dot">
                     <span />
@@ -141,7 +141,7 @@ const Home1Approach = () => {
               >
                 <div className="single-approach">
                   <div className="img-area">
-                    <img src="assets/img/home1/approach-img3.png" alt="" />
+                    <img src="assets/img/home1/design.jpg" alt="" />
                   </div>
                   <div className="dot">
                     <span />
@@ -187,7 +187,7 @@ const Home1Approach = () => {
               >
                 <div className="single-approach">
                   <div className="img-area">
-                    <img src="assets/img/home1/approach-img4.png" alt="" />
+                    <img src="assets/img/home1/quality.jpg" alt="" />
                   </div>
                   <div className="dot">
                     <span />

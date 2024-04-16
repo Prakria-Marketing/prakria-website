@@ -21,14 +21,31 @@ function WearableAppDevelopment() {
                     Wearable App<span>Development.</span>
                   </h2>
                   <p>
-                    Where innovation meets passion in a journey that started
-                    with a simple idea and a shared dream. Founded in recent
-                    year we embarked on a mission to bring the new innovation
-                    and introduce the technology. From humble beginnings to our
-                    current aspirations, every step has been fueled by a
-                    relentless commitment.
+                    With a wide range of solutions for security, fitness,
+                    healthcare, and other areas, the wearable technology
+                    industry is growing steadily. Now is the perfect moment to
+                    take action if you wish to investigate this exciting field!
                   </p>
-                  <ul className="key-features">
+                  <h6>
+                    Select a skilled group of professionals to create wearable
+                    applications.
+                  </h6>
+                  <p>
+                    The app development industry now has a new platform thanks
+                    to wearable technology, which enables various companies and
+                    sectors to adapt to the newest trends and satisfy the
+                    constantly rising demands of their clientele. As a top
+                    wearable app development company in the UK, USA, India, and
+                    UAE, Prakria provides our clients with long-term solutions.
+                    In a short amount of time, we became visionaries' futuristic
+                    technological collaborators, catering to their needs and
+                    developing entirely new wearable app development services.
+                    Our specially designed app solutions for popular gadgets can
+                    assist your particular company in streamlining its
+                    operations to increase productivity and elevate the user
+                    experience to the highest level possible.
+                  </p>
+                  {/* <ul className="key-features">
                     <li>
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +112,7 @@ function WearableAppDevelopment() {
                       </svg>
                       Maintenance and Support
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
               <div
@@ -139,7 +156,7 @@ function WearableAppDevelopment() {
                           aria-expanded="true"
                           aria-controls="faqcollapseOne"
                         >
-                          01. What is Task Management and how does it work?
+                          01. What is wearable app development?
                         </button>
                       </h2>
                       <div
@@ -149,10 +166,10 @@ function WearableAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inci only Integer purus onthis felis non
-                          aliquam.Mauris nec just vitae ann auctor tol euismod
-                          sit amet non ipsul growing this
+                          Wearable app development refers to the process of
+                          designing, creating, and implementing applications for
+                          wearable devices such as smartwatches, fitness
+                          trackers, and augmented reality glasses.
                         </div>
                       </div>
                     </div>
@@ -166,7 +183,8 @@ function WearableAppDevelopment() {
                           aria-expanded="false"
                           aria-controls="faqcollapseTwo"
                         >
-                          02. Is Zenfy suitable for my business?
+                          02. Which platforms are most common for wearable app
+                          development?
                         </button>
                       </h2>
                       <div
@@ -176,12 +194,9 @@ function WearableAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                          The most common platforms include Wear OS by Google
+                          for Android devices and watchOS by Apple for Apple
+                          Watches.
                         </div>
                       </div>
                     </div>
@@ -195,7 +210,8 @@ function WearableAppDevelopment() {
                           aria-expanded="false"
                           aria-controls="faqcollapseThree"
                         >
-                          03. The system requirements using Task Management?
+                          03. What languages and tools are used for developing
+                          wearable apps?
                         </button>
                       </h2>
                       <div
@@ -205,12 +221,9 @@ function WearableAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                          For Wear OS, Java and Kotlin are commonly used with
+                          Android Studio. For watchOS, developers use Swift or
+                          Objective-C with Xcode.
                         </div>
                       </div>
                     </div>
@@ -224,7 +237,8 @@ function WearableAppDevelopment() {
                           aria-expanded="false"
                           aria-controls="faqcollapseFour"
                         >
-                          04. How can I upgrade my subscription?
+                          04. What are key considerations in wearable app
+                          development?
                         </button>
                       </h2>
                       <div
@@ -234,12 +248,11 @@ function WearableAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                          Key considerations include ensuring optimal battery
+                          life, efficient use of small screen sizes, seamless
+                          integration with other devices (like smartphones), and
+                          focusing on the core functionalities that are
+                          appropriate for quick, "glanceable" interactions.
                         </div>
                       </div>
                     </div>
@@ -253,7 +266,7 @@ function WearableAppDevelopment() {
                           aria-expanded="true"
                           aria-controls="faqcollapseFive"
                         >
-                          05. How can I upgrade my subscription?
+                          05. What are common features of wearable apps?
                         </button>
                       </h2>
                       <div
@@ -263,10 +276,8 @@ function WearableAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inci only Integer purus onthis felis non
-                          aliquam.Mauris nec just vitae ann auctor tol euismod
-                          sit amet non ipsul growing this
+                          Typical features include health and fitness tracking,
+                          notifications, GPS functionality, and voice commands.
                         </div>
                       </div>
                     </div>

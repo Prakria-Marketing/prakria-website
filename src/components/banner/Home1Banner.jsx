@@ -78,7 +78,7 @@ const Home1Banner = () => {
                   here to turn them into reality.{" "}
                 </p>
                 <div className="banner-content-bottom">
-                  <Link
+                  < Link
                     href="/contact"
                     className="primary-btn1"
                     data-text="Free Consultation"
@@ -127,15 +127,19 @@ const Home1Banner = () => {
               <div className="banner-img-wrap">
                 <Swiper {...settings} className="swiper banner-img-slider">
                   <div className="swiper-wrapper">
-                    <SwiperSlide className="swiper-slide">
-                      <img src="assets/img/home1/banner-img1.jpg" alt="" />
+                  <SwiperSlide className="swiper-slide">
+                      <img src="assets/img/home1/blockchain.jpg" alt="" />
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide">
-                      <img src="assets/img/home1/banner-img2.jpg" alt="" />
+                      <img src="assets/img/home1/ai.jpg" alt="" />
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide">
-                      <img src="assets/img/home1/banner-img3.jpg" alt="" />
+                      <img src="assets/img/home1/web.jpg" alt="" />
                     </SwiperSlide>
+                    <SwiperSlide className="swiper-slide">
+                      <img src="assets/img/home1/mobile.jpg" alt="" />
+                    </SwiperSlide>
+                   
                   </div>
                 </Swiper>
               </div>
@@ -183,7 +187,7 @@ const Home1Banner = () => {
             onClick={() => setOpen(true)}
             isOpen={isOpen}
             animationSpeed="350"
-            videoId="r4KpWiK08vM"
+            videoId="0kUIFCgaziw"
             ratio="16:9"
             onClose={() => setOpen(false)}
           />

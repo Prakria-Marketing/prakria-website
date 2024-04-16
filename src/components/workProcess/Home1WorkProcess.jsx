@@ -136,7 +136,7 @@ const Home1WorkProcess = () => {
                             complex ideas effortlessly with our vision for
                             clarity and innovation.
                           </p>
-                          <ul>
+                          {/* <ul>
                             <li>
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -176,7 +176,7 @@ const Home1WorkProcess = () => {
                               </svg>
                               Businesses can partner with affiliates
                             </li>
-                          </ul>
+                          </ul> */}
                         </div>
                       </div>
                     </SwiperSlide>
@@ -209,7 +209,7 @@ const Home1WorkProcess = () => {
                             fostering efficiency and synergy in achieving shared
                             goals seamlessly.
                           </p>
-                          <ul>
+                          {/* <ul>
                             <li>
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -249,7 +249,7 @@ const Home1WorkProcess = () => {
                               </svg>
                               Businesses can partner with affiliates
                             </li>
-                          </ul>
+                          </ul> */}
                         </div>
                       </div>
                     </SwiperSlide>
@@ -282,7 +282,7 @@ const Home1WorkProcess = () => {
                             personalized results that elevate your experience
                             and surpass expectations.
                           </p>
-                          <ul>
+                          {/* <ul>
                             <li>
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -322,7 +322,7 @@ const Home1WorkProcess = () => {
                               </svg>
                               Businesses can partner with affiliates
                             </li>
-                          </ul>
+                          </ul> */}
                         </div>
                       </div>
                     </SwiperSlide>
@@ -355,7 +355,7 @@ const Home1WorkProcess = () => {
                             complex ideas effortlessly with our vision for
                             clarity and innovation.
                           </p>
-                          <ul>
+                          {/* <ul>
                             <li>
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -395,7 +395,7 @@ const Home1WorkProcess = () => {
                               </svg>
                               Businesses can partner with affiliates
                             </li>
-                          </ul>
+                          </ul> */}
                         </div>
                       </div>
                     </SwiperSlide>
@@ -428,7 +428,7 @@ const Home1WorkProcess = () => {
                             fostering efficiency and synergy in achieving shared
                             goals seamlessly.
                           </p>
-                          <ul>
+                          {/* <ul>
                             <li>
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -468,7 +468,7 @@ const Home1WorkProcess = () => {
                               </svg>
                               Businesses can partner with affiliates
                             </li>
-                          </ul>
+                          </ul> */}
                         </div>
                       </div>
                     </SwiperSlide>
@@ -501,7 +501,7 @@ const Home1WorkProcess = () => {
                             personalized results that elevate your experience
                             and surpass expectations.
                           </p>
-                          <ul>
+                          {/* <ul>
                             <li>
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -541,7 +541,7 @@ const Home1WorkProcess = () => {
                               </svg>
                               Businesses can partner with affiliates
                             </li>
-                          </ul>
+                          </ul> */}
                         </div>
                       </div>
                     </SwiperSlide>
