@@ -83,7 +83,10 @@ const Home1Solution = () => {
                     promote growth and fulfill their digital ambitions.
                   </p>
                 </div>
-                <Link href="/services/software-development" className="explore-btn">
+                <Link
+                  href="/services/software-development"
+                  className="explore-btn"
+                >
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -131,10 +134,16 @@ const Home1Solution = () => {
                     </g>
                   </svg>
                   <p>
-                  Leading your idea from conception to implementation, our development team works closely together. As a result, they create dependable, expandable, and user-friendly apps that are customized to meet your specific company requirements.
+                    Leading your idea from conception to implementation, our
+                    development team works closely together. As a result, they
+                    create dependable, expandable, and user-friendly apps that
+                    are customized to meet your specific company requirements.
                   </p>
                 </div>
-                <Link href="/services/mobile-app-development" className="explore-btn">
+                <Link
+                  href="/services/mobile-app-development"
+                  className="explore-btn"
+                >
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -157,7 +166,9 @@ const Home1Solution = () => {
               <div className="service-card">
                 <div className="content">
                   <h4>
-                    <Link href="/services/data-engineering">Data Engineering</Link>
+                    <Link href="/services/data-engineering">
+                    AR & VR APP Development
+                    </Link>
                   </h4>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -172,10 +183,10 @@ const Home1Solution = () => {
                     />
                   </svg>
                   <p>
-                  Utilize our sophisticated data engineering to turn your data into insights that can be put to use. You may streamline procedures and maintain your competitiveness in the data-driven corporate environment by utilizing well-informed decision-making.
+                  Welcome to the future of immersive technology. We blend cutting-edge technology with our artistic flair to create mind-blowing AR & VR experiences & games that defy imagination and leave audiences spellbound.
                   </p>
                 </div>
-                <Link href="/services/data-engineering" className="explore-btn">
+                <Link href="/services/ar-app-development" className="explore-btn">
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -198,9 +209,7 @@ const Home1Solution = () => {
               <div className="service-card">
                 <div className="content">
                   <h4>
-                    <Link href="/services/cloud-services">
-                    Cloud services
-                    </Link>
+                    <Link href="/services/cloud-services">Devops</Link>
                   </h4>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -214,11 +223,14 @@ const Home1Solution = () => {
                     <path d="M20.6895 20.8789C20.4689 20.6894 20.2098 20.5499 19.9301 20.47C19.6505 20.3902 19.3568 20.3718 19.0693 20.4162L17.0567 20.7258C16.9749 20.7383 16.8965 20.7669 16.8257 20.8097C16.755 20.8526 16.6935 20.909 16.6446 20.9757C16.5957 21.0424 16.5604 21.1181 16.5407 21.1984C16.5211 21.2787 16.5175 21.3621 16.53 21.4439C16.5827 21.7877 16.905 22.0243 17.2482 21.9705L19.2609 21.6609C19.3689 21.6437 19.4793 21.6504 19.5845 21.6804C19.6896 21.7104 19.7869 21.7631 19.8695 21.8347C19.953 21.9054 20.0199 21.9935 20.0656 22.0929C20.1112 22.1922 20.1345 22.3004 20.1338 22.4097V35.7931C20.1338 37.3274 21.382 38.5757 22.9165 38.5757H37.8477C37.9304 38.5757 38.0123 38.5594 38.0888 38.5278C38.1652 38.4961 38.2346 38.4497 38.2931 38.3912C38.3516 38.3328 38.398 38.2633 38.4296 38.1869C38.4613 38.1105 38.4775 38.0286 38.4775 37.9459C38.4775 37.8632 38.4613 37.7813 38.4296 37.7049C38.398 37.6284 38.3516 37.559 38.2931 37.5005C38.2346 37.442 38.1652 37.3956 38.0888 37.364C38.0123 37.3324 37.9304 37.3161 37.8477 37.3161H22.9165C22.1366 37.3161 21.4992 36.7247 21.4111 35.9682H33.5009C34.9661 35.9682 36.2541 34.9288 36.5636 33.4966L38.0599 26.5733C38.3523 25.2196 37.3204 23.9444 35.9383 23.9444H21.3934V22.4097C21.3935 22.1189 21.3307 21.8315 21.2092 21.5672C21.0877 21.3029 20.9104 21.0681 20.6895 20.8789ZM35.9383 25.204C36.5192 25.204 36.9516 25.7406 36.8286 26.3074L35.3323 33.2307C35.1472 34.0873 34.377 34.7088 33.5008 34.7088H21.3934V25.204H35.9383ZM22.7036 41.4381C22.7036 42.6362 23.6802 43.6107 24.8807 43.6107C26.0788 43.6107 27.0534 42.6362 27.0534 41.4381C27.0534 40.2376 26.0788 39.2609 24.8807 39.2609C23.6802 39.2609 22.7036 40.2376 22.7036 41.4381ZM25.7938 41.4381C25.7938 41.9416 25.3842 42.3511 24.8807 42.3511C24.3748 42.3511 23.9631 41.9416 23.9631 41.4381C23.9631 40.9321 24.3748 40.5205 24.8807 40.5205C25.3841 40.5205 25.7938 40.9321 25.7938 41.4381ZM31.801 41.4381C31.801 42.6362 32.7778 43.6107 33.9783 43.6107C35.1764 43.6107 36.151 42.6362 36.151 41.4381C36.151 40.2376 35.1764 39.2609 33.9783 39.2609C32.7778 39.2609 31.801 40.2376 31.801 41.4381ZM34.8914 41.4381C34.8914 41.9416 34.4818 42.3511 33.9783 42.3511C33.4722 42.3511 33.0605 41.9416 33.0605 41.4381C33.0605 40.9321 33.4722 40.5205 33.9783 40.5205C34.4818 40.5205 34.8914 40.9321 34.8914 41.4381Z" />
                   </svg>
                   <p>
-                  You may efficiently innovate, cut expenses, and streamline processes by utilizing the cloud. Additionally, our customized cloud solutions help you on your journey by launching new cloud-based initiatives or improving your current infrastructure.
-
+                    You may efficiently innovate, cut expenses, and streamline
+                    processes by utilizing the cloud. Additionally, our
+                    customized cloud solutions help you on your journey by
+                    launching new cloud-based initiatives or improving your
+                    current infrastructure.
                   </p>
                 </div>
-                <Link href="/services/cloud-services" className="explore-btn">
+                <Link href="/services/devops" className="explore-btn">
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -265,10 +277,17 @@ const Home1Solution = () => {
                     />
                   </svg>
                   <p>
-                  Adopt AI and ML to boost productivity and creativity in your company. Furthermore, automation and sophisticated insights are provided by our tailored solutions. This provides a competitive edge in the ever changing IT industry, as well as streamlined operations and data-driven decisions.
+                    Adopt AI and ML to boost productivity and creativity in your
+                    company. Furthermore, automation and sophisticated insights
+                    are provided by our tailored solutions. This provides a
+                    competitive edge in the ever changing IT industry, as well
+                    as streamlined operations and data-driven decisions.
                   </p>
                 </div>
-                <Link href="/services/ai-ml-development" className="explore-btn">
+                <Link
+                  href="/services/ai-ml-development"
+                  className="explore-btn"
+                >
                   EXPLORE MORE
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -290,7 +309,7 @@ const Home1Solution = () => {
               <div className="service-card">
                 <div className="content">
                   <h4>
-                    <Link href="/services/ecommerce">eCommerce</Link>
+                    <Link href="/services/ecommerce">Website Development</Link>
                   </h4>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -320,11 +339,13 @@ const Home1Solution = () => {
                     />
                   </svg>
                   <p>
-                  Make a huge impact on the internet with our eCommerce solutions. Enjoy improved shopping experiences, individualized conversations, safe transactions, and perceptive analytics with ease. As a result, increase revenue, cultivate client loyalty, and propel digital expansion.
-
+                    Your search is over if you're seeking for a web development
+                    firm that can build dynamic websites and offer custom web
+                    development services to support the expansion and successful
+                    online presence of your organization.
                   </p>
                 </div>
-                <Link href="/services/ecommerce" className="explore-btn">
+                <Link href="/services/website-development" className="explore-btn">
                   {" "}
                   EXPLORE MORE
                   <svg
