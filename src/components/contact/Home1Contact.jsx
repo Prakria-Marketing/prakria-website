@@ -86,7 +86,7 @@ const Home1Contact = () => {
                     <div className="content">
                       <span>Mail us:</span>
                       <h6>
-                        <a href="mailto:info@example.com">info@prakria.com</a>
+                        <a href="mailto:info@prakria.com">info@prakria.com</a>
                       </h6>
                     </div>
                   </div>
@@ -99,15 +99,15 @@ const Home1Contact = () => {
                   <h6>Our Social Media presence</h6>
                   <ul className="social-list">
                     <li>
-                      <a href="https://in.linkedin.com/company/prakriauklimited">
+                      <a target="_blank" href="https://in.linkedin.com/company/prakriauklimited">
                         <i className="bi bi-linkedin" />
-                        <span>LinkedIn</span>
+                        {/* <span>LinkedIn</span> */}
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.facebook.com/prakria">
+                      <a target="_blank" href="https://www.facebook.com/prakria">
                         <i className="bi bi-facebook" />
-                        <span>Facebook</span>
+                        {/* <span>Facebook</span> */}
                       </a>
                     </li>
                     {/* <li>
@@ -126,9 +126,9 @@ const Home1Contact = () => {
                       </a>
                     </li> */}
                     <li>
-                      <a href="https://www.instagram.com/prakria">
+                      <a target="_blank" href="https://www.instagram.com/prakria">
                         <i className="bi bi-instagram" />
-                        <span>Instagram</span>
+                        {/* <span>Instagram</span> */}
                       </a>
                     </li>
                   </ul>

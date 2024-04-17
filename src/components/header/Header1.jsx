@@ -258,7 +258,7 @@ const Header1 = () => {
                       <div className="contact">
                         <span>Email Now</span>
                         <h6>
-                          <a href="#">info@prakria.com</a>
+                          <a href="mailto:info@prakria.com">info@prakria.com</a>
                         </h6>
                       </div>
                     </li>
