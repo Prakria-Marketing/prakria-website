@@ -3,11 +3,14 @@
   { "id": 1, "title": "Automotive", "image": "automotive.jpg" },
   { "id": 2, "title": "Aviation", "image": "aviation.jpg" },
   { "id": 3, "title": "Banking", "image": "banking.jpg" },
+
   { "id": 5, "title": "E-commerce", "image": "ecommerce.jpg" },
   { "id": 6, "title": "Education", "image": "education.jpg" },
   { "id": 7, "title": "Entertainment", "image": "entertainment.jpg" },
   { "id": 8, "title": "EV", "image": "ev.jpg" },
+
   { "id": 9, "title": "Mice", "image": "events.jpg" },
+
   { "id": 10, "title": "Finance", "image": "finance.jpg" },
   { "id": 11, "title": "Gaming", "image": "games.jpg" },
   { "id": 12, "title": "Healthcare", "image": "healthcare.jpg" },
@@ -20,7 +23,9 @@
   { "id": 19, "title": "Real Estate", "image": "real-estate.jpg" },
   { "id": 20, "title": "Restaurants", "image": "restaurant.jpg" },
   { "id": 21, "title": "SAAS", "image": "saas.jpg" },
+
   { "id": 22, "title": "Digital Networking", "image": "social-networking.jpg" },
+
   { "id": 23, "title": "Telecom", "image": "telecom.jpg" },
   { "id": 24, "title": "Travel", "image": "travel.jpg" }
 ]

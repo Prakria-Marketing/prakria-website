@@ -150,19 +150,23 @@ const Home1Contact = () => {
                   <h6>Like, Follow, & Subscribe. </h6>
                   <ul className="social-list">
                     <li>
+
                       <a
                         target="_blank"
                         href="https://in.linkedin.com/company/prakriauklimited"
                       >
+
                         <i className="bi bi-linkedin" />
                         {/* <span>LinkedIn</span> */}
                       </a>
                     </li>
                     <li>
+
                       <a
                         target="_blank"
                         href="https://www.facebook.com/prakria"
                       >
+
                         <i className="bi bi-facebook" />
                         {/* <span>Facebook</span> */}
                       </a>
@@ -183,10 +187,13 @@ const Home1Contact = () => {
                       </a>
                     </li> */}
                     <li>
+
                       <a
                         target="_blank"
                         href="https://www.instagram.com/prakria"
                       >
+
+
                         <i className="bi bi-instagram" />
                         {/* <span>Instagram</span> */}
                       </a>

@@ -82,7 +82,9 @@ const Home1Banner = () => {
                   >
                     <span>Free Consultation</span>
                   </a>
+
                   <a target="_blank" href="https://clutch.co/profile/prakria" className="rating-area">
+
                     <div className="review">
                       <span>Review On</span>
                       <img
