@@ -39,7 +39,7 @@ const Home1About = () => {
                   </span>
                   <h2>Best Mobile Application Development Firm</h2>
                   <p>
-                  We are regarded as one of the best Mobile App Development Companies in the world. For Android, iOS, Gaming, AR/VR, Blockchain, and Artificial Intelligence, we offer custom app development services.
+                  We are regarded as one of the best Mobile App Development Companies in the world. For Android, iOS, Gaming, AR/VR, Blockchain, and Artificial Intelligence, we offer custom app development services. Our reliable mobile app development agency is based in New Delhi, India, and offers custom mobile app development services all around the world. Our team of committed mobile app developers specializes in creating gaming, AR/VR, blockchain, iOS, Android, and AI-driven apps.
                   </p>
                 </div>
               </div>

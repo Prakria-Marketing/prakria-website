@@ -92,7 +92,7 @@ const ServicePage = () => {
                     </g>
                   </svg>
                   <p>
-                  Leading your idea from conception to implementation, our development team works closely together. As a result, they create dependable, expandable, and user-friendly apps that are customized to meet your specific company requirements.
+                  Leading your idea from conception to implementation, our development team works closely together. As a result, they create dependable, expandable, and user-friendly apps that are customized.
                   </p>
                 </div>
                 <Link href="/services/mobile-app-development" className="explore-btn">
@@ -225,7 +225,7 @@ const ServicePage = () => {
                     />
                   </svg>
                   <p>
-                  Adopt AI and ML to boost productivity and creativity in your company. Furthermore, automation and sophisticated insights are provided by our tailored solutions. This provides a competitive edge in the ever changing IT industry, as well as streamlined operations and data-driven decisions.
+                  Adopt AI and ML to boost productivity and creativity in your company. Furthermore, automation and sophisticated insights are provided by our tailored solutions. This provides a competitive edge in the ever changing IT industry.
                   </p>
                 </div>
                 <Link href="/services/ai-ml-development" className="explore-btn">

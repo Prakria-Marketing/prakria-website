@@ -3,7 +3,7 @@ import React from "react";
 const Home1Contact = () => {
   return (
     <>
-      <div className="contact-section">
+      <div className="contact-section" id="cForm">
         <div className="container">
           <div className="row g-lg-4 gy-5">
             <div className="col-lg-5">

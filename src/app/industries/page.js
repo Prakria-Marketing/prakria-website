@@ -31,7 +31,7 @@ const IndustryPage = () => {
                       />
                     </div>
                     <div className="industry-content">
-                      <h5>{item.title}</h5>
+                      <h5 style={{textTransform:"uppercase"}}>{item.title}</h5>
                     </div>
                   </div>
                 </div>
@@ -95,9 +95,7 @@ const IndustryPage = () => {
                   <div className="content">
                     <h4>Expertise and Innovation</h4>
                     <p>
-                      We pride ourselves staying at the front of innovation,
-                      constantly pushing boundaries a redefining what's
-                      possible.
+                    With a focus on constant innovation and redefining possible scenarios, we pride ourselves on staying relevant, & up-to-date with cutting edge technology
                     </p>
                   </div>
                 </div>
@@ -117,8 +115,7 @@ const IndustryPage = () => {
                   <div className="content">
                     <h4>Transparent Process</h4>
                     <p>
-                      Our transparent process is designed to demystify the
-                      journey from concept to delivery.
+                    Through our transparent delivery process, we aim to demystify the process from conception to completion.
                     </p>
                   </div>
                 </div>
@@ -138,9 +135,7 @@ const IndustryPage = () => {
                   <div className="content">
                     <h4>Client-Centric Approach</h4>
                     <p>
-                      Our dedicated team takes the time to listen, &amp;
-                      collaborate, ensuring that every interaction a step
-                      towards your success.
+                    We are dedicated to listening & collaborating with you, making sure that each interaction leads towards your success.
                     </p>
                   </div>
                 </div>
@@ -160,8 +155,7 @@ const IndustryPage = () => {
                   <div className="content">
                     <h4>Cost-Effective</h4>
                     <p>
-                      Our commitment to providing cost-effective solutions is
-                      ingrained in our mission.
+                    In our mission, we are committed to providing cost-effective solutions.
                     </p>
                   </div>
                 </div>
