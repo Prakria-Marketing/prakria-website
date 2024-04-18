@@ -48,7 +48,7 @@ const Footer = () => {
                     </ul>
                     <ul className="widget-list">
                       <li>
-                        <Link href="/services/ai-ml--development">
+                        <Link href="/services/ai-ml-development">
                           AI & ML Development
                         </Link>
                       </li>

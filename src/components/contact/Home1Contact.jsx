@@ -1,15 +1,17 @@
 "use client";
 import React, { useState } from "react";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Home1Contact = () => {
   const [result, setResult] = useState("");
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    setResult("Sending....");
+    // setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+    formData.append("access_key", "324b2d24-b3f4-48e9-af01-0ba65fa02b2c");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -19,11 +21,35 @@ const Home1Contact = () => {
     const data = await response.json();
 
     if (data.success) {
-      setResult("Form Submitted Successfully");
       event.target.reset();
+      // Show success toast notification
+      toast.success(
+        "Thank you for showing your interest in the services offered by us. One of our team members will attend to you shortly.",
+        {
+          position: "bottom-right",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+          transition: "Bounce",
+        }
+      );
     } else {
       console.log("Error", data);
-      setResult(data.message);
+      toast.error(data.message, {
+        position: "bottom-right",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        transition: "Bounce",
+      });
     }
   };
   return (
@@ -124,13 +150,19 @@ const Home1Contact = () => {
                   <h6>Our Social Media presence</h6>
                   <ul className="social-list">
                     <li>
-                      <a target="_blank" href="https://in.linkedin.com/company/prakriauklimited">
+                      <a
+                        target="_blank"
+                        href="https://in.linkedin.com/company/prakriauklimited"
+                      >
                         <i className="bi bi-linkedin" />
                         {/* <span>LinkedIn</span> */}
                       </a>
                     </li>
                     <li>
-                      <a target="_blank" href="https://www.facebook.com/prakria">
+                      <a
+                        target="_blank"
+                        href="https://www.facebook.com/prakria"
+                      >
                         <i className="bi bi-facebook" />
                         {/* <span>Facebook</span> */}
                       </a>
@@ -151,7 +183,10 @@ const Home1Contact = () => {
                       </a>
                     </li> */}
                     <li>
-                      <a target="_blank" href="https://www.instagram.com/prakria">
+                      <a
+                        target="_blank"
+                        href="https://www.instagram.com/prakria"
+                      >
                         <i className="bi bi-instagram" />
                         {/* <span>Instagram</span> */}
                       </a>
@@ -232,6 +267,7 @@ const Home1Contact = () => {
           </div>
         </div>
       </div>
+      <ToastContainer />
     </>
   );
 };

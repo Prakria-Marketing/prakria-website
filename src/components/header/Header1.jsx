@@ -334,7 +334,8 @@ const Header1 = () => {
               <img
                 alt="image"
                 className="img-fluid"
-                src="/assets/img/logo-white.png"
+                src="/assets/img/logo-dark.png"
+                width="90px"
               />
             </Link>
             <Link href="/" className="logo-light">

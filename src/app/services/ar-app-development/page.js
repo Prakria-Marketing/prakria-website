@@ -178,7 +178,7 @@ function ArAppDevelopment() {
                           aria-expanded="true"
                           aria-controls="faqcollapseOne"
                         >
-                          01. What is Task Management and how does it work?
+                          01. What is the difference between AR and VR?
                         </button>
                       </h2>
                       <div
@@ -188,10 +188,9 @@ function ArAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inci only Integer purus onthis felis non
-                          aliquam.Mauris nec just vitae ann auctor tol euismod
-                          sit amet non ipsul growing this
+                        Augmented Reality (AR) enhances the real world by overlaying digital information (images, sounds, text) on it. Users experience AR through devices like smartphones, tablets, or AR glasses, which allow them to see the real world supplemented by digital content.<br></br>
+Virtual Reality (VR) creates a completely immersive digital environment that replaces the user's real-world environment. VR typically requires a headset device and often additional sensors and hand controllers to navigate and interact within the virtual space.
+
                         </div>
                       </div>
                     </div>
@@ -205,7 +204,7 @@ function ArAppDevelopment() {
                           aria-expanded="false"
                           aria-controls="faqcollapseTwo"
                         >
-                          02. Is Zenfy suitable for my business?
+                          02. What are common uses of AR and VR?
                         </button>
                       </h2>
                       <div
@@ -215,12 +214,8 @@ function ArAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                        AR applications include navigation systems, retail and try-on solutions, educational content, maintenance and repair, interactive marketing, and gaming.<br></br>
+                        VR is used for immersive gaming, virtual tours (like real estate or tourism), training simulations for various industries (military, medical, aviation), therapeutic applications, and educational environments.
                         </div>
                       </div>
                     </div>
@@ -234,7 +229,7 @@ function ArAppDevelopment() {
                           aria-expanded="false"
                           aria-controls="faqcollapseThree"
                         >
-                          03. The system requirements using Task Management?
+                          03. What equipment is needed for AR and VR development?
                         </button>
                       </h2>
                       <div
@@ -244,12 +239,9 @@ function ArAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                        For AR: Smartphones or tablets with cameras, AR glasses (like Microsoft HoloLens, Google Glass), and AR development platforms (like ARKit for iOS, ARCore for Android).<br></br>
+For VR: VR headsets (like Oculus Rift, HTC Vive, Sony PlayStation VR), powerful computers or consoles to handle the VR software, development kits specific to the platform, and VR sensors for tracking movement.
+
                         </div>
                       </div>
                     </div>
@@ -263,7 +255,7 @@ function ArAppDevelopment() {
                           aria-expanded="false"
                           aria-controls="faqcollapseFour"
                         >
-                          04. How can I upgrade my subscription?
+                          04. Which programming languages are used in AR & VR app development?
                         </button>
                       </h2>
                       <div
@@ -273,12 +265,7 @@ function ArAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inceptos only Integer purus onthis
-                          placerat felis non aliquam.Mauris nec justo vitae ante
-                          auctor tol euismod sit amet non ipsul growing this
-                          Praesent commodo at massa eget suscipit. Utani vitae
-                          enim velit.
+                        Common languages include C# (widely used in Unity, a popular game development engine for AR and VR), C++ (for performance-intensive applications), and JavaScript for web-based AR or VR experiences.
                         </div>
                       </div>
                     </div>
@@ -292,7 +279,7 @@ function ArAppDevelopment() {
                           aria-expanded="true"
                           aria-controls="faqcollapseFive"
                         >
-                          05. How can I upgrade my subscription?
+                          05. What are the best development tools for AR and VR apps?
                         </button>
                       </h2>
                       <div
@@ -302,10 +289,9 @@ function ArAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Aptent taciti sociosqu ad litora torquent per conubia
-                          nostra, per inci only Integer purus onthis felis non
-                          aliquam.Mauris nec just vitae ann auctor tol euismod
-                          sit amet non ipsul growing this
+                        For AR: Unity with Vuforia, ARKit (iOS), ARCore (Android), and Microsoft Mixed Reality Toolkit.<br></br>
+For VR: Unity and Unreal Engine are the most popular for creating high-quality immersive experiences. Both provide powerful tools and plugins to support VR development.
+
                         </div>
                       </div>
                     </div>
