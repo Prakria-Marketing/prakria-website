@@ -1,6 +1,31 @@
-import React from "react";
+"use client";
+import React, { useState } from "react";
 
 const Home1Contact = () => {
+  const [result, setResult] = useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
   return (
     <>
       <div className="contact-section" id="cForm">
@@ -142,43 +167,49 @@ const Home1Contact = () => {
             >
               <div className="contact-form-wrap">
                 <div className="contact-form-area">
-                  <h3>Let's foster meaningful conversations!</h3>
-                  <form>
+                  <h3>Your Success Starts Here!</h3>
+                  <form onSubmit={onSubmit}>
+                    <input
+                      type="hidden"
+                      name="access_key"
+                      value="324b2d24-b3f4-48e9-af01-0ba65fa02b2c"
+                    />
+
                     <div className="row">
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
-                          <label>Full name</label>
-                          <input type="text" />
+                          <label>Full Name</label>
+                          <input type="text" name="fullname" />
                         </div>
                       </div>
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
                           <label>Company / Organization *</label>
-                          <input type="text" />
+                          <input type="text" name="organisation" />
                         </div>
                       </div>
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
                           <label>Phone *</label>
-                          <input type="text" />
+                          <input type="text" name="phone" />
                         </div>
                       </div>
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
                           <label>Company email *</label>
-                          <input type="email" />
+                          <input type="email" name="email" />
                         </div>
                       </div>
                       <div className="col-lg-12 mb-20">
                         <div className="form-inner">
-                          <label>Your subject *</label>
-                          <input type="text" />
+                          <label>Your Subject *</label>
+                          <input type="text" name="subject" />
                         </div>
                       </div>
                       <div className="col-lg-12 mb-30">
                         <div className="form-inner">
                           <label>Message *</label>
-                          <textarea defaultValue={""} />
+                          <textarea defaultValue={""} name="message" />
                         </div>
                       </div>
                       <div className="col-lg-12">
@@ -194,6 +225,7 @@ const Home1Contact = () => {
                       </div>
                     </div>
                   </form>
+                  <span>{result}</span>
                 </div>
               </div>
             </div>
