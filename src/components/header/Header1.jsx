@@ -278,6 +278,9 @@ const Header1 = () => {
                         <h6>
                           902, Aggarwal Corporate Heights, Netaji Subhash Place,
                           Pitampura, Delhi 110034
+                        </h6><br></br>
+                        <h6>
+                        105 Palewell Park London, England SW14 8JJ
                         </h6>
                       </div>
                     </li>
@@ -285,7 +288,7 @@ const Header1 = () => {
                 </div>
                 <div className="social-link-area">
                   <h6>
-                    Social Link
+                  Like, Follow, & Subscribe.
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={12}

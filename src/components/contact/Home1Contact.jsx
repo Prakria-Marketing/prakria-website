@@ -147,7 +147,7 @@ const Home1Contact = () => {
                   data-wow-delay="400ms"
                   data-wow-duration="1500ms"
                 >
-                  <h6>Our Social Media presence</h6>
+                  <h6>Like, Follow, & Subscribe. </h6>
                   <ul className="social-list">
                     <li>
                       <a
