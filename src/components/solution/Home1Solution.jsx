@@ -137,7 +137,7 @@ const Home1Solution = () => {
                     Leading your idea from conception to implementation, our
                     development team works closely together. As a result, they
                     create dependable, expandable, and user-friendly apps that
-                    are customized to meet your specific company requirements.
+                    are customized.
                   </p>
                 </div>
                 <Link
@@ -280,8 +280,7 @@ const Home1Solution = () => {
                     Adopt AI and ML to boost productivity and creativity in your
                     company. Furthermore, automation and sophisticated insights
                     are provided by our tailored solutions. This provides a
-                    competitive edge in the ever changing IT industry, as well
-                    as streamlined operations and data-driven decisions.
+                    competitive edge in the ever changing IT industry.
                   </p>
                 </div>
                 <Link

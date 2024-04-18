@@ -94,14 +94,14 @@ const Header2 = () => {
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="assets/img/logo-white.png"
+                  src="/assets/img/logo-white.png"
                 />
               </Link>
               <Link href="/" className="logo-light">
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="assets/img/logo-white.png"
+                  src="/assets/img/logo-white.png"
                 />
               </Link>
             </div>
@@ -285,7 +285,7 @@ const Header2 = () => {
                 </div>
                 <div className="social-link-area">
                   <h6>
-                    Social Link
+                  Like, Follow, & Subscribe
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={12}
@@ -434,7 +434,7 @@ const Header2 = () => {
                   </g>
                 </svg>
               </div>
-              <Link href="/contact" className="primary-btn4 d-xl-flex d-none">
+              <Link href="/contact#cForm" className="primary-btn4 d-xl-flex d-none">
                 Get Started
               </Link>
             </div>
