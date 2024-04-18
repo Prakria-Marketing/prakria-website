@@ -236,7 +236,7 @@ const Header2 = () => {
                       <div className="contact">
                         <span>Phone</span>
                         <h6>
-                          <a href="tel:+919810810034">+91 981 0810 034</a>
+                          <a href="tel:+918800024166">+91 88000 24166</a>
                         </h6>
                       </div>
                     </li>
@@ -254,7 +254,7 @@ const Header2 = () => {
                       <div className="contact">
                         <span>Email Now</span>
                         <h6>
-                          <a href="#">info@prakria.com</a>
+                          <a href="mailto:info@prakria.com">info@prakria.com</a>
                         </h6>
                       </div>
                     </li>
@@ -274,6 +274,10 @@ const Header2 = () => {
                         <h6>
                           902, Aggarwal Corporate Heights, Netaji Subhash Place,
                           Pitampura, Delhi 110034
+                        </h6>
+                        <br></br>
+                        <h6>
+                        105 Palewell Park London, England SW14 8JJ
                         </h6>
                       </div>
                     </li>

@@ -279,8 +279,8 @@ const Footer = () => {
           <div className="footer-bottom">
             <div className="copyright-area">
               <p>
-                Copyright 2024{" "}
-                <a href="#">PRAKRIA Marketing Services </a>| All Rights Reserved
+                Copyright&#169; 2024{" "}
+                <a href="#">PRAKRIA </a>| All Rights Reserved
               </p>
             </div>
             <div className="footer-bottom-right">
@@ -288,9 +288,9 @@ const Footer = () => {
                 <li>
                   <Link href="/disclaimer">Disclaimer</Link>
                 </li>
-                <li>
+                {/* <li>
                   <a href="#">Terms &amp; Conditions</a>
-                </li>
+                </li> */}
                 <li>
                   <Link href="/privacy-policy">Privacy Policy</Link>
                 </li>
