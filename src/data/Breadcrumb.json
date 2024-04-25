@@ -290,57 +290,57 @@
   },
   {
     "id": "41",
-    "name": ["Services & Solutions", "Game Development", "ERP Software Development"],
+    "name": ["Services & Solutions", "Software Development", "ERP Software Development"],
     "slug": ["/services", "/services/software-development/erp-software-development"],
     "pageTitle": "ERP Software Development",
     "section_down_scroll": "#service-section"
   },
   {
     "id": "42",
-    "name": ["Services & Solutions", "Game Development", "Custom CRM Development"],
+    "name": ["Services & Solutions", "Software Development", "Custom CRM Development"],
     "slug": ["/services", "/services/software-development/custom-crm-development"],
     "pageTitle": "Custom CRM Development",
     "section_down_scroll": "#service-section"
   },
   {
     "id": "43",
-    "name": ["Services & Solutions", "Game Development", "SAP Software Development"],
+    "name": ["Services & Solutions", "Software Development", "SAP Software Development"],
     "slug": ["/services", "/services/software-development/sap-software-development"],
     "pageTitle": "SAP Software Development",
     "section_down_scroll": "#service-section"
   },
   {
     "id": "44",
-    "name": ["Services & Solutions", "Game Development", "Accounting Software Development"],
+    "name": ["Services & Solutions", "Software Development", "Accounting Software Development"],
     "slug": ["/services", "/services/software-development/accounting-software-development"],
     "pageTitle": "Accounting Software Development",
     "section_down_scroll": "#service-section"
   },
   {
     "id": "45",
-    "name": ["Services & Solutions", "Game Development", "Ecommerce Web Design"],
-    "slug": ["/services", "/services/software-development/ecommerce-web-design"],
+    "name": ["Services & Solutions", "Website Development", "Ecommerce Web Design"],
+    "slug": ["/services", "/services/website-development/ecommerce-web-design"],
     "pageTitle": "Ecommerce Web Design",
     "section_down_scroll": "#service-section"
   },
   {
     "id": "46",
-    "name": ["Services & Solutions", "Game Development", "Custom Web Design"],
-    "slug": ["/services", "/services/software-development/custom-web-design"],
+    "name": ["Services & Solutions", "Website Development", "Custom Web Design"],
+    "slug": ["/services", "/services/website-development/custom-web-design"],
     "pageTitle": "Custom Web Design",
     "section_down_scroll": "#service-section"
   },
   {
     "id": "47",
-    "name": ["Services & Solutions", "Game Development", "Mobile Web Design"],
-    "slug": ["/services", "/services/software-development/mobile-web-design"],
+    "name": ["Services & Solutions", "Website Development", "Mobile Web Design"],
+    "slug": ["/services", "/services/website-development/mobile-web-design"],
     "pageTitle": "Mobile Web Design",
     "section_down_scroll": "#service-section"
   },
   {
     "id": "48",
-    "name": ["Services & Solutions", "Game Development", "Website Redesigning Services"],
-    "slug": ["/services", "/services/software-development/website-redesigning-services"],
+    "name": ["Services & Solutions", "Website Development", "Website Redesigning Services"],
+    "slug": ["/services", "/services/website-development/website-redesigning-services"],
     "pageTitle": "Website Redesigning Services",
     "section_down_scroll": "#service-section"
   }
