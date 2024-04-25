@@ -6,10 +6,19 @@ import "react-toastify/dist/ReactToastify.css";
 const Home1Contact = () => {
   const [result, setResult] = useState("");
 
+  const [field, setField] = useState({
+    name: "",
+    company: "",
+    phone: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
   const onSubmit = async (event) => {
     event.preventDefault();
     // setResult("Sending....");
     const formData = new FormData(event.target);
+    console.log(formData);
 
     formData.append("access_key", "324b2d24-b3f4-48e9-af01-0ba65fa02b2c");
 
@@ -150,23 +159,19 @@ const Home1Contact = () => {
                   <h6>Like, Follow, & Subscribe. </h6>
                   <ul className="social-list">
                     <li>
-
                       <a
                         target="_blank"
                         href="https://in.linkedin.com/company/prakriauklimited"
                       >
-
                         <i className="bi bi-linkedin" />
                         {/* <span>LinkedIn</span> */}
                       </a>
                     </li>
                     <li>
-
                       <a
                         target="_blank"
                         href="https://www.facebook.com/prakria"
                       >
-
                         <i className="bi bi-facebook" />
                         {/* <span>Facebook</span> */}
                       </a>
@@ -187,13 +192,10 @@ const Home1Contact = () => {
                       </a>
                     </li> */}
                     <li>
-
                       <a
                         target="_blank"
                         href="https://www.instagram.com/prakria"
                       >
-
-
                         <i className="bi bi-instagram" />
                         {/* <span>Instagram</span> */}
                       </a>
@@ -221,37 +223,73 @@ const Home1Contact = () => {
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
                           <label>Full Name</label>
-                          <input type="text" name="fullname" />
+                          <input
+                            type="text"
+                            name="fullname"
+                            onChange={(e) =>
+                              setField({ ...field, name: e.target.value })
+                            }
+                          />
                         </div>
                       </div>
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
                           <label>Company / Organization *</label>
-                          <input type="text" name="organisation" />
+                          <input
+                            type="text"
+                            name="organisation"
+                            onChange={(e) =>
+                              setField({ ...field, company: e.target.value })
+                            }
+                          />
                         </div>
                       </div>
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
                           <label>Phone *</label>
-                          <input type="text" name="phone" />
+                          <input
+                            type="text"
+                            name="phone"
+                            onChange={(e) =>
+                              setField({ ...field, phone: e.target.value })
+                            }
+                          />
                         </div>
                       </div>
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
                           <label>Company email *</label>
-                          <input type="email" name="email" />
+                          <input
+                            type="email"
+                            name="email"
+                            onChange={(e) =>
+                              setField({ ...field, email: e.target.value })
+                            }
+                          />
                         </div>
                       </div>
                       <div className="col-lg-12 mb-20">
                         <div className="form-inner">
                           <label>Your Subject *</label>
-                          <input type="text" name="subject" />
+                          <input
+                            type="text"
+                            name="subject"
+                            onChange={(e) =>
+                              setField({ ...field, subject: e.target.value })
+                            }
+                          />
                         </div>
                       </div>
                       <div className="col-lg-12 mb-30">
                         <div className="form-inner">
                           <label>Message *</label>
-                          <textarea defaultValue={""} name="message" />
+                          <textarea
+                            defaultValue={""}
+                            name="message"
+                            onChange={(e) =>
+                              setField({ ...field, message: e.target.value })
+                            }
+                          />
                         </div>
                       </div>
                       <div className="col-lg-12">
