@@ -21,7 +21,20 @@ function MobileWebDesign() {
                     Mobile Web<span>Design.</span>
                   </h2>
                   <p>
-                  With 62% of all web traffic coming from mobile devices, desktop and laptop web traffic account for 38%. Additionally, mobile websites show up first on search engine result pages and are ranked higher by search engines. Additionally, ten times more traffic and twice as much time are being spent thanks to Google's Accelerated Mobile Pages (AMP). It follows that companies using mobile web design services to take advantage of this growing preference for mobile phones and optimize their websites to fit within mobile screen frames and load rapidly on mobile devices is not surprising. With the assistance of our mobile web design services, you can create a mobile website that not only represents your company but is also easy to use, quick to load, and optimized for mobile devices.
+                    With 62% of all web traffic coming from mobile devices,
+                    desktop and laptop web traffic account for 38%.
+                    Additionally, mobile websites show up first on search engine
+                    result pages and are ranked higher by search engines.
+                    Additionally, ten times more traffic and twice as much time
+                    are being spent thanks to Google's Accelerated Mobile Pages
+                    (AMP). It follows that companies using mobile web design
+                    services to take advantage of this growing preference for
+                    mobile phones and optimize their websites to fit within
+                    mobile screen frames and load rapidly on mobile devices is
+                    not surprising. With the assistance of our mobile web design
+                    services, you can create a mobile website that not only
+                    represents your company but is also easy to use, quick to
+                    load, and optimized for mobile devices.
                   </p>
                 </div>
               </div>
@@ -32,7 +45,7 @@ function MobileWebDesign() {
               >
                 <div className="service-details-img">
                   <img
-                    src="/assets/img/innerservices/adaptive-ai/1.jpg"
+                    src="/assets/img/innerservices/website-development/mobile-web-design/1.jpg"
                     alt="ai & ml development"
                   />
                 </div>
@@ -48,7 +61,7 @@ function MobileWebDesign() {
               <div className="col-lg-6">
                 <div className="service-details-faq-img">
                   <img
-                    src="/assets/img/innerservices/adaptive-ai/2.jpg"
+                    src="/assets/img/innerservices/website-development/mobile-web-design/2.jpg"
                     alt="ai & ml development"
                   />
                 </div>

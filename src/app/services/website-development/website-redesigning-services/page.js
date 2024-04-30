@@ -21,9 +21,22 @@ function WebsiteRedesign() {
                     Website Redesigning <span>Services.</span>
                   </h2>
                   <p>
-                  When it comes to website redesigning, the skilled web designers and developers at PRAKRIA bring years of experience, a remarkable practical exposure, and the most recent design trends to the table. Our web designers improve the usability and functionality of your website in addition to giving it a total facelift. We update the appearance, usability, and functionality of your website by combining SEO elements, cross-browser compatibility, and aesthetically pleasing design elements.<br></br><br></br>
-We guarantee that our redesign will result in a website that is more search engine friendly, responsive, loads quickly, and turns inactive visitors into active ones. Your website will be redesigned by our imaginative designers to better reflect your brand and realize the full potential of your company.
-
+                    When it comes to website redesigning, the skilled web
+                    designers and developers at PRAKRIA bring years of
+                    experience, a remarkable practical exposure, and the most
+                    recent design trends to the table. Our web designers improve
+                    the usability and functionality of your website in addition
+                    to giving it a total facelift. We update the appearance,
+                    usability, and functionality of your website by combining
+                    SEO elements, cross-browser compatibility, and aesthetically
+                    pleasing design elements.<br></br>
+                    <br></br>
+                    We guarantee that our redesign will result in a website that
+                    is more search engine friendly, responsive, loads quickly,
+                    and turns inactive visitors into active ones. Your website
+                    will be redesigned by our imaginative designers to better
+                    reflect your brand and realize the full potential of your
+                    company.
                   </p>
                 </div>
               </div>
@@ -34,7 +47,7 @@ We guarantee that our redesign will result in a website that is more search engi
               >
                 <div className="service-details-img">
                   <img
-                    src="/assets/img/innerservices/adaptive-ai/1.jpg"
+                    src="/assets/img/innerservices/website-development/website-redesigning/1.jpg"
                     alt="ai & ml development"
                   />
                 </div>
@@ -50,7 +63,7 @@ We guarantee that our redesign will result in a website that is more search engi
               <div className="col-lg-6">
                 <div className="service-details-faq-img">
                   <img
-                    src="/assets/img/innerservices/adaptive-ai/2.jpg"
+                    src="/assets/img/innerservices/website-development/website-redesigning/2.jpg"
                     alt="ai & ml development"
                   />
                 </div>

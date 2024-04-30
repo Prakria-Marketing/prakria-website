@@ -18,12 +18,27 @@ function AndroidAppDevelopment() {
               >
                 <div className="service-details-top-content">
                   <h2>
-                  Android Mobile<span>App Development.</span>
+                    Android Mobile<span>App Development.</span>
                   </h2>
                   <p>
-                  India's Top Android App Development Firm Create scalable, high-performing Android apps that function well on all Android devices and platforms. In order to help you stay ahead of the competition, we at Prakria, a top Android app development company in New Delhi, India, concentrate on integrating customisation, innovation, and the newest features into Android applications.
-                  <br></br><br></br>
-                  Use Prakria's custom Android app development services in Delhi, NCR, to pave the way for your company's success. Android is the most popular smartphone operating system globally, with over 2.5 billion active users across 190 countries. Its advantages include scalability, fast deployment, compatibility with multiple devices, and customization. Android operating systems are becoming more and more popular, which makes them a great option for businesses trying to grow and reach new markets. 
+                    India's Top Android App Development Firm Create scalable,
+                    high-performing Android apps that function well on all
+                    Android devices and platforms. In order to help you stay
+                    ahead of the competition, we at Prakria, a top Android app
+                    development company in New Delhi, India, concentrate on
+                    integrating customisation, innovation, and the newest
+                    features into Android applications.
+                    <br></br>
+                    <br></br>
+                    Use Prakria's custom Android app development services in
+                    Delhi, NCR, to pave the way for your company's success.
+                    Android is the most popular smartphone operating system
+                    globally, with over 2.5 billion active users across 190
+                    countries. Its advantages include scalability, fast
+                    deployment, compatibility with multiple devices, and
+                    customization. Android operating systems are becoming more
+                    and more popular, which makes them a great option for
+                    businesses trying to grow and reach new markets.
                   </p>
                 </div>
               </div>
@@ -34,7 +49,7 @@ function AndroidAppDevelopment() {
               >
                 <div className="service-details-img">
                   <img
-                    src="/assets/img/innerservices/adaptive-ai/1.jpg"
+                    src="/assets/img/innerservices/mobile-app-development/android-mobile-app-development/1.jpg"
                     alt="ai & ml development"
                   />
                 </div>
@@ -50,7 +65,7 @@ function AndroidAppDevelopment() {
               <div className="col-lg-6">
                 <div className="service-details-faq-img">
                   <img
-                    src="/assets/img/innerservices/adaptive-ai/2.jpg"
+                    src="/assets/img/innerservices/mobile-app-development/android-mobile-app-development/2.jpg"
                     alt="ai & ml development"
                   />
                 </div>
@@ -68,7 +83,8 @@ function AndroidAppDevelopment() {
                           aria-expanded="true"
                           aria-controls="faqcollapseOne"
                         >
-                          01. What is Adaptive AI?
+                          01. What is the difference between native, hybrid, and
+                          web apps?
                         </button>
                       </h2>
                       <div
@@ -78,13 +94,28 @@ function AndroidAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Adaptive AI refers to sophisticated artificial
-                          intelligence systems designed to learn and evolve in
-                          response to changes in their environment. Unlike
-                          traditional AI, which operates based on fixed
-                          algorithms and datasets, adaptive AI continually
-                          updates its models based on new data, improving its
-                          predictions and actions over time.
+                          <ul>
+                            <li>
+                              Native apps are developed for specific platforms
+                              (iOS, Android) using platform-specific languages
+                              and tools. They generally offer the best
+                              performance and user experience but can be more
+                              expensive to develop.
+                            </li>
+                            <li>
+                              Hybrid apps are developed using web technologies
+                              like HTML, CSS, and JavaScript, then wrapped in a
+                              native container that allows them to access some
+                              platform-specific features. They strike a balance
+                              between cost and functionality.
+                            </li>
+                            <li>
+                              Web apps are websites that are designed to
+                              function like apps. They are accessible through
+                              browsers and do not need to be downloaded from app
+                              stores.
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </div>
@@ -98,7 +129,7 @@ function AndroidAppDevelopment() {
                           aria-expanded="false"
                           aria-controls="faqcollapseTwo"
                         >
-                          02. How Does Adaptive AI Work?
+                          02. What are the key stages of app development?
                         </button>
                       </h2>
                       <div
@@ -108,13 +139,18 @@ function AndroidAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          At the core of adaptive AI is machine learning, where
-                          AI systems are trained on large volumes of data. These
-                          systems are equipped with algorithms that allow them
-                          to adjust their behavior based on feedback and new
-                          inputs. This capability enables adaptive AI to perform
-                          optimally even as conditions change, making it highly
-                          effective in dynamic and unpredictable environments.
+                          Planning: Understanding requirements, target audience,
+                          and setting clear objectives.<br></br>
+                          Design: Creating the user interface (UI) and user
+                          experience (UX) designs.<br></br>
+                          Development: Actual coding of the application.
+                          <br></br>
+                          Testing: Ensuring the app works as intended across
+                          different devices and fixing bugs.<br></br>
+                          Deployment: Launching the app on app stores or other
+                          platforms.<br></br>
+                          Maintenance: Ongoing updates, bug fixes, and
+                          potentially adding new features.
                         </div>
                       </div>
                     </div>
@@ -128,7 +164,7 @@ function AndroidAppDevelopment() {
                           aria-expanded="false"
                           aria-controls="faqcollapseThree"
                         >
-                          03. What are the Key Features of Adaptive AI?
+                          03. How do I choose the right platform for my app?
                         </button>
                       </h2>
                       <div
@@ -138,14 +174,12 @@ function AndroidAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Self-Learning: Continuously learns from new data
-                          without explicit reprogramming.<br></br>
-                          Flexibility: Adapts its responses based on changing
-                          external variables.<br></br>
-                          Predictive Analysis: Anticipates future trends and
-                          behaviors to make informed decisions.<br></br>
-                          Real-Time Processing: Analyzes and acts on information
-                          in real-time, ensuring timely responses.
+                          Consider your target audience, budget, app features,
+                          and intended user experience. iOS users tend to spend
+                          more on apps, while Android has a larger global market
+                          share. Cross-platform development tools like React
+                          Native or Flutter can be used to target both platforms
+                          simultaneously.
                         </div>
                       </div>
                     </div>
@@ -159,7 +193,8 @@ function AndroidAppDevelopment() {
                           aria-expanded="false"
                           aria-controls="faqcollapseFour"
                         >
-                          04. Applications of Adaptive AI?
+                          04. What are the most popular programming languages
+                          for app development?
                         </button>
                       </h2>
                       <div
@@ -169,21 +204,11 @@ function AndroidAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Healthcare: Adaptive AI can personalize treatment
-                          plans for patients based on ongoing health data,
-                          improving outcomes.<br></br>
-                          Finance: It enhances fraud detection systems by
-                          adapting to new fraudulent tactics without manual
-                          intervention.<br></br>
-                          Retail: Optimizes inventory management by predicting
-                          changes in consumer behavior and supply chain
-                          disruptions.<br></br>
-                          Automotive: Powers autonomous driving technologies
-                          that adapt to real-time road conditions and driver
-                          behaviors.<br></br>
-                          Customer Service: AI chatbots evolve based on
-                          interactions, providing more accurate and personalized
-                          assistance over time.
+                          For Android, Kotlin and Java are commonly used.
+                          <br></br>
+                          For iOS, Swift and Objective-C are preferred.<br></br>
+                          For hybrid apps, JavaScript along with frameworks like
+                          React Native, Ionic, or Xamarin.
                         </div>
                       </div>
                     </div>
@@ -197,7 +222,7 @@ function AndroidAppDevelopment() {
                           aria-expanded="true"
                           aria-controls="faqcollapseFive"
                         >
-                          05. What are the benefits of Adaptive AI?
+                          05. How much does it cost to develop an app?
                         </button>
                       </h2>
                       <div
@@ -207,14 +232,11 @@ function AndroidAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                          Enhanced Accuracy: As the system learns, its accuracy
-                          in decision-making continues to improve.<br></br>
-                          Greater Efficiency: Reduces the need for manual
-                          updates and maintenance.<br></br>
-                          Customization: Delivers highly personalized
-                          experiences and solutions.<br></br>
-                          Resilience: Better equipped to handle complex,
-                          changing environments without human oversight.
+                          Costs can range widely based on complexity, platform,
+                          design specifics, location of the development team,
+                          and features. A simple app might cost anywhere from
+                          $10,000 to $50,000, while more complex apps could run
+                          into hundreds of thousands or even more.
                         </div>
                       </div>
                     </div>
