@@ -36,7 +36,7 @@ Our team has created games in a variety of genres, including strategy, multiplay
               >
                 <div className="service-details-img">
                   <img
-                    src="/assets/img/innerservices/adaptive-ai/1.jpg"
+                    src="/assets/img/innerservices/unity-game-development/1.jpg"
                     alt="ai & ml development"
                   />
                 </div>
@@ -52,7 +52,7 @@ Our team has created games in a variety of genres, including strategy, multiplay
               <div className="col-lg-6">
                 <div className="service-details-faq-img">
                   <img
-                    src="/assets/img/innerservices/adaptive-ai/2.jpg"
+                    src="/assets/img/innerservices/unity-game-development/2.jpg"
                     alt="ai & ml development"
                   />
                 </div>

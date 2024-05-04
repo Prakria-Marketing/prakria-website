@@ -46,7 +46,7 @@ function MetaverseNft() {
               >
                 <div className="service-details-img">
                   <img
-                    src="/assets/img/innerservices/adaptive-ai/1.jpg"
+                    src="/assets/img/innerservices/metaverse-nft/1.jpg"
                     alt="ai & ml development"
                   />
                 </div>
@@ -62,7 +62,7 @@ function MetaverseNft() {
               <div className="col-lg-6">
                 <div className="service-details-faq-img">
                   <img
-                    src="/assets/img/innerservices/adaptive-ai/2.jpg"
+                    src="/assets/img/innerservices/metaverse-nft/2.jpg"
                     alt="ai & ml development"
                   />
                 </div>
