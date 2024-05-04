@@ -532,8 +532,9 @@ const Header1 = () => {
                           industries
                         </p>
                         <img
-                          className="pb-3"
-                          src="https://appinventiv.com/wp-content/themes/twentynineteen-child/new-images/industry-drop.webp"
+                          className="mb-3"
+                          style={{borderRadius:"10px"}}
+                          src="/assets/img/industries/indus.jpg"
                           alt=""
                         />
                         <p>

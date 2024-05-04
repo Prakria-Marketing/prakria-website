@@ -534,7 +534,8 @@ const Header2 = () => {
                           industries
                         </p>
                         <img
-                          className="pb-3"
+                          className="mb-3"
+                          style={{borderRadius:"10px"}}
                           src="/assets/img/industries/indus.jpg"
                           alt=""
                         />
