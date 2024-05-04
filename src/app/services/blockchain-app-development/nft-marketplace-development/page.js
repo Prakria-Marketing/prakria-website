@@ -20,21 +20,22 @@ function NftMarketplace() {
                   <h2>
                     NFT Marketplace <span>Development.</span>
                   </h2>
-                  <p>
                     <h6>
                       The Finest Crypto Exchange Development Company in the USA
                       & India
                     </h6>
+                    <p>
                     Leading cryptocurrency exchange development company Prakria
                     takes pleasure in creating scalable and safe cryptocurrency
                     exchange apps and software for its Indian and American
                     clients. With years of experience, our cryptocurrency
                     exchange developers can construct platforms that improve the
                     culture of cryptocurrency trading by utilizing Blockchain,
-                    AI, ML, and other pertinent technologies.
+                    AI, ML, and other pertinent technologies.</p>
                     <h6>
                       Personalized Cryptocurrency Exchange Development Firm
                     </h6>
+                    <p>
                     Cryptocurrencies are opening the door for decentralized
                     value exchange in this digital age. Additionally, Prakria
                     can assist you in participating in this multibillion-dollar
@@ -50,7 +51,7 @@ function NftMarketplace() {
               >
                 <div className="service-details-img">
                   <img
-                    src="/assets/img/innerservices/adaptive-ai/1.jpg"
+                    src="/assets/img/innerservices/nft-marketplace-development/1.jpg"
                     alt="ai & ml development"
                   />
                 </div>
@@ -66,7 +67,7 @@ function NftMarketplace() {
               <div className="col-lg-6">
                 <div className="service-details-faq-img">
                   <img
-                    src="/assets/img/innerservices/adaptive-ai/2.jpg"
+                    src="/assets/img/innerservices/nft-marketplace-development/2.jpg"
                     alt="ai & ml development"
                   />
                 </div>

@@ -1971,7 +1971,7 @@ header.style-1 .main-menu > ul > li:hover i {
   }
 }
 header.style-1 .main-menu > ul > li > a {
-  color: var(--text-color);
+  color: var(--title-color);
   display: block;
   letter-spacing: 0.4px;
   padding: 25px 0px;
@@ -1982,12 +1982,15 @@ header.style-1 .main-menu > ul > li > a {
   transition: all 0.5s ease-out 0s;
   position: relative;
 }
+header.style-1 .main-menu > ul > li > a:hover{
+  color: #3067ff ;
+}
 @media (min-width: 1200px) and (max-width: 1399px) {
   header.style-1 .main-menu > ul > li > a {
     padding: 22px 0;
   }
 }
-header.style-1 .main-menu > ul > li > a::after {
+/* header.style-1 .main-menu > ul > li > a::after {
   content: "";
   display: block;
   position: absolute;
@@ -1998,7 +2001,7 @@ header.style-1 .main-menu > ul > li > a::after {
   transform-origin: right center;
   transform: scale(0, 1);
   transition: transform 0.5s;
-}
+} */
 @media (min-width: 1200px) and (max-width: 1399px) {
   header.style-1 .main-menu > ul > li > a::after {
     bottom: 22px;
@@ -2270,9 +2273,7 @@ header.style-1 .main-menu > ul > li.menu-item-has-children:hover::after {
     visibility: visible;
   }
 }
-header.style-1 .main-menu > ul > li:hover > a {
-  color: var(--title-color);
-}
+
 header.style-1 .main-menu > ul > li:hover > a::after {
   transform-origin: left center;
   transform: scale(1, 1);
@@ -2571,7 +2572,7 @@ header.style-2 .main-menu > ul > li > a {
     padding: 22px 0;
   }
 }
-header.style-2 .main-menu > ul > li > a::after {
+/* header.style-2 .main-menu > ul > li > a::after {
   content: "";
   display: block;
   position: absolute;
@@ -2582,7 +2583,7 @@ header.style-2 .main-menu > ul > li > a::after {
   transform-origin: right center;
   transform: scale(0, 1);
   transition: transform 0.5s;
-}
+} */
 @media (min-width: 1200px) and (max-width: 1399px) {
   header.style-2 .main-menu > ul > li > a::after {
     bottom: 22px;
@@ -23270,6 +23271,7 @@ ul.ruby-menu > li > a {
 
 
 
+
 ul.ruby-menu > li.ruby-active-menu-item > a {
   background: #efefef;
   color: #222;
@@ -23519,7 +23521,7 @@ ul.ruby-menu > li.ruby-menu-right {
 }
 
 ul.ruby-menu > li > a {
-  color: var(--text-color);
+  color: var(--title-color);
   display: block;
   letter-spacing: 0.4px;
   padding: 25px 0px;
@@ -23530,7 +23532,9 @@ ul.ruby-menu > li > a {
   transition: all 0.5s ease-out 0s;
   position: relative;
 }
-
+ul.ruby-menu > li > a:hover{
+  color:#3067ff;
+}
 ul.ruby-menu > li > a:only-child {
   padding: 0 15px;
 }
@@ -23540,6 +23544,7 @@ ul.ruby-menu > li > a:only-child {
 ul.ruby-menu > li > a:only-child:after,
 ul.ruby-menu > li:hover > a:only-child:after {
   content: "";
+  
 }
 
 ul.ruby-menu > li.ruby-active-menu-item > a {
@@ -24282,6 +24287,7 @@ span.ruby-c-content {
   font-size: 15px;
   padding-bottom: 20px;
   cursor: pointer;
+  color: #ffffff;
   transition: 0.5s;
 }
 .ruby-grid.ruby-grid-lined ul li img{
@@ -24293,8 +24299,29 @@ span.ruby-c-content {
     width: 25px;
 }
 .ruby-grid.ruby-grid-lined ul li:hover{
-  scale: 1.2;
   position: inherit;
   padding-left: 9px;
   
+}
+
+.ruby-grid.ruby-grid-lined span a{
+color:#cfcfcf;
+transition: 0.5s;
+}
+.ruby-grid.ruby-grid-lined span a:hover{
+color:#3067ff;
+position: inherit;
+padding-left: 9px;
+}
+.ruby-grid.ruby-grid-lined p a{
+  color:#ffffff ;
+}
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  border: 0;
+  border-top: var(--bs-border-width) solid;
+  opacity: .25;
+  color: #4c4c4c;
 }
