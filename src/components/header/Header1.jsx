@@ -429,7 +429,7 @@ const Header1 = () => {
                   </a>
                   <div className="ruby-grid ruby-grid-lined">
                     <div className="row">
-                      <div className="col-lg-4 mega-li">
+                      <div className="col-lg-4 mega-li pt-4">
                         <h3>Diverse Capabilities</h3>
                         <p>
                           that deploy customized solutions in a wide range of
@@ -444,6 +444,7 @@ const Header1 = () => {
                           Read our developments that has helped the Supply Chain
                           Industry boom in India
                         </p>
+                        <Link className="primary-btn4" href="/industries">View All</Link>
                       </div>
                       <div className="col-lg-3 ps-5">
                         <ul className="">
@@ -631,7 +632,6 @@ const Header1 = () => {
                 </li>
               </ul>
             </ul>
-            <div className="ruby-menu-demo-header"></div>
           </div>
           <div className="nav-right d-flex jsutify-content-end align-items-center">
             <div className="right-sidebar-and-hotline-area">

@@ -125,7 +125,7 @@ const Header2 = () => {
           <div className="row g-lg-4 gy-5">
             <div className="col-lg-8">
               <div className="sidebar-menu-wrap">
-                <ul className="main-menu">
+                <ul className="main-menu ">
                   {navData.map((data) => {
                     const { id, label, link, icon, subMenu } = data;
                     return (
@@ -204,6 +204,7 @@ const Header2 = () => {
                       </li>
                     );
                   })}
+                  
                 </ul>
               </div>
             </div>
@@ -346,7 +347,7 @@ const Header2 = () => {
             </Link>
           </div>
           <div className="main-menu d-lg-flex d-none">
-            <ul className="menu-list">
+            <ul className="menu-list d-flex align-items-center">
               {navData.map((data) => {
                 const { id, label, link, icon, subMenu } = data;
                 return (
@@ -418,6 +419,215 @@ const Header2 = () => {
                   </li>
                 );
               })}
+              <ul className="ruby-menu sub-menu ">
+                <li className="ruby-menu-mega">
+                  <a className="drop-down" href="#">
+                    Mega
+                  </a>
+                  <div className="ruby-grid ruby-grid-lined">
+                    <div className="row">
+                      <div className="col-lg-4 mega-li">
+                        <h3>Diverse Capabilities</h3>
+                        <p>
+                          that deploy customized solutions in a wide range of
+                          industries
+                        </p>
+                        <img
+                          className="pb-3"
+                          src="https://appinventiv.com/wp-content/themes/twentynineteen-child/new-images/industry-drop.webp"
+                          alt=""
+                        />
+                        <p>
+                          Read our developments that has helped the Supply Chain
+                          Industry boom in India
+                        </p>
+                        <Link className="primary-btn4" href="/industries">View All</Link>
+                      </div>
+                      <div className="col-lg-3 ps-5">
+                        <ul className="">
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/agriculture.svg"
+                              alt=""
+                            />
+                            Agriculture
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/automotive.svg"
+                              alt=""
+                            />
+                            Automotive
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/aviation.svg"
+                              alt=""
+                            />
+                            Aviation
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/banking.svg"
+                              alt=""
+                            />
+                            Banking
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/ecommerce.svg"
+                              alt=""
+                            />
+                            E-commerce
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/education.svg"
+                              alt=""
+                            />
+                            Education
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/entertainment.svg"
+                              alt=""
+                            />
+                            Entertainment
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/ev.svg"
+                              alt=""
+                            />
+                            EV
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="col-lg-3 ps-4">
+                        <ul>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/mice.svg"
+                              alt=""
+                            />
+                            Mice
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/finance.svg"
+                              alt=""
+                            />
+                            Finance
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/games.svg"
+                              alt=""
+                            />
+                            Gaming
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/government.svg"
+                              alt=""
+                            />
+                            Government
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/healthcare.svg"
+                              alt=""
+                            />
+                            Healthcare
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/insurance.svg"
+                              alt=""
+                            />
+                            Insurance
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/digital-marketing.svg"
+                              alt=""
+                            />
+                            Digital Marketing
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/manufacturing.svg"
+                              alt=""
+                            />
+                            Manufacturing
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="col-lg-2">
+                        <ul>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/media.svg"
+                              alt=""
+                            />
+                            Media
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/oil-and-gas.svg"
+                              alt=""
+                            />
+                            Oil and gas
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/real-state.svg"
+                              alt=""
+                            />
+                            Real Estate
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/restaurants.svg"
+                              alt=""
+                            />
+                            Restaurants
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/saas.svg"
+                              alt=""
+                            />
+                            SAAS
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/logistics.svg"
+                              alt=""
+                            />
+                            Logistics
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/telecom.svg"
+                              alt=""
+                            />
+                            Telecom
+                          </li>
+                          <li className="d-flex align-items-center">
+                            <img
+                              src="/assets/img/industries/icons/travel.svg"
+                              alt=""
+                            />
+                            Travel
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <span className="ruby-dropdown-toggle" />
+                </li>
+              </ul>
             </ul>
           </div>
           <div className="nav-right d-flex jsutify-content-end align-items-center">
