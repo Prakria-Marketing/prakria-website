@@ -4304,7 +4304,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 @media (min-width: 1400px) and (max-width: 1599px) {
   .home1-banner-section {
-    padding: 160px 0 0 4%;
+    padding: 200px 0 0 4%;
   }
 }
 @media (max-width: 1399px) {
@@ -4328,7 +4328,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   }
 }
 .home1-banner-section .banner-content {
-  max-width: 750px;
+  max-width: 950px;
   width: 100%;
 }
 .home1-banner-section .banner-content > span {
@@ -24324,4 +24324,17 @@ hr {
   border-top: var(--bs-border-width) solid;
   opacity: .25;
   color: #4c4c4c;
+}
+
+#homeVideo{
+  position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /* width: 100vw; */
+    height: 100%;
+    object-fit: cover;
+    z-index: -999;
+    filter: brightness(0.5)
 }

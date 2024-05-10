@@ -45,7 +45,7 @@ const Home1Banner = () => {
       <div className="home1-banner-section">
         <div className="container-fluid p-0">
           <div className="row">
-            <div className="col-lg-6 d-flex align-items-xxl-start align-items-center">
+            <div className="col-lg-12 d-flex align-items-xxl-start align-items-center">
               <div className="banner-content">
                 <span>
                   <svg
@@ -71,11 +71,16 @@ const Home1Banner = () => {
                   </svg>
                 </span>
                 <h1>Elevating Your Digital Presence, Beyond Boundaries </h1>
-                <p>
-                Cultivating groundbreaking solutions and propelling your digital journey to new heights, we at PRAKRIA are committed to exceeding boundaries and redefining industry standards. With innovative technologies and tailored strategies, we empower your brand to thrive in the ever-evolving digital landscape.
+                <p className="text-white">
+                  Cultivating groundbreaking solutions and propelling your
+                  digital journey to new heights, we at PRAKRIA are committed to
+                  exceeding boundaries and redefining industry standards. With
+                  innovative technologies and tailored strategies, we empower
+                  your brand to thrive in the ever-evolving digital landscape.
                 </p>
                 <div className="banner-content-bottom">
-                  < a target="_blank"
+                  <a
+                    target="_blank"
                     href="https://calendly.com/abhishek-shukla1987"
                     className="primary-btn1"
                     data-text="Free Consultation"
@@ -83,8 +88,11 @@ const Home1Banner = () => {
                     <span>Free Consultation</span>
                   </a>
 
-                  <a target="_blank" href="https://clutch.co/profile/prakria" className="rating-area">
-
+                  <a
+                    target="_blank"
+                    href="https://clutch.co/profile/prakria"
+                    className="rating-area"
+                  >
                     <div className="review">
                       <span>Review On</span>
                       <img
@@ -122,11 +130,11 @@ const Home1Banner = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <div className="banner-img-wrap">
                 <Swiper {...settings} className="swiper banner-img-slider">
                   <div className="swiper-wrapper">
-                  <SwiperSlide className="swiper-slide">
+                    <SwiperSlide className="swiper-slide">
                       <img src="assets/img/home1/blockchain.jpg" alt="" />
                     </SwiperSlide>
                     <SwiperSlide className="swiper-slide">
@@ -138,14 +146,13 @@ const Home1Banner = () => {
                     <SwiperSlide className="swiper-slide">
                       <img src="assets/img/home1/mobile.jpg" alt="" />
                     </SwiperSlide>
-                   
                   </div>
                 </Swiper>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
-        <div className="video-area">
+        {/* <div className="video-area">
           <div className="badge">
             <span className="badge__char">S</span>
             <span className="badge__char">T</span>
@@ -179,8 +186,8 @@ const Home1Banner = () => {
               </a>
             </div>
           </div>
-        </div>
-        <React.Fragment>
+        </div> */}
+        {/* <React.Fragment>
           <ModalVideo
             channel="youtube"
             onClick={() => setOpen(true)}
@@ -190,8 +197,18 @@ const Home1Banner = () => {
             ratio="16:9"
             onClose={() => setOpen(false)}
           />
-        </React.Fragment>
+        </React.Fragment> */}
       </div>
+      <video
+        id="homeVideo"
+        width="100%"
+        height="100%"
+        autoPlay
+        muted
+        loop
+        src="https://www.shutterstock.com/shutterstock/videos/1072549937/preview/stock-footage-a-digital-artist-creating-a-cartoon-character-with-retro-pixel-art-in-a-video-game-development.mp4"
+        type="video/mp4"
+      ></video>
     </>
   );
 };
