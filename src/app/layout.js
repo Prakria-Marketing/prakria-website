@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
           type="image/x-icon"
           sizes="16x16"
         />
-        <title>Prakria Tech - Description</title>
+        <title>Prakria Tech - Top Mobile App Development Company l PRAKRIA</title>
       </head>
       <body>
         <ScrollProgress />
