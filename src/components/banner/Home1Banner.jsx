@@ -70,13 +70,9 @@ const Home1Banner = () => {
                     </g>
                   </svg>
                 </span>
-                <h1>Elevating Your Digital Presence, Beyond Boundaries </h1>
+                <h1>Elevating Your Digital <br></br>Presence, Beyond Boundaries </h1>
                 <p className="text-white">
-                  Cultivating groundbreaking solutions and propelling your
-                  digital journey to new heights, we at PRAKRIA are committed to
-                  exceeding boundaries and redefining industry standards. With
-                  innovative technologies and tailored strategies, we empower
-                  your brand to thrive in the ever-evolving digital landscape.
+                Cultivating groundbreaking solutions and propelling your digital journey to new heights, we at PRAKRIA are committed to exceeding boundaries and redefining industry standards. With innovative technologies and tailored strategies, we empower your brand to thrive in the ever-evolving digital landscape.
                 </p>
                 <div className="banner-content-bottom">
                   <a
@@ -206,7 +202,7 @@ const Home1Banner = () => {
         autoPlay
         muted
         loop
-        src="https://www.shutterstock.com/shutterstock/videos/1072549937/preview/stock-footage-a-digital-artist-creating-a-cartoon-character-with-retro-pixel-art-in-a-video-game-development.mp4"
+        src="assets/video/herosection1.mp4"
         type="video/mp4"
       ></video>
     </>

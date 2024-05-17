@@ -1362,7 +1362,7 @@ ul {
 .section-title h2 {
   color: var(--title-color);
   font-family: var(--font-hankenGrotesk);
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 0;
@@ -4304,7 +4304,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 @media (min-width: 1400px) and (max-width: 1599px) {
   .home1-banner-section {
-    padding: 200px 0 0 4%;
+    padding: 220px 0 0 4%;
   }
 }
 @media (max-width: 1399px) {
@@ -4842,7 +4842,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .home1-about-section .about-content .about-section-title h2 {
   color: var(--title-color);
   font-family: var(--font-hankenGrotesk);
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 0;
@@ -4870,6 +4870,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   line-height: 1.8;
   padding-top: 20px;
   margin-bottom: 0;
+  width: 90%;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .home1-about-section .about-content .about-section-title p {
@@ -4895,7 +4896,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .home1-about-section .about-countdown-area ul .single-countdown {
   display: flex;
   gap: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 @media (max-width: 1399px) {
   .home1-about-section .about-countdown-area ul .single-countdown {
@@ -4913,7 +4914,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   margin-top: 2px;
 }
 .home1-about-section .about-countdown-area ul .single-countdown .icon svg {
-  fill: var(--text-color);
+  fill: #3067ff;
 }
 .home1-about-section .about-countdown-area ul .single-countdown .content {
   padding-bottom: 35px;
@@ -5033,7 +5034,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 @media (min-width: 1400px) and (max-width: 1599px) {
   .home1-about-section .about-bottom-area .feature-card .content h4 {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -5080,15 +5081,15 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .service-card .content {
   padding-bottom: 15px;
   border-bottom: 1px solid rgba(11, 12, 12, 0.1);
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .service-card .content h4 {
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 .service-card .content h4 a {
   color: var(--title-color);
   font-family: var(--font-hankenGrotesk);
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 700;
   line-height: 1.2;
   transition: 0.5s;
@@ -5112,7 +5113,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   color: var(--primary-color1);
 }
 .service-card .content svg {
-  fill: var(--title-color);
+  fill:#3067ff;
 }
 .service-card .content p {
   color: var(--text-color);
@@ -24337,4 +24338,11 @@ hr {
     object-fit: cover;
     z-index: -999;
     filter: brightness(0.5)
+}
+
+.service-card svg{
+  margin-right: 20px;
+}
+.feature-card img{
+  width: 60px;
 }

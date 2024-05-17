@@ -5,6 +5,74 @@ const Home1About = () => {
   return (
     <>
       <div className="home1-about-section mb-110">
+        <div className="about-bottom-area">
+          <div className="container">
+            <div className="row g-5 mb-110">
+              <div
+                className="col-lg-4 col-md-6 wow animate fadeInUp"
+                data-wow-delay="200ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="feature-card">
+                  <div className="icon">
+                    <img
+                      src="assets/img/home1/icon/about-feature-card-icon1.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div className="content">
+                    <h4>Expertise and Innovation</h4>
+                    <p>
+                      With a focus on constant innovation and redefining
+                      possible scenarios.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-4 col-md-6 wow animate fadeInUp"
+                data-wow-delay="400ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="feature-card">
+                  <div className="icon">
+                    <img
+                      src="assets/img/home1/icon/about-feature-card-icon2.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div className="content">
+                    <h4>Transparent Process</h4>
+                    <p>
+                      We aim to demystify the process from conception to
+                      completion.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="col-lg-4 col-md-6 wow animate fadeInUp"
+                data-wow-delay="600ms"
+                data-wow-duration="1500ms"
+              >
+                <div className="feature-card">
+                  <div className="icon">
+                    <img
+                      src="assets/img/home1/icon/about-feature-card-icon3.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div className="content">
+                    <h4>Client-Centric Approach</h4>
+                    <p>
+                      We are dedicated to listening & collaborating with you.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="container">
           <div className="row mb-90">
             <div
@@ -37,9 +105,21 @@ const Home1About = () => {
                       </g>
                     </svg>
                   </span>
-                  <h2>Best Mobile Application Development Firm</h2>
+                  <h2>
+                    Best Mobile Application <br></br>Development Firm
+                  </h2>
                   <p>
-                  We are regarded as one of the best Mobile App Development Companies in the world. For Android, iOS, Gaming, AR/VR, Blockchain, and Artificial Intelligence, we offer custom app development services. Our reliable mobile app development agency is based in New Delhi, India, and offers custom mobile app development services all around the world. Our team of committed mobile app developers specializes in creating gaming, AR/VR, blockchain, iOS, Android, and AI-driven apps.
+                    We are regarded as one of the best Mobile App Development
+                    Companies in the world. For Android, iOS, Gaming, AR/VR,
+                    Blockchain, and Artificial Intelligence, we offer custom app
+                    development services. Our reliable mobile app development
+                    agency is based in New Delhi, India, and offers custom
+                    mobile app development services all around the world.{" "}
+                  </p>
+                  <p>
+                    Our team of committed mobile app developers specializes in
+                    creating gaming, AR/VR, blockchain, iOS, Android, and
+                    AI-driven apps.
                   </p>
                 </div>
               </div>
@@ -126,92 +206,6 @@ const Home1About = () => {
                     </div>
                   </li>
                 </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="about-bottom-area">
-          <div className="container-fluid">
-            <div className="row g-5">
-              <div
-                className="col-lg-3 col-md-6 wow animate fadeInUp"
-                data-wow-delay="200ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="feature-card">
-                  <div className="icon">
-                    <img
-                      src="assets/img/home1/icon/about-feature-card-icon1.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="content">
-                    <h4>Expertise and Innovation</h4>
-                    <p>
-                    With a focus on constant innovation and redefining possible scenarios, we pride ourselves on staying relevant, & up-to-date with cutting edge technology
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-3 col-md-6 wow animate fadeInUp"
-                data-wow-delay="400ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="feature-card">
-                  <div className="icon">
-                    <img
-                      src="assets/img/home1/icon/about-feature-card-icon2.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="content">
-                    <h4>Transparent Process</h4>
-                    <p>
-                    Through our transparent delivery process, we aim to demystify the process from conception to completion.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-3 col-md-6 wow animate fadeInUp"
-                data-wow-delay="600ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="feature-card">
-                  <div className="icon">
-                    <img
-                      src="assets/img/home1/icon/about-feature-card-icon3.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="content">
-                    <h4>Client-Centric Approach</h4>
-                    <p>
-                    We are dedicated to listening & collaborating with you, making sure that each interaction leads towards your success.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-lg-3 col-md-6 wow animate fadeInUp"
-                data-wow-delay="800ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="feature-card">
-                  <div className="icon">
-                    <img
-                      src="assets/img/home1/icon/about-feature-card-icon4.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="content">
-                    <h4>Cost-Effective</h4>
-                    <p>
-                    In our mission, we are committed to providing cost-effective solutions.
-                    </p>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

@@ -222,7 +222,7 @@ const Aboutpage = () => {
           <div className="container-fluid">
             <div className="row g-5">
               <div
-                className="col-lg-3 col-md-6 wow animate fadeInUp"
+                className="col-lg-4 col-md-6 wow animate fadeInUp"
                 data-wow-delay="200ms"
                 data-wow-duration="1500ms"
               >
@@ -242,7 +242,7 @@ const Aboutpage = () => {
                 </div>
               </div>
               <div
-                className="col-lg-3 col-md-6 wow animate fadeInUp"
+                className="col-lg-4 col-md-6 wow animate fadeInUp"
                 data-wow-delay="400ms"
                 data-wow-duration="1500ms"
               >
@@ -262,7 +262,7 @@ const Aboutpage = () => {
                 </div>
               </div>
               <div
-                className="col-lg-3 col-md-6 wow animate fadeInUp"
+                className="col-lg-4 col-md-6 wow animate fadeInUp"
                 data-wow-delay="600ms"
                 data-wow-duration="1500ms"
               >
@@ -281,26 +281,7 @@ const Aboutpage = () => {
                   </div>
                 </div>
               </div>
-              <div
-                className="col-lg-3 col-md-6 wow animate fadeInUp"
-                data-wow-delay="800ms"
-                data-wow-duration="1500ms"
-              >
-                <div className="feature-card">
-                  <div className="icon">
-                    <img
-                      src="assets/img/home1/icon/about-feature-card-icon4.svg"
-                      alt=""
-                    />
-                  </div>
-                  <div className="content">
-                    <h4>Cost-Effective</h4>
-                    <p>
-                    In our mission, we are committed to providing cost-effective solutions.
-                    </p>
-                  </div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
