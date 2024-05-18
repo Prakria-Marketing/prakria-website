@@ -43,7 +43,7 @@ const Home1Banner = () => {
   return (
     <>
       <div className="home1-banner-section">
-        <div className="container-fluid p-0">
+        <div className="container p-0">
           <div className="row">
             <div className="col-lg-12 d-flex align-items-xxl-start align-items-center">
               <div className="banner-content">

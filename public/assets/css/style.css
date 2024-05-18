@@ -668,11 +668,11 @@ ul {
   background-color: var(--primary-color1);
   font-family: var(--font-inter);
   font-weight: 600;
-  font-size: 16px;
+  font-size: 13px;
   color: var(--white-color);
   letter-spacing: 0.48px;
   line-height: 1;
-  padding: 18px 30px;
+  padding: 18px 10px;
   position: relative;
   align-items: center;
   display: inline-flex;
@@ -4391,7 +4391,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 @media (max-width: 576px) {
   .home1-banner-section .banner-content h1 {
-    font-size: 38px;
+    font-size: 35px;
   }
 }
 .home1-banner-section .banner-content p {
@@ -4426,8 +4426,19 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 @media (max-width: 576px) {
   .home1-banner-section .banner-content .banner-content-bottom {
-    flex-wrap: wrap;
     gap: 20px;
+  }
+  #homeVideo{
+    position:inherit !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    z-index: -999 !important;
+    filter: brightness(1) !important;
+    padding: 0 15px !important;
+  }
+  .home1-banner-bottom{
+    display: none !important;
   }
 }
 .home1-banner-section .banner-content .banner-content-bottom .rating-area {
@@ -4634,6 +4645,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   overflow: hidden;
   display: flex;
   align-items: center;
+  margin-top: 110px;
 }
 .home1-banner-bottom.two {
   transform: rotate(-2deg) translateY(-13px);
@@ -4658,7 +4670,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home1-banner-bottom .marquee_text {
   background: #1e1f1f;
-  height: 70px;
+  height: 50px;
   display: flex;
   align-items: center;
   gap: 40px;
@@ -4674,7 +4686,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .home1-banner-bottom h6 {
   color: rgba(255, 255, 255, 0.7);
   font-family: var(--font-inter);
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 1;
   letter-spacing: 0.36px;
@@ -4815,6 +4827,9 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
     max-width: 650px;
   }
 }
+.home1-about-section{
+  margin-top: 120px;
+}
 .home1-about-section .about-content .about-section-title > span {
   color: var(--text-color);
   font-family: var(--font-inter);
@@ -4861,6 +4876,9 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   .home1-about-section .about-content .about-section-title h2 {
     font-size: 28px;
   }
+  .home1-about-section {
+    margin-top: 100px !important;
+}
 }
 .home1-about-section .about-content .about-section-title p {
   color: var(--text-color);
