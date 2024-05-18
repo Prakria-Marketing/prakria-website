@@ -4,7 +4,7 @@ import Marquee from "react-fast-marquee";
 const Home1BannerMarquee = () => {
   return (
     <>
-      <div className="home1-banner-bottom mb-110">
+      <div className="home1-banner-bottom">
         <Marquee>
           <div className="marquee_text">
             <svg

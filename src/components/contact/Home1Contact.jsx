@@ -1,11 +1,14 @@
 "use client";
+import Link from "next/link";
 import React, { useState } from "react";
+import ReCAPTCHA from "react-google-recaptcha";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const Home1Contact = () => {
   const [result, setResult] = useState("");
-
+  const [capVal, setcapVal] = useState(null);
+  const [checked, setChecked] = React.useState(true);
   const [field, setField] = useState({
     name: "",
     company: "",
@@ -292,9 +295,34 @@ const Home1Contact = () => {
                           />
                         </div>
                       </div>
+                      <div className="col-lg-12 mb-30">
+                        <div className="mb-4 d-flex justify-content-start align-items-center">
+                          <input
+                            style={{ height: "20px" }}
+                            type="checkbox"
+                            defaultChecked={checked}
+                            name="message"
+                            // onChange={(e) =>
+                            //   setField({ ...field, message: e.target.value })
+                            // }
+                          />{" "}
+                          <label style={{fontSize:"14px"}}> 
+                          &nbsp; By checking this box, you are agreeing to our <Link target="_blank" href="/terms-conditions">Terms & Conditions</Link> and 
+                            <Link target="_blank" href="/privacy-policy">
+                            &nbsp;Privacy Policy
+                            </Link>
+                            .
+                          </label>
+                        </div>
+                        <ReCAPTCHA
+                          sitekey="6LeMX9IpAAAAAMPWQvm3SYQ98X13vK2MI6CdQoiS"
+                          onChange={(val) => setcapVal(val)}
+                        />
+                      </div>
                       <div className="col-lg-12">
                         <div className="form-inner">
                           <button
+                            disabled={!capVal}
                             className="primary-btn2"
                             type="submit"
                             data-text="Submit Now"

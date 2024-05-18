@@ -668,11 +668,11 @@ ul {
   background-color: var(--primary-color1);
   font-family: var(--font-inter);
   font-weight: 600;
-  font-size: 16px;
+  font-size: 13px;
   color: var(--white-color);
   letter-spacing: 0.48px;
   line-height: 1;
-  padding: 18px 30px;
+  padding: 18px 10px;
   position: relative;
   align-items: center;
   display: inline-flex;
@@ -1362,7 +1362,7 @@ ul {
 .section-title h2 {
   color: var(--title-color);
   font-family: var(--font-hankenGrotesk);
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 0;
@@ -4304,7 +4304,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 @media (min-width: 1400px) and (max-width: 1599px) {
   .home1-banner-section {
-    padding: 160px 0 0 4%;
+    padding: 220px 0 0 4%;
   }
 }
 @media (max-width: 1399px) {
@@ -4328,7 +4328,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   }
 }
 .home1-banner-section .banner-content {
-  max-width: 750px;
+  max-width: 950px;
   width: 100%;
 }
 .home1-banner-section .banner-content > span {
@@ -4391,7 +4391,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 @media (max-width: 576px) {
   .home1-banner-section .banner-content h1 {
-    font-size: 38px;
+    font-size: 35px;
   }
 }
 .home1-banner-section .banner-content p {
@@ -4426,8 +4426,19 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 @media (max-width: 576px) {
   .home1-banner-section .banner-content .banner-content-bottom {
-    flex-wrap: wrap;
     gap: 20px;
+  }
+  #homeVideo{
+    position:inherit !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    z-index: -999 !important;
+    filter: brightness(1) !important;
+    padding: 0 15px !important;
+  }
+  .home1-banner-bottom{
+    display: none !important;
   }
 }
 .home1-banner-section .banner-content .banner-content-bottom .rating-area {
@@ -4634,6 +4645,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   overflow: hidden;
   display: flex;
   align-items: center;
+  margin-top: 110px;
 }
 .home1-banner-bottom.two {
   transform: rotate(-2deg) translateY(-13px);
@@ -4658,7 +4670,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 .home1-banner-bottom .marquee_text {
   background: #1e1f1f;
-  height: 70px;
+  height: 50px;
   display: flex;
   align-items: center;
   gap: 40px;
@@ -4674,7 +4686,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .home1-banner-bottom h6 {
   color: rgba(255, 255, 255, 0.7);
   font-family: var(--font-inter);
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 1;
   letter-spacing: 0.36px;
@@ -4815,6 +4827,9 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
     max-width: 650px;
   }
 }
+.home1-about-section{
+  margin-top: 120px;
+}
 .home1-about-section .about-content .about-section-title > span {
   color: var(--text-color);
   font-family: var(--font-inter);
@@ -4842,7 +4857,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .home1-about-section .about-content .about-section-title h2 {
   color: var(--title-color);
   font-family: var(--font-hankenGrotesk);
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 0;
@@ -4861,6 +4876,9 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   .home1-about-section .about-content .about-section-title h2 {
     font-size: 28px;
   }
+  .home1-about-section {
+    margin-top: 100px !important;
+}
 }
 .home1-about-section .about-content .about-section-title p {
   color: var(--text-color);
@@ -4870,6 +4888,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   line-height: 1.8;
   padding-top: 20px;
   margin-bottom: 0;
+  width: 90%;
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   .home1-about-section .about-content .about-section-title p {
@@ -4895,7 +4914,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .home1-about-section .about-countdown-area ul .single-countdown {
   display: flex;
   gap: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 @media (max-width: 1399px) {
   .home1-about-section .about-countdown-area ul .single-countdown {
@@ -4913,7 +4932,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   margin-top: 2px;
 }
 .home1-about-section .about-countdown-area ul .single-countdown .icon svg {
-  fill: var(--text-color);
+  fill: #3067ff;
 }
 .home1-about-section .about-countdown-area ul .single-countdown .content {
   padding-bottom: 35px;
@@ -5033,7 +5052,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 }
 @media (min-width: 1400px) and (max-width: 1599px) {
   .home1-about-section .about-bottom-area .feature-card .content h4 {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
@@ -5080,15 +5099,15 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
 .service-card .content {
   padding-bottom: 15px;
   border-bottom: 1px solid rgba(11, 12, 12, 0.1);
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .service-card .content h4 {
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 .service-card .content h4 a {
   color: var(--title-color);
   font-family: var(--font-hankenGrotesk);
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 700;
   line-height: 1.2;
   transition: 0.5s;
@@ -5112,7 +5131,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   color: var(--primary-color1);
 }
 .service-card .content svg {
-  fill: var(--title-color);
+  fill:#3067ff;
 }
 .service-card .content p {
   color: var(--text-color);
@@ -24324,4 +24343,24 @@ hr {
   border-top: var(--bs-border-width) solid;
   opacity: .25;
   color: #4c4c4c;
+}
+
+#homeVideo{
+  position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    /* width: 100vw; */
+    height: 100%;
+    object-fit: cover;
+    z-index: -999;
+    filter: brightness(0.5)
+}
+
+.service-card svg{
+  margin-right: 20px;
+}
+.feature-card img{
+  width: 60px;
 }
