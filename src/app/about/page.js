@@ -99,37 +99,41 @@ const Aboutpage = () => {
                     </svg>
                   </span>
                   <h2>Curious About Us</h2>
-                    <p>
-                      We love madness at work. A well-planned and controlled
-                      madness that we’ve perfected over 2 decades. And for all
-                      the madness that goes inside creating a well-thought-of
-                      campaign or a creative, we still retain the composure by
-                      pondering over this Spiderman-thought-tweaked-as-per-us:
-                    </p>
-                    <h6>
-                      “With Great design responsibility comes greater ‘Deliver
-                      on time’ responsibilities”
-                    </h6>
-                    <p>
-                      We are big enough to incubate some of the most innovative
-                      ideas and small enough to service them personally to our
-                      clients. We can go all berserk thinking out of the box for
-                      extra creative projects and come back faster than Bolt’s
-                      sprint for deadline oriented ones.
-                    </p>
-                    <h6>
-                      There are things which we always look up to and believe in
-                      them-
-                    </h6>
-                    <p>Clients, Brainstorming, Design Aesthetics, Commitments,
-                    Coffee (why not?)</p>
-                    <h6>
-                      Then there are things which you won’t find in our Design
-                      Studio-
-                    </h6>
-                    <p>Panic Button, Hierarchal Slavery, Unethical Credit-takers,
+                  <p>
+                    We love madness at work. A well-planned and controlled
+                    madness that we’ve perfected over 2 decades. And for all the
+                    madness that goes inside creating a well-thought-of campaign
+                    or a creative, we still retain the composure by pondering
+                    over this Spiderman-thought-tweaked-as-per-us:
+                  </p>
+                  <h6>
+                    “With Great design responsibility comes greater ‘Deliver on
+                    time’ responsibilities”
+                  </h6>
+                  <p>
+                    We are big enough to incubate some of the most innovative
+                    ideas and small enough to service them personally to our
+                    clients. We can go all berserk thinking out of the box for
+                    extra creative projects and come back faster than Bolt’s
+                    sprint for deadline oriented ones.
+                  </p>
+                  <h6>
+                    There are things which we always look up to and believe in
+                    them-
+                  </h6>
+                  <p>
+                    Clients, Brainstorming, Design Aesthetics, Commitments,
+                    Coffee (why not?)
+                  </p>
+                  <h6>
+                    Then there are things which you won’t find in our Design
+                    Studio-
+                  </h6>
+                  <p>
+                    Panic Button, Hierarchal Slavery, Unethical Credit-takers,
                     Deliberate Soldiers, Irresponsible Designers… (Did we
-                    mention PANIC BUTTON?)</p>
+                    mention PANIC BUTTON?)
+                  </p>
                 </div>
               </div>
             </div>
@@ -219,7 +223,7 @@ const Aboutpage = () => {
           </div>
         </div>
         <div className="about-bottom-area">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row g-5">
               <div
                 className="col-lg-4 col-md-6 wow animate fadeInUp"
@@ -236,7 +240,9 @@ const Aboutpage = () => {
                   <div className="content">
                     <h4>Expertise and Innovation</h4>
                     <p>
-                    With a focus on constant innovation and redefining possible scenarios, we pride ourselves on staying relevant, & up-to-date with cutting edge technology
+                      With a focus on constant innovation and redefining
+                      possible scenarios, we pride ourselves on staying
+                      relevant, & up-to-date with cutting edge technology
                     </p>
                   </div>
                 </div>
@@ -256,7 +262,8 @@ const Aboutpage = () => {
                   <div className="content">
                     <h4>Transparent Process</h4>
                     <p>
-                    Through our transparent delivery process, we aim to demystify the process from conception to completion.
+                      Through our transparent delivery process, we aim to
+                      demystify the process from conception to completion.
                     </p>
                   </div>
                 </div>
@@ -276,12 +283,13 @@ const Aboutpage = () => {
                   <div className="content">
                     <h4>Client-Centric Approach</h4>
                     <p>
-                    We are dedicated to listening & collaborating with you, making sure that each interaction leads towards your success.
+                      We are dedicated to listening & collaborating with you,
+                      making sure that each interaction leads towards your
+                      success.
                     </p>
                   </div>
                 </div>
               </div>
-              
             </div>
           </div>
         </div>
