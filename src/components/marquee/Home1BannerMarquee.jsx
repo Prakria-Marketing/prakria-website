@@ -5,7 +5,7 @@ const Home1BannerMarquee = () => {
   return (
     <>
       <div className="home1-banner-bottom">
-        <Marquee>
+        {/* <Marquee>
           <div className="marquee_text">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +63,7 @@ const Home1BannerMarquee = () => {
             <h6>We thrive on creativity</h6>
             &nbsp;
           </div>
-        </Marquee>
+        </Marquee> */}
       </div>
     </>
   );

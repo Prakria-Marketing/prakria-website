@@ -70,7 +70,7 @@ const Home1Banner = () => {
                     </g>
                   </svg>
                 </span>
-                <h1>Elevating Your Digital <br></br>Presence, Beyond Boundaries </h1>
+                <h1 className="text-white">Elevating Your Digital <br></br>Presence, Beyond Boundaries </h1>
                 <p className="text-white">
                 Cultivating groundbreaking solutions and propelling your digital journey to new heights, we at PRAKRIA are committed to exceeding boundaries and redefining industry standards. With innovative technologies and tailored strategies, we empower your brand to thrive in the ever-evolving digital landscape.
                 </p>
