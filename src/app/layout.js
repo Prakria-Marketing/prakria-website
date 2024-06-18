@@ -44,6 +44,7 @@ export default function RootLayout({ children }) {
           sizes="16x16"
         />
         <title>Prakria Tech - Top Mobile App Development Company l PRAKRIA</title>
+        <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
       </head>
       <body>
         <ScrollProgress />

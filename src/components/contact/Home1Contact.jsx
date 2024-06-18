@@ -46,7 +46,7 @@ const Home1Contact = () => {
           draggable: true,
           progress: undefined,
           theme: "dark",
-          transition: "Bounce",
+          transition: "bounce",
         }
       );
     } else {
@@ -306,18 +306,25 @@ const Home1Contact = () => {
                             //   setField({ ...field, message: e.target.value })
                             // }
                           />{" "}
-                          <label style={{fontSize:"14px"}}> 
-                          &nbsp; By checking this box, you are agreeing to our <Link target="_blank" href="/terms-conditions">Terms & Conditions</Link> and 
+                          <label style={{ fontSize: "14px" }}>
+                            &nbsp; By checking this box, you are agreeing to our{" "}
+                            <Link target="_blank" href="/terms-conditions">
+                              Terms & Conditions
+                            </Link>{" "}
+                            and
                             <Link target="_blank" href="/privacy-policy">
-                            &nbsp;Privacy Policy
+                              &nbsp;Privacy Policy
                             </Link>
                             .
                           </label>
                         </div>
-                        <ReCAPTCHA
-                          sitekey="6LeMX9IpAAAAAMPWQvm3SYQ98X13vK2MI6CdQoiS"
-                          onChange={(val) => setcapVal(val)}
-                        />
+                        <div>
+                          <ReCAPTCHA
+                            sitekey="6LeMX9IpAAAAAMPWQvm3SYQ98X13vK2MI6CdQoiS"
+                            onChange={(val) => setcapVal(val)}
+                            onExpired={() => setcapVal(null)}
+                          />
+                        </div>
                       </div>
                       <div className="col-lg-12">
                         <div className="form-inner">
