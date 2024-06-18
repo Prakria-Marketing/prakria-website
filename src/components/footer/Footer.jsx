@@ -288,9 +288,9 @@ const Footer = () => {
                 <li>
                   <Link href="/disclaimer">Disclaimer</Link>
                 </li>
-                {/* <li>
-                  <a href="#">Terms &amp; Conditions</a>
-                </li> */}
+                <li>
+                  <Link href="/terms-conditions">Terms & Conditions</Link>
+                </li>
                 <li>
                   <Link href="/privacy-policy">Privacy Policy</Link>
                 </li>

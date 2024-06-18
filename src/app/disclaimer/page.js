@@ -6,7 +6,7 @@ function page() {
     <div>
       <MainLayout>
         <div
-          className="home1-about-section scroll-margin pt-120 mb-120"
+          className="home1-about-section scroll-margin mb-120"
           id="about-section"
         >
           <div className="container">

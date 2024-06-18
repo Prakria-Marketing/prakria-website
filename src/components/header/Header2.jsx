@@ -204,7 +204,11 @@ const Header2 = () => {
                       </li>
                     );
                   })}
-                  
+                  <li>
+                    <Link href="/portfolio" className="drop-down">
+                      Portfolio
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -307,11 +311,11 @@ const Header2 = () => {
                         <i className="bi bi-linkedin" /> Linkedin
                       </a>
                     </li>
-                    {/* <li>
+                    <li>
                       <a href="#">
                         <i className="bi bi-pinterest" /> Pinterest
                       </a>
-                    </li> */}
+                    </li>
                     <li>
                       <a href="https://www.facebook.com/prakria">
                         <i className="bi bi-facebook" /> Facebook
@@ -731,10 +735,14 @@ const Header2 = () => {
                 </li>
               </ul>
               <li>
+                <Link href="/portfolio">Portfolio</Link>
+              </li>
+              <li>
                 <Link className="drop-down" href="/contact">
                   Contact
                 </Link>
               </li>
+              
             </ul>
           </div>
           <div className="nav-right d-flex jsutify-content-end align-items-center">

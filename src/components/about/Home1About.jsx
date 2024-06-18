@@ -4,7 +4,7 @@ import React from "react";
 const Home1About = () => {
   return (
     <>
-      <div className="home1-about-section mb-110">
+      <div className="home1-about-section ">
         <div className="about-bottom-area">
           <div className="container">
             <div className="row g-5 mb-110">

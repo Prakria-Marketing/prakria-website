@@ -97,7 +97,8 @@ const Header1 = () => {
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="/assets/img/logo.svg"
+                  width="90px"
+                  src="/assets/img/logo-dark.png"
                 />
               </Link>
               <Link href="/" className="logo-light">
@@ -133,78 +134,94 @@ const Header1 = () => {
                   {navData.map((data) => {
                     const { id, label, link, icon, subMenu } = data;
                     return (
-                      <li key={id}>
-                        <Link href={link} className="drop-down">
-                          {label}
-                        </Link>
-                        {icon && (
-                          <span
-                            className={`dropdown-icon2 ${state.activeMenu === label ? "active" : ""
+                      <>
+                        <li key={id}>
+                          <Link href={link} className="drop-down">
+                            {label}
+                          </Link>
+                          {icon && (
+                            <span
+                              className={`dropdown-icon2 ${
+                                state.activeMenu === label ? "active" : ""
                               }`}
-                            onClick={() => toggleMenu(label)}
-                          >
-                            <i className="bi bi-plus" />
-                          </span>
-                        )}
-                        {subMenu && (
-                          <ul
-                            className={`submenu-list active ${state.activeMenu === label ? "d-block" : "d-none"
+                              onClick={() => toggleMenu(label)}
+                            >
+                              <i className="bi bi-plus" />
+                            </span>
+                          )}
+                          {subMenu && (
+                            <ul
+                              className={`submenu-list active ${
+                                state.activeMenu === label
+                                  ? "d-block"
+                                  : "d-none"
                               }`}
-                          >
-                            {subMenu.map((subItem, subIndex) => (
-                              <li key={subIndex}>
-                                <Link
-                                  href={subItem.link}
-                                  className="drop-down"
-                                  style={{
-                                    padding: "14px 20px",
-                                    display: "block",
-                                    fontSize: "18px",
-                                  }}
-                                >
-                                  {subItem?.label}
-                                </Link>
-                                {subItem?.icon && (
-                                  <span
-                                    className={`dropdown-icon2 ${state.activeMenu === subItem.label
-                                      ? "active"
-                                      : ""
-                                      }`}
-                                    onClick={() => toggleSubMenu(subItem.label)}
+                            >
+                              {subMenu.map((subItem, subIndex) => (
+                                <li key={subIndex}>
+                                  <Link
+                                    href={subItem.link}
+                                    className="drop-down"
+                                    style={{
+                                      padding: "14px 20px",
+                                      display: "block",
+                                      fontSize: "18px",
+                                    }}
                                   >
-                                    <i className="bi bi-plus" />
-                                  </span>
-                                )}
+                                    {subItem?.label}
+                                  </Link>
+                                  {subItem?.icon && (
+                                    <span
+                                      className={`dropdown-icon2 ${
+                                        state.activeMenu === subItem.label
+                                          ? "active"
+                                          : ""
+                                      }`}
+                                      onClick={() =>
+                                        toggleSubMenu(subItem.label)
+                                      }
+                                    >
+                                      <i className="bi bi-plus" />
+                                    </span>
+                                  )}
 
-                                {subItem?.subMenu && (
-                                  <ul
-                                    className={`submenu-list pt-0 ms-3 active ${state.activeSubMenu === subItem.label
-                                      ? "d-block"
-                                      : "d-none"
+                                  {subItem?.subMenu && (
+                                    <ul
+                                      className={`submenu-list pt-0 ms-3 active ${
+                                        state.activeSubMenu === subItem.label
+                                          ? "d-block"
+                                          : "d-none"
                                       }`}
-                                  >
-                                    {subItem?.subMenu?.map(
-                                      (subItem, subIndex) => (
-                                        <li key={subIndex}>
-                                          <Link
-                                            legacyBehavior
-                                            href={subItem.link}
-                                          >
-                                            <a>{subItem.label}</a>
-                                          </Link>
-                                        </li>
-                                      )
-                                    )}
-                                  </ul>
-                                )}
-                              </li>
-                            ))}
-                          </ul>
-                        )}
-                      </li>
+                                    >
+                                      {subItem?.subMenu?.map(
+                                        (subItem, subIndex) => (
+                                          <li key={subIndex}>
+                                            <Link
+                                              legacyBehavior
+                                              href={subItem.link}
+                                            >
+                                              <a>{subItem.label}</a>
+                                            </Link>
+                                          </li>
+                                        )
+                                      )}
+                                    </ul>
+                                  )}
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </li>
+                      </>
                     );
                   })}
+                  <li>
+                    <Link href="/portfolio" className="drop-down">
+                      Portfolio
+                    </Link>
+                  </li>
                 </ul>
+                
               </div>
             </div>
             <div className="col-lg-4 d-lg-flex align-items-center d-none">
@@ -412,105 +429,288 @@ const Header1 = () => {
                   </li>
                 );
               })} */}
-              <li><Link href="/">Home</Link></li>
-              <li><Link href="/about">About</Link></li>
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <Link href="/about">About</Link>
+              </li>
 
               <ul className="ruby-menu sub-menu ">
                 <li className="ruby-menu-mega">
                   <Link className="drop-down" href="/services">
                     Services
                   </Link>
-                  <div className="ruby-grid ruby-grid-lined" style={{ position: "absolute", width: "1200px", height: "auto", top: "80px", right: "-560%" }}>
+                  <div
+                    className="ruby-grid ruby-grid-lined"
+                    style={{
+                      position: "absolute",
+                      width: "1200px",
+                      height: "auto",
+                      top: "80px",
+                      right: "-560%",
+                    }}
+                  >
                     <div className="row">
                       <div className="col-lg-3 mega-li">
                         <ul className="">
                           <li className="d-flex align-items-center pb-2">
-
-                            <p className="mb-0"><Link href="/services/software-development">Software Development</Link></p>
+                            <p className="mb-0">
+                              <Link href="/services/software-development">
+                                Software Development
+                              </Link>
+                            </p>
                           </li>
-                          <span><Link href="/services/software-development/accounting-software-development">Accounting Software Development</Link></span><br></br>
-                          <span><Link href="/services/software-development/custom-crm-development">Custom CRM Development</Link></span> <br></br>
-                          <span><Link href="/services/software-development/erp-software-development">ERP Software Development</Link></span> <br></br>
-                          <span><Link href="/services/software-development/sap-software-development">SAP Software Development</Link></span>
+                          <span>
+                            <Link href="/services/software-development/accounting-software-development">
+                              Accounting Software Development
+                            </Link>
+                          </span>
+                          <br></br>
+                          <span>
+                            <Link href="/services/software-development/custom-crm-development">
+                              Custom CRM Development
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/software-development/erp-software-development">
+                              ERP Software Development
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/software-development/sap-software-development">
+                              SAP Software Development
+                            </Link>
+                          </span>
                           <hr></hr>
-
                           <li className="d-flex align-items-center pt-3">
-                            <p className="mb-0"><Link href="/services/ar-app-development">AR App Development</Link></p>
+                            <p className="mb-0">
+                              <Link href="/services/ar-app-development">
+                                AR App Development
+                              </Link>
+                            </p>
                           </li>
                           <hr></hr>
                           <li>
-                            <p className="mb-0"><Link href="/services/vr-app-development">VR App Development</Link></p>
+                            <p className="mb-0">
+                              <Link href="/services/vr-app-development">
+                                VR App Development
+                              </Link>
+                            </p>
                           </li>
                         </ul>
                       </div>
                       <div className="col-lg-3 ps-4">
                         <ul className="">
                           <li className="d-flex align-items-center pb-2">
-
-                            <p className="mb-0"><Link href="/services/ai-ml-development">AI & ML Development</Link></p>
+                            <p className="mb-0">
+                              <Link href="/services/ai-ml-development">
+                                AI & ML Development
+                              </Link>
+                            </p>
                           </li>
-                          <span><Link href="/services/ai-ml-development/adaptive-ai">Adaptive AI</Link></span> <br></br>
-                          <span><Link href="/services/ai-ml-development/ai-consulting">AI Consulting</Link></span> <br></br>
-                          <span><Link href="/services/ai-ml-development/artificial-intelligence-development">AI Development</Link></span> <br></br>
-                          <span><Link href="/services/ai-ml-development/chatbot-development">Chatbot Development</Link></span> <br></br>
-                          <span><Link href="/services/ai-ml-development/generative-ai">Generative AI</Link></span> <br></br>
-                          <span><Link href="/services/ai-ml-development/ml-development">ML Development</Link></span>
+                          <span>
+                            <Link href="/services/ai-ml-development/adaptive-ai">
+                              Adaptive AI
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/ai-ml-development/ai-consulting">
+                              AI Consulting
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/ai-ml-development/artificial-intelligence-development">
+                              AI Development
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/ai-ml-development/chatbot-development">
+                              Chatbot Development
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/ai-ml-development/generative-ai">
+                              Generative AI
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/ai-ml-development/ml-development">
+                              ML Development
+                            </Link>
+                          </span>
                           <hr></hr>
                           <li className="d-flex align-items-center mt-3 pb-2">
-
-                            <p className="mb-0"><Link href="/services/game-development">Game Development</Link></p>
+                            <p className="mb-0">
+                              <Link href="/services/game-development">
+                                Game Development
+                              </Link>
+                            </p>
                           </li>
-                          <span><Link href="/services/game-development/metaverse-development">Metaverse Development</Link></span> <br></br>
-                          <span><Link href="/services/game-development/metaverse-game">Metaverse Game</Link></span> <br></br>
-                          <span><Link href="/services/game-development/pc-game-development">PC Game Development</Link></span> <br></br>
-                          <span><Link href="/services/game-development/unity-game-development">Unity Game Development</Link></span> <br></br>
-                          <span><Link href="/services/game-development/unreal-game-development">Unreal Game Development</Link></span>
-
+                          <span>
+                            <Link href="/services/game-development/metaverse-development">
+                              Metaverse Development
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/game-development/metaverse-game">
+                              Metaverse Game
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/game-development/pc-game-development">
+                              PC Game Development
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/game-development/unity-game-development">
+                              Unity Game Development
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/game-development/unreal-game-development">
+                              Unreal Game Development
+                            </Link>
+                          </span>
                         </ul>
                       </div>
                       <div className="col-lg-3 ps-3">
                         <ul className="">
                           <li className="d-flex align-items-center pb-2">
-
-                            <p className="mb-0"><Link href="/services/mobile-app-development">Mobile App Development</Link></p>
+                            <p className="mb-0">
+                              <Link href="/services/mobile-app-development">
+                                Mobile App Development
+                              </Link>
+                            </p>
                           </li>
-                          <span><Link href="/services/mobile-app-development/android-mobile-app-development">Android App Development</Link></span> <br></br>
-                          <span><Link href="/services/mobile-app-development/iphone-mobile-app-development">IOS App Development</Link></span> <br></br>
-                          <span><Link href="/services/mobile-app-development/flutter-app-development">Flutter App Development</Link></span> <br></br>
-                          <span><Link href="/services/mobile-app-development/enterprise-app-development">Enterprise App Development</Link></span> <br></br>
-                          <span><Link href="/services/mobile-app-development/react-native-app-development">React Native App Development</Link></span> <br></br>
-                          <span><Link href="/services/mobile-app-development/wearable-mobile-app-development">Wearable Mobile App Development</Link></span>
+                          <span>
+                            <Link href="/services/mobile-app-development/android-mobile-app-development">
+                              Android App Development
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/mobile-app-development/iphone-mobile-app-development">
+                              IOS App Development
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/mobile-app-development/flutter-app-development">
+                              Flutter App Development
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/mobile-app-development/enterprise-app-development">
+                              Enterprise App Development
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/mobile-app-development/react-native-app-development">
+                              React Native App Development
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/mobile-app-development/wearable-mobile-app-development">
+                              Wearable Mobile App Development
+                            </Link>
+                          </span>
                           <hr></hr>
                           <li className="d-flex align-items-center mt-3 pb-2">
-
-                            <p className="mb-0"><Link href="/services/website-development">Website Development</Link></p>
+                            <p className="mb-0">
+                              <Link href="/services/website-development">
+                                Website Development
+                              </Link>
+                            </p>
                           </li>
-                          <span><Link href="/services/website-development/custom-web-design">Custom Web Design</Link></span> <br></br>
-                          <span><Link href="/services/website-development/ecommerce-web-design">E-Commerce Web Design</Link></span> <br></br>
-                          <span><Link href="/services/website-development/mobile-web-design">Mobile Web Design</Link></span> <br></br>
-                          <span><Link href="/services/website-development/website-redesigning-services">Website Redesigning Services</Link></span>
-
+                          <span>
+                            <Link href="/services/website-development/custom-web-design">
+                              Custom Web Design
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/website-development/ecommerce-web-design">
+                              E-Commerce Web Design
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/website-development/mobile-web-design">
+                              Mobile Web Design
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/website-development/website-redesigning-services">
+                              Website Redesigning Services
+                            </Link>
+                          </span>
                         </ul>
                       </div>
                       <div className="col-lg-3">
                         <ul>
                           <li className="d-flex align-items-center mt-3 pb-2">
-
-                            <p className="mb-0"><Link href="/services/blockchain-app-development">Blockchain Development</Link></p>
+                            <p className="mb-0">
+                              <Link href="/services/blockchain-app-development">
+                                Blockchain Development
+                              </Link>
+                            </p>
                           </li>
-                          <span><Link href="/services/blockchain-app-development/crypto-exchange-development">Crypto Exchange Development</Link></span> <br></br>
-                          <span><Link href="/services/blockchain-app-development/metaverse-nft">Metaverse NFT</Link></span> <br></br>
-                          <span><Link href="/services/blockchain-app-development/nft-marketplace-development">NFT Marketplace Development</Link></span> <br></br>
-                          <span><Link href="/services/blockchain-app-development/smart-contract-development">Smart Contract Development</Link></span>
+                          <span>
+                            <Link href="/services/blockchain-app-development/crypto-exchange-development">
+                              Crypto Exchange Development
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/blockchain-app-development/metaverse-nft">
+                              Metaverse NFT
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/blockchain-app-development/nft-marketplace-development">
+                              NFT Marketplace Development
+                            </Link>
+                          </span>{" "}
+                          <br></br>
+                          <span>
+                            <Link href="/services/blockchain-app-development/smart-contract-development">
+                              Smart Contract Development
+                            </Link>
+                          </span>
                           <hr></hr>
                           <li>
-                            <p className="mb-0"><Link href="/services/iot">IOT</Link></p>
+                            <p className="mb-0">
+                              <Link href="/services/iot">IOT</Link>
+                            </p>
                           </li>
                           <li>
-                            <p className="mb-0"><Link href="/services/devops">DevOps</Link></p>
+                            <p className="mb-0">
+                              <Link href="/services/devops">DevOps</Link>
+                            </p>
                           </li>
                           <li>
-                            <p className="mb-0"><Link href="/services/wearable-app-development">Wearable App Development</Link></p>
+                            <p className="mb-0">
+                              <Link href="/services/wearable-app-development">
+                                Wearable App Development
+                              </Link>
+                            </p>
                           </li>
                         </ul>
                       </div>
@@ -533,7 +733,7 @@ const Header1 = () => {
                         </p>
                         <img
                           className="mb-3"
-                          style={{borderRadius:"10px"}}
+                          style={{ borderRadius: "10px" }}
                           src="/assets/img/industries/indus.jpg"
                           alt=""
                         />
@@ -541,12 +741,14 @@ const Header1 = () => {
                           Read our developments that has helped the Supply Chain
                           Industry boom in India
                         </p>
-                        <Link className="primary-btn4" href="/industries">View All</Link>
+                        <Link className="primary-btn4" href="/industries">
+                          View All
+                        </Link>
                       </div>
                       <div className="col-lg-3 ps-5">
                         <ul className="">
                           <li className="d-flex align-items-center">
-                          <img
+                            <img
                               src="/assets/img/industries/icons/agriculture.svg"
                               alt=""
                             />
@@ -728,6 +930,9 @@ const Header1 = () => {
                   <span className="ruby-dropdown-toggle" />
                 </li>
               </ul>
+              <li>
+                <Link href="/portfolio">Portfolio</Link>
+              </li>
               <li>
                 <Link className="drop-down" href="/contact">
                   Contact
