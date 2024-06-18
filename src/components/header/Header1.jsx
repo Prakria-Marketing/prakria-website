@@ -97,7 +97,8 @@ const Header1 = () => {
                 <img
                   alt="image"
                   className="img-fluid"
-                  src="/assets/img/logo.svg"
+                  width="90px"
+                  src="/assets/img/logo-dark.png"
                 />
               </Link>
               <Link href="/" className="logo-light">
@@ -133,82 +134,94 @@ const Header1 = () => {
                   {navData.map((data) => {
                     const { id, label, link, icon, subMenu } = data;
                     return (
-                      <li key={id}>
-                        <Link href={link} className="drop-down">
-                          {label}
-                        </Link>
-                        {icon && (
-                          <span
-                            className={`dropdown-icon2 ${
-                              state.activeMenu === label ? "active" : ""
-                            }`}
-                            onClick={() => toggleMenu(label)}
-                          >
-                            <i className="bi bi-plus" />
-                          </span>
-                        )}
-                        {subMenu && (
-                          <ul
-                            className={`submenu-list active ${
-                              state.activeMenu === label ? "d-block" : "d-none"
-                            }`}
-                          >
-                            {subMenu.map((subItem, subIndex) => (
-                              <li key={subIndex}>
-                                <Link
-                                  href={subItem.link}
-                                  className="drop-down"
-                                  style={{
-                                    padding: "14px 20px",
-                                    display: "block",
-                                    fontSize: "18px",
-                                  }}
-                                >
-                                  {subItem?.label}
-                                </Link>
-                                {subItem?.icon && (
-                                  <span
-                                    className={`dropdown-icon2 ${
-                                      state.activeMenu === subItem.label
-                                        ? "active"
-                                        : ""
-                                    }`}
-                                    onClick={() => toggleSubMenu(subItem.label)}
+                      <>
+                        <li key={id}>
+                          <Link href={link} className="drop-down">
+                            {label}
+                          </Link>
+                          {icon && (
+                            <span
+                              className={`dropdown-icon2 ${
+                                state.activeMenu === label ? "active" : ""
+                              }`}
+                              onClick={() => toggleMenu(label)}
+                            >
+                              <i className="bi bi-plus" />
+                            </span>
+                          )}
+                          {subMenu && (
+                            <ul
+                              className={`submenu-list active ${
+                                state.activeMenu === label
+                                  ? "d-block"
+                                  : "d-none"
+                              }`}
+                            >
+                              {subMenu.map((subItem, subIndex) => (
+                                <li key={subIndex}>
+                                  <Link
+                                    href={subItem.link}
+                                    className="drop-down"
+                                    style={{
+                                      padding: "14px 20px",
+                                      display: "block",
+                                      fontSize: "18px",
+                                    }}
                                   >
-                                    <i className="bi bi-plus" />
-                                  </span>
-                                )}
+                                    {subItem?.label}
+                                  </Link>
+                                  {subItem?.icon && (
+                                    <span
+                                      className={`dropdown-icon2 ${
+                                        state.activeMenu === subItem.label
+                                          ? "active"
+                                          : ""
+                                      }`}
+                                      onClick={() =>
+                                        toggleSubMenu(subItem.label)
+                                      }
+                                    >
+                                      <i className="bi bi-plus" />
+                                    </span>
+                                  )}
 
-                                {subItem?.subMenu && (
-                                  <ul
-                                    className={`submenu-list pt-0 ms-3 active ${
-                                      state.activeSubMenu === subItem.label
-                                        ? "d-block"
-                                        : "d-none"
-                                    }`}
-                                  >
-                                    {subItem?.subMenu?.map(
-                                      (subItem, subIndex) => (
-                                        <li key={subIndex}>
-                                          <Link
-                                            legacyBehavior
-                                            href={subItem.link}
-                                          >
-                                            <a>{subItem.label}</a>
-                                          </Link>
-                                        </li>
-                                      )
-                                    )}
-                                  </ul>
-                                )}
-                              </li>
-                            ))}
-                          </ul>
-                        )}
-                      </li>
+                                  {subItem?.subMenu && (
+                                    <ul
+                                      className={`submenu-list pt-0 ms-3 active ${
+                                        state.activeSubMenu === subItem.label
+                                          ? "d-block"
+                                          : "d-none"
+                                      }`}
+                                    >
+                                      {subItem?.subMenu?.map(
+                                        (subItem, subIndex) => (
+                                          <li key={subIndex}>
+                                            <Link
+                                              legacyBehavior
+                                              href={subItem.link}
+                                            >
+                                              <a>{subItem.label}</a>
+                                            </Link>
+                                          </li>
+                                        )
+                                      )}
+                                    </ul>
+                                  )}
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </li>
+                      </>
                     );
                   })}
+                  <li>
+                    <Link href="/portfolio" className="drop-down">
+                      Portfolio
+                    </Link>
+                  </li>
                 </ul>
+                
               </div>
             </div>
             <div className="col-lg-4 d-lg-flex align-items-center d-none">
@@ -925,7 +938,6 @@ const Header1 = () => {
                   Contact
                 </Link>
               </li>
-              
             </ul>
           </div>
           <div className="nav-right d-flex jsutify-content-end align-items-center">
