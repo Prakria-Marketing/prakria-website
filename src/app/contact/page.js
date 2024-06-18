@@ -39,8 +39,9 @@ const ContactPage = () => {
                   Our Office <span>Locations.</span>
                 </h2>
                 <p>
-                Our studio doesn’t have a reception. Just barge in and say Hi!
-(We don’t mind receiving gifts from clients unless it’s a law firm we’re working with!)
+                  Our studio doesn’t have a reception. Just barge in and say Hi!
+                  (We don’t mind receiving gifts from clients unless it’s a law
+                  firm we’re working with!)
                 </p>
               </div>
             </div>

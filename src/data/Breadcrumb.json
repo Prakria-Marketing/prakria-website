@@ -4,14 +4,14 @@
     "slug": ["/services"],
     "name": ["Services & Solutions"],
     "pageTitle": "Services & Solutions.",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "2",
     "name": ["Services & Solutions", "Website Development"],
     "slug": ["/services", "/services/website-development"],
     "pageTitle": "Website Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "3",
@@ -34,7 +34,7 @@
     "name": ["CONTACT US"],
     "slug": ["/contact"],
     "pageTitle": "Let’s Connect With Prakria.tech",
-    "section_down_scroll": "#shop"
+    "section_down_scroll": "#contact"
   },
   {
     "id": "6",
@@ -48,63 +48,63 @@
     "name": ["Services & Solutions", "Software Development"],
     "slug": ["/services", "/services/software-development"],
     "pageTitle": "Software Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "8",
     "name": ["Services & Solutions", "Mobile App Development"],
     "slug": ["/services", "/services/mobile-app-development"],
     "pageTitle": "Mobile App Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "9",
     "name": ["Services & Solutions", "AR App Development"],
     "slug": ["/services", "/services/ar-app-development"],
     "pageTitle": "AR App Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "10",
     "name": ["Services & Solutions", "Blockchain App Development"],
     "slug": ["/services", "/services/blockchain-app-development"],
     "pageTitle": "Blockchain App Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "11",
     "name": ["Services & Solutions", "AI ML Development"],
     "slug": ["/services", "/services/ai-ml-development"],
     "pageTitle": "AI  & ML Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "12",
     "name": ["Services & Solutions", "Game Development"],
     "slug": ["/services", "/services/game-development"],
     "pageTitle": "Game Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "13",
     "name": ["Services & Solutions", "IOT"],
     "slug": ["/services", "/services/iot"],
     "pageTitle": "IOT",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "13",
     "name": ["Services & Solutions", "Devops"],
     "slug": ["/services", "/services/devops"],
     "pageTitle": "Devops",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "14",
     "name": ["Services & Solutions", "Wearable App Development"],
     "slug": ["/services", "/services/wearable-app-development"],
     "pageTitle": "Wearable App Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "15",
@@ -125,7 +125,7 @@
     "name": ["Terms & Conditions"],
     "slug": ["/terms-conditions"],
     "pageTitle": "Terms & Conditions",
-    "section_down_scroll": "#terms-conditions-section"
+    "section_down_scroll": "#tnc"
   },
   {
     "id": "18",
@@ -139,209 +139,216 @@
     "name": ["Services & Solutions", "VR App Development"],
     "slug": ["/services", "/services/vr-app-development"],
     "pageTitle": "VR App Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "20",
     "name": ["Services & Solutions", "AI & ML Development", "Chatbot Development"],
     "slug": ["/services", "/services/ai-ml-development/chatbot-development"],
     "pageTitle": "Chatbot Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "21",
     "name": ["Services & Solutions", "AI & ML Development", "ML Development"],
     "slug": ["/services", "/services/ai-ml-development/ml-development"],
     "pageTitle": "ML Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "22",
     "name": ["Services & Solutions", "AI & ML Development", "Adaptive AI"],
     "slug": ["/services", "/services/ai-ml-development/adaptive-ai"],
     "pageTitle": "Adaptive AI Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "23",
     "name": ["Services & Solutions", "AI & ML Development", "Generative AI"],
     "slug": ["/services", "/services/ai-ml-development/generative-ai"],
     "pageTitle": "Generative AI Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "24",
     "name": ["Services & Solutions", "AI & ML Development", "AI Consulting"],
     "slug": ["/services", "/services/ai-ml-development/ai-consulting"],
     "pageTitle": "AI Consulting",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "25",
     "name": ["Services & Solutions", "AI & ML Development", "AI Development"],
     "slug": ["/services", "/services/ai-ml-development/artificial-intelligence-development"],
     "pageTitle": "Artificial Intelligence Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "26",
     "name": ["Services & Solutions", "Mobile App Development", "IPhone Mobile App Development"],
     "slug": ["/services", "/services/mobile-app-development/iphone-mobile-app-development"],
     "pageTitle": "IPhone Mobile App Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "27",
     "name": ["Services & Solutions", "Mobile App Development", "React Native App Development"],
     "slug": ["/services", "/services/mobile-app-development/react-native-app-development"],
     "pageTitle": "React Native App Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "28",
     "name": ["Services & Solutions", "Mobile App Development", "Flutter App Development"],
     "slug": ["/services", "/services/mobile-app-development/flutter-app-development"],
     "pageTitle": "Flutter App Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "29",
     "name": ["Services & Solutions", "Mobile App Development", "Wearable Mobile App Development"],
     "slug": ["/services", "/services/mobile-app-development/wearable-mobile-app-development"],
     "pageTitle": "Wearable Mobile App Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "30",
     "name": ["Services & Solutions", "Mobile App Development", "Android Mobile App Development"],
     "slug": ["/services", "/services/mobile-app-development/android-mobile-app-development"],
     "pageTitle": "Android Mobile App Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "31",
     "name": ["Services & Solutions", "Mobile App Development", "Enterprise App Development"],
     "slug": ["/services", "/services/mobile-app-development/enterprise-app-development"],
     "pageTitle": "Enterprise App Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "32",
     "name": ["Services & Solutions", "Blockchain App Development", "Crypto Exchange Development"],
     "slug": ["/services", "/services/blockchain-app-development/crypto-exchange-development"],
     "pageTitle": "Crypto Exchange Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "33",
     "name": ["Services & Solutions", "Blockchain App Development", "Smart Contract Development"],
     "slug": ["/services", "/services/blockchain-app-development/smart-contract-development"],
     "pageTitle": "Smart Contract Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "34",
     "name": ["Services & Solutions", "Blockchain App Development", "NFT Marketplace Development"],
     "slug": ["/services", "/services/blockchain-app-development/nft-marketplace-development"],
     "pageTitle": "NFT Marketplace Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "35",
     "name": ["Services & Solutions", "Blockchain App Development", "Metaverse NFT"],
     "slug": ["/services", "/services/blockchain-app-development/metaverse-nft"],
     "pageTitle": "Metaverse NFT",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "36",
     "name": ["Services & Solutions", "Game Development", "Unity Game Development"],
     "slug": ["/services", "/services/game-development/unity-game-development"],
     "pageTitle": "Unity Game Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "37",
     "name": ["Services & Solutions", "Game Development", "Unreal Game Development"],
     "slug": ["/services", "/services/game-development/unreal-game-development"],
     "pageTitle": "Unreal Game Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "38",
     "name": ["Services & Solutions", "Game Development", "PC Game Development"],
     "slug": ["/services", "/services/game-development/pc-game-development"],
     "pageTitle": "PC Game Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "39",
     "name": ["Services & Solutions", "Game Development", "Metaverse Development"],
     "slug": ["/services", "/services/game-development/metaverse-development"],
     "pageTitle": "Metaverse Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "40",
     "name": ["Services & Solutions", "Game Development", "Metaverse Game"],
     "slug": ["/services", "/services/game-development/metaverse-game"],
     "pageTitle": "Metaverse Game",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "41",
     "name": ["Services & Solutions", "Software Development", "ERP Software Development"],
     "slug": ["/services", "/services/software-development/erp-software-development"],
     "pageTitle": "ERP Software Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "42",
     "name": ["Services & Solutions", "Software Development", "Custom CRM Development"],
     "slug": ["/services", "/services/software-development/custom-crm-development"],
     "pageTitle": "Custom CRM Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "43",
     "name": ["Services & Solutions", "Software Development", "SAP Software Development"],
     "slug": ["/services", "/services/software-development/sap-software-development"],
     "pageTitle": "SAP Software Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "44",
     "name": ["Services & Solutions", "Software Development", "Accounting Software Development"],
     "slug": ["/services", "/services/software-development/accounting-software-development"],
     "pageTitle": "Accounting Software Development",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "45",
     "name": ["Services & Solutions", "Website Development", "Ecommerce Web Design"],
     "slug": ["/services", "/services/website-development/ecommerce-web-design"],
     "pageTitle": "Ecommerce Web Design",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "46",
     "name": ["Services & Solutions", "Website Development", "Custom Web Design"],
     "slug": ["/services", "/services/website-development/custom-web-design"],
     "pageTitle": "Custom Web Design",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "47",
     "name": ["Services & Solutions", "Website Development", "Mobile Web Design"],
     "slug": ["/services", "/services/website-development/mobile-web-design"],
     "pageTitle": "Mobile Web Design",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
   },
   {
     "id": "48",
     "name": ["Services & Solutions", "Website Development", "Website Redesigning Services"],
     "slug": ["/services", "/services/website-development/website-redesigning-services"],
     "pageTitle": "Website Redesigning Services",
-    "section_down_scroll": "#service-section"
+    "section_down_scroll": "#service-details-section"
+  },
+  {
+    "id": "49",
+    "name": ["Portfolio"],
+    "slug": ["/portfolio"],
+    "pageTitle": "Portfolio",
+    "section_down_scroll": "#portfolio-grid"
   }
 ]

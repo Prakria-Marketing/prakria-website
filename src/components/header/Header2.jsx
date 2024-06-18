@@ -731,10 +731,14 @@ const Header2 = () => {
                 </li>
               </ul>
               <li>
+                <Link href="/portfolio">Portfolio</Link>
+              </li>
+              <li>
                 <Link className="drop-down" href="/contact">
                   Contact
                 </Link>
               </li>
+              
             </ul>
           </div>
           <div className="nav-right d-flex jsutify-content-end align-items-center">
