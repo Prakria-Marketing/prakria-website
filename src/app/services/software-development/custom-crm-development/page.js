@@ -258,3 +258,9 @@ function CustomCrmDevelopment() {
 }
 
 export default CustomCrmDevelopment;
+
+export const metadata = {
+  title: "Custom CRM Development Services - Prakria Tech",
+  description:
+    "Enhance your customer relationship management with our custom CRM development services.",
+};

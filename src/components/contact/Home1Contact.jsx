@@ -300,7 +300,6 @@ const Home1Contact = () => {
                           <input
                             style={{ height: "20px" }}
                             type="checkbox"
-                            defaultChecked={checked}
                             name="message"
                             // onChange={(e) =>
                             //   setField({ ...field, message: e.target.value })

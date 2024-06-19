@@ -21,7 +21,14 @@ function ArAppDevelopment() {
                     AR App <span>Development.</span>
                   </h2>
                   <p>
-                  Are you trying to find the top IT companies to develop eye-catching augmented reality apps for your company? Prakria is an excellent option since it is the top firm striving to provide appealing Augmented Reality solutions for many sectors. The committed team of Prakria's augmented reality developers promised to provide a range of services, including marketing campaigns, instructional materials, games, and medical applications.
+                    Are you trying to find the top IT companies to develop
+                    eye-catching augmented reality apps for your company?
+                    Prakria is an excellent option since it is the top firm
+                    striving to provide appealing Augmented Reality solutions
+                    for many sectors. The committed team of Prakria's augmented
+                    reality developers promised to provide a range of services,
+                    including marketing campaigns, instructional materials,
+                    games, and medical applications.
                   </p>
                   <ul className="key-features">
                     <li>
@@ -188,9 +195,18 @@ function ArAppDevelopment() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                        Augmented Reality (AR) enhances the real world by overlaying digital information (images, sounds, text) on it. Users experience AR through devices like smartphones, tablets, or AR glasses, which allow them to see the real world supplemented by digital content.<br></br>
-Virtual Reality (VR) creates a completely immersive digital environment that replaces the user's real-world environment. VR typically requires a headset device and often additional sensors and hand controllers to navigate and interact within the virtual space.
-
+                          Augmented Reality (AR) enhances the real world by
+                          overlaying digital information (images, sounds, text)
+                          on it. Users experience AR through devices like
+                          smartphones, tablets, or AR glasses, which allow them
+                          to see the real world supplemented by digital content.
+                          <br></br>
+                          Virtual Reality (VR) creates a completely immersive
+                          digital environment that replaces the user's
+                          real-world environment. VR typically requires a
+                          headset device and often additional sensors and hand
+                          controllers to navigate and interact within the
+                          virtual space.
                         </div>
                       </div>
                     </div>
@@ -214,8 +230,14 @@ Virtual Reality (VR) creates a completely immersive digital environment that rep
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                        AR applications include navigation systems, retail and try-on solutions, educational content, maintenance and repair, interactive marketing, and gaming.<br></br>
-                        VR is used for immersive gaming, virtual tours (like real estate or tourism), training simulations for various industries (military, medical, aviation), therapeutic applications, and educational environments.
+                          AR applications include navigation systems, retail and
+                          try-on solutions, educational content, maintenance and
+                          repair, interactive marketing, and gaming.<br></br>
+                          VR is used for immersive gaming, virtual tours (like
+                          real estate or tourism), training simulations for
+                          various industries (military, medical, aviation),
+                          therapeutic applications, and educational
+                          environments.
                         </div>
                       </div>
                     </div>
@@ -229,7 +251,8 @@ Virtual Reality (VR) creates a completely immersive digital environment that rep
                           aria-expanded="false"
                           aria-controls="faqcollapseThree"
                         >
-                          03. What equipment is needed for AR and VR development?
+                          03. What equipment is needed for AR and VR
+                          development?
                         </button>
                       </h2>
                       <div
@@ -239,9 +262,14 @@ Virtual Reality (VR) creates a completely immersive digital environment that rep
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                        For AR: Smartphones or tablets with cameras, AR glasses (like Microsoft HoloLens, Google Glass), and AR development platforms (like ARKit for iOS, ARCore for Android).<br></br>
-For VR: VR headsets (like Oculus Rift, HTC Vive, Sony PlayStation VR), powerful computers or consoles to handle the VR software, development kits specific to the platform, and VR sensors for tracking movement.
-
+                          For AR: Smartphones or tablets with cameras, AR
+                          glasses (like Microsoft HoloLens, Google Glass), and
+                          AR development platforms (like ARKit for iOS, ARCore
+                          for Android).<br></br>
+                          For VR: VR headsets (like Oculus Rift, HTC Vive, Sony
+                          PlayStation VR), powerful computers or consoles to
+                          handle the VR software, development kits specific to
+                          the platform, and VR sensors for tracking movement.
                         </div>
                       </div>
                     </div>
@@ -255,7 +283,8 @@ For VR: VR headsets (like Oculus Rift, HTC Vive, Sony PlayStation VR), powerful 
                           aria-expanded="false"
                           aria-controls="faqcollapseFour"
                         >
-                          04. Which programming languages are used in AR & VR app development?
+                          04. Which programming languages are used in AR & VR
+                          app development?
                         </button>
                       </h2>
                       <div
@@ -265,7 +294,10 @@ For VR: VR headsets (like Oculus Rift, HTC Vive, Sony PlayStation VR), powerful 
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                        Common languages include C# (widely used in Unity, a popular game development engine for AR and VR), C++ (for performance-intensive applications), and JavaScript for web-based AR or VR experiences.
+                          Common languages include C# (widely used in Unity, a
+                          popular game development engine for AR and VR), C++
+                          (for performance-intensive applications), and
+                          JavaScript for web-based AR or VR experiences.
                         </div>
                       </div>
                     </div>
@@ -279,7 +311,8 @@ For VR: VR headsets (like Oculus Rift, HTC Vive, Sony PlayStation VR), powerful 
                           aria-expanded="true"
                           aria-controls="faqcollapseFive"
                         >
-                          05. What are the best development tools for AR and VR apps?
+                          05. What are the best development tools for AR and VR
+                          apps?
                         </button>
                       </h2>
                       <div
@@ -289,9 +322,13 @@ For VR: VR headsets (like Oculus Rift, HTC Vive, Sony PlayStation VR), powerful 
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                        For AR: Unity with Vuforia, ARKit (iOS), ARCore (Android), and Microsoft Mixed Reality Toolkit.<br></br>
-For VR: Unity and Unreal Engine are the most popular for creating high-quality immersive experiences. Both provide powerful tools and plugins to support VR development.
-
+                          For AR: Unity with Vuforia, ARKit (iOS), ARCore
+                          (Android), and Microsoft Mixed Reality Toolkit.
+                          <br></br>
+                          For VR: Unity and Unreal Engine are the most popular
+                          for creating high-quality immersive experiences. Both
+                          provide powerful tools and plugins to support VR
+                          development.
                         </div>
                       </div>
                     </div>
@@ -307,3 +344,10 @@ For VR: Unity and Unreal Engine are the most popular for creating high-quality i
 }
 
 export default ArAppDevelopment;
+
+export const metadata = {
+  title:
+    "AR & VR Development Services: Immersive Augmented and Virtual Reality Solutions",
+  description:
+    "Enhance user experiences with our AR & VR development services. We create immersive augmented and virtual reality solutions tailored to your needs. From interactive applications to engaging simulations, our cutting-edge AR/VR technology transforms your ideas into captivating realities.",
+};

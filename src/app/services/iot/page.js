@@ -264,3 +264,9 @@ User Interface: The processed data is made actionable through an application tha
 }
 
 export default IoT;
+
+export const metadata = {
+  title: "IoT Development Services: Innovative Solutions for Smart Business",
+  description:
+    "Revolutionize your business with our IoT development. We provide cutting-edge IoT solutions to connect your devices and streamline operations, coupled with expert DevOps practices to enhance deployment efficiency and scalability. Empower your business with our comprehensive tech solutions.",
+};

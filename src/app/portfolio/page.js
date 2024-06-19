@@ -230,3 +230,9 @@ const PortfolioPage = () => {
 };
 
 export default PortfolioPage;
+
+export const metadata = {
+  title: "Our Portfolio - Prakria Tech",
+  description:
+    "Explore Prakria Tech's portfolio to see our successful projects and case studies. Discover how our expertise in mobile apps, software, and web development can benefit your business.",
+};

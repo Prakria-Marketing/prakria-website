@@ -245,3 +245,9 @@ function SmartContractDevelopment() {
 }
 
 export default SmartContractDevelopment;
+
+export const metadata = {
+  title: "Smart Contract Development Services - Prakria Tech",
+  description:
+    "Automate your transactions with our smart contract development services. We create secure, reliable smart contracts for various blockchain platforms.",
+};

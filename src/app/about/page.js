@@ -1,65 +1,15 @@
 "use client";
 import React, { useMemo } from "react";
-import Home4award from "@/components/award/Home4award";
-import Home5Blog from "@/components/blog/Home5Blog";
 import CountUp from "react-countup";
 import MainLayout from "@/components/layout/MainLayout";
-import Home5Team from "@/components/team/Home5Team";
-import Home5whyChoose from "@/components/why-choose/Home5whyChoose";
 
-import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, {
-  Autoplay,
-  EffectFade,
-  Navigation,
-  Pagination,
-} from "swiper";
-import Link from "next/link";
+
 import useWow from "@/hooks/useWow";
-SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
+
+
 
 const Aboutpage = () => {
   useWow();
-  const settings = useMemo(() => {
-    return {
-      slidesPerView: "auto",
-      speed: 1500,
-      spaceBetween: 30,
-      grabCursor: true,
-      navigation: {
-        nextEl: ".home2-process-next",
-        prevEl: ".home2-process-prev",
-      },
-
-      breakpoints: {
-        280: {
-          slidesPerView: 1,
-        },
-        386: {
-          slidesPerView: 1,
-        },
-        576: {
-          slidesPerView: 2,
-          spaceBetween: 15,
-        },
-        768: {
-          slidesPerView: 2,
-          spaceBetween: 15,
-        },
-        992: {
-          slidesPerView: 3,
-          spaceBetween: 20,
-        },
-        1200: {
-          slidesPerView: 4,
-          spaceBetween: 15,
-        },
-        1400: {
-          slidesPerView: 4,
-        },
-      },
-    };
-  }, []);
   return (
     <MainLayout>
       <div
@@ -749,3 +699,9 @@ const Aboutpage = () => {
 };
 
 export default Aboutpage;
+
+export const metadata = {
+  title: "About - Prakria Tech",
+  description:
+    "Learn more about Prakria Tech, our mission, vision, and the dedicated team behind our innovative development services. Discover what makes us a trusted technology partner.",
+};

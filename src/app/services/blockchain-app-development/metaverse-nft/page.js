@@ -242,3 +242,9 @@ function MetaverseNft() {
 }
 
 export default MetaverseNft;
+
+export const metadata = {
+  title: "Metaverse NFT Development Services - Prakria Tech",
+  description:
+    "Enter the world of digital assets with our metaverse NFT development services. Create, manage, and trade NFTs within immersive virtual environments.",
+};

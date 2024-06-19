@@ -218,3 +218,9 @@ Competitive Edge: Stay ahead of the curve by leveraging the latest in ML technol
 }
 
 export default MlDevelopment;
+
+export const metadata = {
+  title: "Machine Learning Development Services - Prakria Tech",
+  description:
+    "Harness the power of machine learning with Prakria Tech. Our ML development services help you build intelligent systems for predictive analytics and automation.",
+};

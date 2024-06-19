@@ -23,7 +23,7 @@ const ServicePage = () => {
                 <div className="content">
                   <h4>
                     <Link href="/services/software-development">
-                    Software Development
+                      Software Development
                     </Link>
                   </h4>
                   <svg
@@ -41,10 +41,16 @@ const ServicePage = () => {
                     <path d="M40.9903 30.5174C41.0731 29.7541 41.0934 28.9815 41.051 28.2163C41.0434 28.0783 40.9836 27.9485 40.8839 27.8529C40.7841 27.7573 40.6518 27.7032 40.5137 27.7014L34.8699 27.6287C34.1458 27.6434 34.357 28.4588 34.3567 28.9397C34.3567 31.8651 32.538 34.3721 29.9727 35.3942V30.6018C29.9727 29.9256 30.295 29.3091 30.8347 28.9526C31.723 28.3654 32.441 27.5546 32.9165 26.6019C34.406 23.6141 33.1871 19.9715 30.1994 18.4819C30.1163 18.4405 30.0239 18.421 29.9312 18.4253C29.8384 18.4295 29.7483 18.4574 29.6693 18.5063C29.5904 18.5551 29.5252 18.6234 29.48 18.7045C29.4348 18.7856 29.411 18.8769 29.411 18.9698V21.8363L27.5225 23.0939L25.5878 21.7403L25.5973 18.9683C25.5976 18.8318 25.5468 18.7001 25.4549 18.5991C25.3751 18.5114 25.2689 18.452 25.1523 18.4301C25.0357 18.4081 24.9152 18.4248 24.809 18.4776C23.4287 19.1632 22.3712 20.3358 21.8311 21.7794C20.8465 24.4128 21.7845 27.3486 24.1124 28.9185C24.6853 29.3048 25.0274 29.9344 25.0274 30.6025V35.4648C22.3673 34.4903 20.4637 31.9331 20.4637 28.9394C20.4748 28.4723 20.6307 27.7219 19.9502 27.7038L14.3074 27.701H14.3071C14.1669 27.701 14.0322 27.755 13.9308 27.8517C13.8294 27.9485 13.7691 28.0805 13.7626 28.2205C13.717 29.1915 13.772 30.1646 13.9268 31.1243L12.3707 32.6168C12.2902 32.6941 12.2353 32.7942 12.2134 32.9036C12.1916 33.013 12.2039 33.1265 12.2486 33.2288L14.0137 37.2633C14.0589 37.3666 14.1351 37.4534 14.2317 37.5116C14.3283 37.5698 14.4406 37.5967 14.5531 37.5884L16.7075 37.4301C17.4817 38.4277 18.4012 39.3036 19.4353 40.0286L19.3719 42.1804C19.3686 42.2932 19.4004 42.4042 19.4628 42.4982C19.5253 42.5922 19.6153 42.6645 19.7206 42.7051L23.8274 44.29C23.9322 44.3304 24.047 44.3374 24.156 44.3102C24.265 44.2829 24.3629 44.2227 24.4364 44.1377L25.8327 42.52C27.0867 42.6563 28.3496 42.6237 29.5953 42.4226L31.0873 43.9787C31.1645 44.0592 31.2646 44.1141 31.3741 44.136C31.4835 44.1578 31.597 44.1455 31.6993 44.1008L35.7338 42.3355C35.8371 42.2903 35.9239 42.2141 35.9822 42.1175C36.0404 42.0209 36.0672 41.9086 36.059 41.7961L35.9007 39.6418C36.8983 38.8675 37.7741 37.948 38.499 36.914L40.6509 36.9774C40.7636 36.9803 40.8745 36.9484 40.9684 36.886C41.0623 36.8236 41.1346 36.7337 41.1756 36.6287L42.7606 32.522C42.8435 32.3072 42.7824 32.0634 42.6082 31.9129L40.9904 30.5171L40.9903 30.5174ZM24.7222 28.0148C22.8139 26.7279 22.0451 24.321 22.8526 22.1617C23.1809 21.2804 23.7536 20.5109 24.5037 19.9435L24.4966 22.0219C24.4963 22.1099 24.5173 22.1967 24.5578 22.2748C24.5983 22.3529 24.6572 22.4201 24.7293 22.4705L27.2026 24.201C27.2924 24.2639 27.3992 24.2982 27.5089 24.2994C27.6185 24.3007 27.726 24.2689 27.8173 24.208L30.2588 22.5823C30.3336 22.5325 30.3949 22.4651 30.4373 22.3859C30.4797 22.3067 30.5019 22.2183 30.5018 22.1285V19.9474C32.3641 21.361 33.0215 23.9482 31.941 26.1156C31.5513 26.8968 30.9625 27.5616 30.2341 28.0429C29.3879 28.6017 28.8827 29.5584 28.8827 30.602V35.7279C28.399 35.8331 27.9055 35.8862 27.4105 35.8863C26.9687 35.8863 26.5371 35.8432 26.118 35.7639V30.6028C26.118 29.5716 25.5963 28.6041 24.7224 28.0148H24.7222ZM40.2971 35.8764L38.2333 35.8157C38.0401 35.8091 37.8678 35.9018 37.7635 36.0583C37.0206 37.1739 36.0892 38.1519 35.0111 38.9483C34.9371 39.003 34.8781 39.0756 34.8397 39.1592C34.8013 39.2428 34.7847 39.3348 34.7915 39.4266L34.9432 41.4915L31.6108 42.9497L30.1818 41.4593C30.1194 41.3941 30.0418 41.3455 29.956 41.3178C29.8701 41.29 29.7788 41.284 29.6901 41.3003C28.3667 41.5428 27.0137 41.5778 25.6796 41.404C25.5902 41.3925 25.4992 41.4033 25.415 41.4355C25.3307 41.4677 25.2557 41.5202 25.1966 41.5884L23.8618 43.135L20.4731 41.8272L20.5339 39.7632C20.5366 39.6707 20.5158 39.5791 20.4734 39.497C20.4309 39.4148 20.3683 39.3448 20.2913 39.2935C19.1756 38.5506 18.1977 37.6191 17.4013 36.5409C17.3466 36.4669 17.274 36.4079 17.1904 36.3695C17.1067 36.3311 17.0147 36.3145 16.9229 36.3213L14.858 36.473L13.4 33.1405L14.8906 31.7111C14.9556 31.6487 15.0042 31.5711 15.0319 31.4853C15.0597 31.3995 15.0657 31.3082 15.0494 31.2195C14.9031 30.4187 14.8322 29.6059 14.8378 28.7919L19.3746 28.7942C19.3738 28.8427 19.3733 28.8912 19.3733 28.9397C19.3733 33.3713 22.9785 36.9766 27.4102 36.9766C31.8418 36.9766 35.447 33.3713 35.447 28.9395C35.447 28.8687 35.4461 28.7976 35.4442 28.7265L39.9806 28.7849C39.9907 29.4152 39.9551 30.0454 39.8741 30.6705C39.8624 30.76 39.8732 30.8509 39.9054 30.9352C39.9376 31.0195 39.9902 31.0945 40.0585 31.1534L41.6051 32.4877L40.2971 35.8762V35.8764Z" />
                   </svg>
                   <p>
-                  We enable organizations by developing custom software solutions that make use of state-of-the-art technology and follow industry best practices. As a result, they may promote growth and fulfill their digital ambitions.
+                    We enable organizations by developing custom software
+                    solutions that make use of state-of-the-art technology and
+                    follow industry best practices. As a result, they may
+                    promote growth and fulfill their digital ambitions.
                   </p>
                 </div>
-                <Link href="/services/software-development" className="explore-btn">
+                <Link
+                  href="/services/software-development"
+                  className="explore-btn"
+                >
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -68,7 +74,7 @@ const ServicePage = () => {
                 <div className="content">
                   <h4>
                     <Link href="/services/mobile-app-development">
-                    Mobile App Development
+                      Mobile App Development
                     </Link>
                   </h4>
                   <svg
@@ -92,12 +98,16 @@ const ServicePage = () => {
                     </g>
                   </svg>
                   <p>
-
-                  Leading your idea from conception to implementation, our development team works closely together. As a result, they create dependable, expandable, and user-friendly apps that are customized.
-
+                    Leading your idea from conception to implementation, our
+                    development team works closely together. As a result, they
+                    create dependable, expandable, and user-friendly apps that
+                    are customized.
                   </p>
                 </div>
-                <Link href="/services/mobile-app-development" className="explore-btn">
+                <Link
+                  href="/services/mobile-app-development"
+                  className="explore-btn"
+                >
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -120,7 +130,9 @@ const ServicePage = () => {
               <div className="service-card two">
                 <div className="content">
                   <h4>
-                    <Link href="/services/ar-app-development">AR & VR App Development</Link>
+                    <Link href="/services/ar-app-development">
+                      AR & VR App Development
+                    </Link>
                   </h4>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -135,10 +147,16 @@ const ServicePage = () => {
                     />
                   </svg>
                   <p>
-                  Welcome to the future of immersive technology. We blend cutting-edge technology with our artistic flair to create mind-blowing AR & VR experiences & games that defy imagination and leave audiences spellbound.
+                    Welcome to the future of immersive technology. We blend
+                    cutting-edge technology with our artistic flair to create
+                    mind-blowing AR & VR experiences & games that defy
+                    imagination and leave audiences spellbound.
                   </p>
                 </div>
-                <Link href="/services/ar-app-development" className="explore-btn">
+                <Link
+                  href="/services/ar-app-development"
+                  className="explore-btn"
+                >
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -161,9 +179,7 @@ const ServicePage = () => {
               <div className="service-card two">
                 <div className="content">
                   <h4>
-                    <Link href="/services/devops">
-                    DevOps
-                    </Link>
+                    <Link href="/services/devops">DevOps</Link>
                   </h4>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -177,7 +193,11 @@ const ServicePage = () => {
                     <path d="M20.6895 20.8789C20.4689 20.6894 20.2098 20.5499 19.9301 20.47C19.6505 20.3902 19.3568 20.3718 19.0693 20.4162L17.0567 20.7258C16.9749 20.7383 16.8965 20.7669 16.8257 20.8097C16.755 20.8526 16.6935 20.909 16.6446 20.9757C16.5957 21.0424 16.5604 21.1181 16.5407 21.1984C16.5211 21.2787 16.5175 21.3621 16.53 21.4439C16.5827 21.7877 16.905 22.0243 17.2482 21.9705L19.2609 21.6609C19.3689 21.6437 19.4793 21.6504 19.5845 21.6804C19.6896 21.7104 19.7869 21.7631 19.8695 21.8347C19.953 21.9054 20.0199 21.9935 20.0656 22.0929C20.1112 22.1922 20.1345 22.3004 20.1338 22.4097V35.7931C20.1338 37.3274 21.382 38.5757 22.9165 38.5757H37.8477C37.9304 38.5757 38.0123 38.5594 38.0888 38.5278C38.1652 38.4961 38.2346 38.4497 38.2931 38.3912C38.3516 38.3328 38.398 38.2633 38.4296 38.1869C38.4613 38.1105 38.4775 38.0286 38.4775 37.9459C38.4775 37.8632 38.4613 37.7813 38.4296 37.7049C38.398 37.6284 38.3516 37.559 38.2931 37.5005C38.2346 37.442 38.1652 37.3956 38.0888 37.364C38.0123 37.3324 37.9304 37.3161 37.8477 37.3161H22.9165C22.1366 37.3161 21.4992 36.7247 21.4111 35.9682H33.5009C34.9661 35.9682 36.2541 34.9288 36.5636 33.4966L38.0599 26.5733C38.3523 25.2196 37.3204 23.9444 35.9383 23.9444H21.3934V22.4097C21.3935 22.1189 21.3307 21.8315 21.2092 21.5672C21.0877 21.3029 20.9104 21.0681 20.6895 20.8789ZM35.9383 25.204C36.5192 25.204 36.9516 25.7406 36.8286 26.3074L35.3323 33.2307C35.1472 34.0873 34.377 34.7088 33.5008 34.7088H21.3934V25.204H35.9383ZM22.7036 41.4381C22.7036 42.6362 23.6802 43.6107 24.8807 43.6107C26.0788 43.6107 27.0534 42.6362 27.0534 41.4381C27.0534 40.2376 26.0788 39.2609 24.8807 39.2609C23.6802 39.2609 22.7036 40.2376 22.7036 41.4381ZM25.7938 41.4381C25.7938 41.9416 25.3842 42.3511 24.8807 42.3511C24.3748 42.3511 23.9631 41.9416 23.9631 41.4381C23.9631 40.9321 24.3748 40.5205 24.8807 40.5205C25.3841 40.5205 25.7938 40.9321 25.7938 41.4381ZM31.801 41.4381C31.801 42.6362 32.7778 43.6107 33.9783 43.6107C35.1764 43.6107 36.151 42.6362 36.151 41.4381C36.151 40.2376 35.1764 39.2609 33.9783 39.2609C32.7778 39.2609 31.801 40.2376 31.801 41.4381ZM34.8914 41.4381C34.8914 41.9416 34.4818 42.3511 33.9783 42.3511C33.4722 42.3511 33.0605 41.9416 33.0605 41.4381C33.0605 40.9321 33.4722 40.5205 33.9783 40.5205C34.4818 40.5205 34.8914 40.9321 34.8914 41.4381Z" />
                   </svg>
                   <p>
-                  You may efficiently innovate, cut expenses, and streamline processes by utilizing the cloud. Additionally, our customized cloud solutions help you on your journey by launching new cloud-based initiatives or improving your current infrastructure.
+                    You may efficiently innovate, cut expenses, and streamline
+                    processes by utilizing the cloud. Additionally, our
+                    customized cloud solutions help you on your journey by
+                    launching new cloud-based initiatives or improving your
+                    current infrastructure.
                   </p>
                 </div>
                 <Link href="/services/devops" className="explore-btn">
@@ -227,12 +247,16 @@ const ServicePage = () => {
                     />
                   </svg>
                   <p>
-
-                  Adopt AI and ML to boost productivity and creativity in your company. Furthermore, automation and sophisticated insights are provided by our tailored solutions. This provides a competitive edge in the ever changing IT industry.
-
+                    Adopt AI and ML to boost productivity and creativity in your
+                    company. Furthermore, automation and sophisticated insights
+                    are provided by our tailored solutions. This provides a
+                    competitive edge in the ever changing IT industry.
                   </p>
                 </div>
-                <Link href="/services/ai-ml-development" className="explore-btn">
+                <Link
+                  href="/services/ai-ml-development"
+                  className="explore-btn"
+                >
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -255,7 +279,9 @@ const ServicePage = () => {
               <div className="service-card two">
                 <div className="content">
                   <h4>
-                    <Link href="/services/website-development">Website Development</Link>
+                    <Link href="/services/website-development">
+                      Website Development
+                    </Link>
                   </h4>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -285,10 +311,16 @@ const ServicePage = () => {
                     />
                   </svg>
                   <p>
-                  Your search is over if you're seeking for a web development firm that can build dynamic websites and offer custom web development services to support the expansion and successful online presence of your organization.
+                    Your search is over if you're seeking for a web development
+                    firm that can build dynamic websites and offer custom web
+                    development services to support the expansion and successful
+                    online presence of your organization.
                   </p>
                 </div>
-                <Link href="/services/website-development" className="explore-btn">
+                <Link
+                  href="/services/website-development"
+                  className="explore-btn"
+                >
                   {" "}
                   EXPLORE MORE
                   <svg
@@ -303,7 +335,6 @@ const ServicePage = () => {
                 </Link>
               </div>
             </div>
-           
           </div>
         </div>
       </div>

@@ -292,3 +292,9 @@ function WebsiteDevelopment() {
 }
 
 export default WebsiteDevelopment;
+
+export const metadata = {
+  title: "Website Design and Development Services: Custom Web Solutions for Your Business",
+  description:
+    "Enhance your online presence with our website design and development services. We create custom web solutions that are visually appealing, user-friendly, and optimized for performance. From responsive design to seamless functionality, our expert team delivers websites that drive engagement and growth.",
+};

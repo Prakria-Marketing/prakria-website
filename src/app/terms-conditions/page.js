@@ -119,3 +119,10 @@ function TermsAndConditions() {
 }
 
 export default TermsAndConditions;
+
+
+export const metadata = {
+  title: "Terms & Conditions - Prakria Tech",
+  description:
+    "Read the terms and conditions for using Prakria Tech's services. Learn about your rights and obligations when engaging with our offerings.",
+};

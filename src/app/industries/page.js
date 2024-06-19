@@ -150,3 +150,10 @@ const IndustryPage = () => {
 };
 
 export default IndustryPage;
+
+
+export const metadata = {
+  title: "Industries We Serve - Prakria Tech",
+  description:
+    "Discover the diverse industries Prakria Tech serves. From healthcare to finance, learn how our customized technology solutions cater to various sectors and drive business success.",
+};

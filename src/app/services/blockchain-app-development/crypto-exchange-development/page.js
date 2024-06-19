@@ -231,3 +231,9 @@ function CryptoDevelopment() {
 }
 
 export default CryptoDevelopment;
+
+export const metadata = {
+  title: "Crypto Exchange Development Services - Prakria Tech",
+  description:
+    "Launch your own cryptocurrency exchange with Prakria Tech. Our development services offer secure, scalable, and feature-rich crypto exchange platforms.",
+};

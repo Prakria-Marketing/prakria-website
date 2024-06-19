@@ -220,3 +220,9 @@ function EcommerceDesign() {
 }
 
 export default EcommerceDesign;
+
+export const metadata = {
+  title: "E-Commerce Web Design Services - Prakria Tech",
+  description:
+    "Drive sales with our e-commerce web design services. We design and develop engaging, user-friendly online stores to enhance your customer's shopping experience.",
+};

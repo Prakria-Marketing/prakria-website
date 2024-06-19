@@ -246,3 +246,9 @@ function FlutterAppDevelopment() {
 }
 
 export default FlutterAppDevelopment;
+
+export const metadata = {
+  title: "Enterprise App Development Services - Prakria Tech",
+  description:
+    "Enhance your business operations with our enterprise app development services. We create scalable, secure, and efficient enterprise applications.",
+};

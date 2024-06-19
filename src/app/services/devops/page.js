@@ -316,3 +316,10 @@ function Devops() {
 }
 
 export default Devops;
+
+
+export const metadata = {
+  title: "Innovative Solutions for DevOps : Prakria Tech",
+  description:
+    "Streamline your software development and operations with Prakria Tech's DevOps services. Enhance efficiency, collaboration, and delivery speed with our expert solutions.",
+};

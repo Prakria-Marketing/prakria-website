@@ -233,3 +233,10 @@ function MobileWebDesign() {
 }
 
 export default MobileWebDesign;
+
+
+export const metadata = {
+  title: "Mobile Web Design Services - Prakria Tech",
+  description:
+    "Optimize your online presence with our mobile web design services. We create responsive, mobile-friendly websites that deliver excellent user experiences.",
+};

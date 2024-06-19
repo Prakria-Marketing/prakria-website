@@ -236,3 +236,9 @@ function AdaptiveAi() {
 }
 
 export default AdaptiveAi;
+
+export const metadata = {
+  title: "Adaptive AI Solutions | AI Development Services - Prakria Tech",
+  description:
+    "Prakria Tech offers adaptive AI solutions tailored to your business needs. Discover our AI development services and harness the power of adaptive artificial intelligence.",
+};

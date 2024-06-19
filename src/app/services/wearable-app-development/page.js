@@ -293,3 +293,9 @@ function WearableAppDevelopment() {
 }
 
 export default WearableAppDevelopment;
+
+export const metadata = {
+  title: "Wearable App Development Services - Prakria Tech",
+  description:
+    "Enhance the functionality of wearable devices with our app development services. We create innovative apps for smartwatches, fitness trackers, and more.",
+};

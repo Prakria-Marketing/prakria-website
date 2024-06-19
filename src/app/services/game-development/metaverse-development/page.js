@@ -245,3 +245,9 @@ function MetaverseDevelopment() {
 }
 
 export default MetaverseDevelopment;
+
+export const metadata = {
+  title: "Metaverse Development Services - Prakria Tech",
+  description:
+    "Step into the future with Prakria Tech's metaverse development services. Create immersive virtual worlds and experiences for your audience.",
+};

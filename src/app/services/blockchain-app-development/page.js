@@ -275,3 +275,9 @@ function ArVrAppDevelopment() {
 }
 
 export default ArVrAppDevelopment;
+
+export const metadata = {
+  title: "Blockchain Development Services: Secure and Innovative Blockchain Solutions",
+  description:
+    "Transform your business with our blockchain development services. We provide secure, scalable, and innovative blockchain solutions tailored to your needs. From smart contracts to decentralized applications, our expertise ensures transparency, efficiency, and enhanced security for your projects.",
+};

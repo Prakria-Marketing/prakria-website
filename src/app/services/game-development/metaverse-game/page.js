@@ -243,3 +243,8 @@ function MetaverseGame() {
 }
 
 export default MetaverseGame;
+export const metadata = {
+  title: "Metaverse Game Development - Prakria Tech",
+  description:
+    "Engage players with captivating metaverse games. Our development team creates interactive and immersive gaming experiences in the metaverse.",
+};
