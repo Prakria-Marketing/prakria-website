@@ -1,10 +1,10 @@
-"use client";
+
 import MainLayout from "@/components/layout/MainLayout";
-import useWow from "@/hooks/useWow";
+
 import React from "react";
 
 const ContactPage = () => {
-  useWow();
+  
   return (
     <MainLayout>
       <div className="contact-page scroll-margin pt-120 mb-120" id="contact">
@@ -158,6 +158,10 @@ const ContactPage = () => {
 export default ContactPage;
 
 export const metadata = {
+
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
   title: "Contact Us - Prakria Tech",
   description:
     "Get in touch with Prakria Tech for all your development needs. Contact us today for inquiries, support, and more information about our services.",

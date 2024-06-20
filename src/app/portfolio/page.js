@@ -1,11 +1,11 @@
-"use client";
+
 import MainLayout from "@/components/layout/MainLayout";
-import useWow from "@/hooks/useWow";
+
 import Link from "next/link";
 import React from "react";
 
 const PortfolioPage = () => {
-  useWow();
+
   return (
     <MainLayout>
       <div
@@ -232,6 +232,9 @@ const PortfolioPage = () => {
 export default PortfolioPage;
 
 export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
   title: "Our Portfolio - Prakria Tech",
   description:
     "Explore Prakria Tech's portfolio to see our successful projects and case studies. Discover how our expertise in mobile apps, software, and web development can benefit your business.",

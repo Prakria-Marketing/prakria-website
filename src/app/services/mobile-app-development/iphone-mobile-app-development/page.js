@@ -257,6 +257,9 @@ function IphoneAppDevelopment() {
 export default IphoneAppDevelopment;
 
 export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
   title: "iOS App Development Services - Prakria Tech",
   description:
     "Unlock the potential of iOS with our app development services. We build robust, intuitive iOS applications that offer exceptional user experiences.",

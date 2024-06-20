@@ -1,15 +1,13 @@
 "use client";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import React, { useState } from "react";
-import ReCAPTCHA from "react-google-recaptcha";
-import { toast, ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 const Home1Contact = () => {
   const [result, setResult] = useState("");
-  const [capVal, setcapVal] = useState(null);
-  const [checked, setChecked] = React.useState(true);
-  const [field, setField] = useState({
+  const router = useRouter();
+
+  const [formData, setFormData] = useState({
     name: "",
     company: "",
     phone: "",
@@ -17,52 +15,51 @@ const Home1Contact = () => {
     subject: "",
     message: "",
   });
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    // setResult("Sending....");
-    const formData = new FormData(event.target);
-    console.log(formData);
 
-    formData.append("access_key", "324b2d24-b3f4-48e9-af01-0ba65fa02b2c");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [successMessage, setSuccessMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData,
-    });
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }));
+  };
 
-    const data = await response.json();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
 
-    if (data.success) {
-      event.target.reset();
-      // Show success toast notification
-      toast.success(
-        "Thank you for showing your interest in the services offered by us. One of our team members will attend to you shortly.",
-        {
-          position: "bottom-right",
-          autoClose: 3000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-          theme: "dark",
-          transition: "bounce",
-        }
-      );
-    } else {
-      console.log("Error", data);
-      toast.error(data.message, {
-        position: "bottom-right",
-        autoClose: 3000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "dark",
-        transition: "Bounce",
+    try {
+      const res = await fetch("/api/send-email", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
       });
+
+      if (res.ok) {
+        // setSuccessMessage("Your message has been sent successfully!");
+        setFormData({
+          name: "",
+          company: "",
+          phone: "",
+          email: "",
+          subject: "",
+          message: "",
+        });
+        router.push("/thank-you");
+      } else {
+        setErrorMessage("Failed to send your message. Please try again.");
+      }
+    } catch (error) {
+      setErrorMessage("An error occurred. Please try again.");
     }
+
+    setIsSubmitting(false);
   };
   return (
     <>
@@ -179,21 +176,7 @@ const Home1Contact = () => {
                         {/* <span>Facebook</span> */}
                       </a>
                     </li>
-                    {/* <li>
-                      <a href="https://twitter.com/">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          width={18}
-                          height={18}
-                          fill="currentColor"
-                          className="bi bi-twitter-x"
-                          viewBox="0 0 16 16"
-                        >
-                          <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
-                        </svg>
-                        <span>Twitter</span>
-                      </a>
-                    </li> */}
+
                     <li>
                       <a
                         target="_blank"
@@ -215,7 +198,7 @@ const Home1Contact = () => {
               <div className="contact-form-wrap">
                 <div className="contact-form-area">
                   <h3>Your Success Starts Here!</h3>
-                  <form onSubmit={onSubmit}>
+                  <form onSubmit={handleSubmit}>
                     <input
                       type="hidden"
                       name="access_key"
@@ -225,13 +208,13 @@ const Home1Contact = () => {
                     <div className="row">
                       <div className="col-lg-6 mb-20">
                         <div className="form-inner">
-                          <label>Full Name</label>
+                          <label>Full Name *</label>
                           <input
                             type="text"
-                            name="fullname"
-                            onChange={(e) =>
-                              setField({ ...field, name: e.target.value })
-                            }
+                            name="name"
+                            value={formData.name}
+                            onChange={handleChange}
+                            required
                           />
                         </div>
                       </div>
@@ -240,10 +223,10 @@ const Home1Contact = () => {
                           <label>Company / Organization *</label>
                           <input
                             type="text"
-                            name="organisation"
-                            onChange={(e) =>
-                              setField({ ...field, company: e.target.value })
-                            }
+                            name="company"
+                            value={formData.company}
+                            onChange={handleChange}
+                            required
                           />
                         </div>
                       </div>
@@ -251,11 +234,11 @@ const Home1Contact = () => {
                         <div className="form-inner">
                           <label>Phone *</label>
                           <input
-                            type="text"
+                            type="number"
                             name="phone"
-                            onChange={(e) =>
-                              setField({ ...field, phone: e.target.value })
-                            }
+                            value={formData.phone}
+                            onChange={handleChange}
+                            required
                           />
                         </div>
                       </div>
@@ -265,9 +248,9 @@ const Home1Contact = () => {
                           <input
                             type="email"
                             name="email"
-                            onChange={(e) =>
-                              setField({ ...field, email: e.target.value })
-                            }
+                            value={formData.email}
+                            onChange={handleChange}
+                            required
                           />
                         </div>
                       </div>
@@ -277,9 +260,9 @@ const Home1Contact = () => {
                           <input
                             type="text"
                             name="subject"
-                            onChange={(e) =>
-                              setField({ ...field, subject: e.target.value })
-                            }
+                            value={formData.subject}
+                            onChange={handleChange}
+                            required
                           />
                         </div>
                       </div>
@@ -289,9 +272,9 @@ const Home1Contact = () => {
                           <textarea
                             defaultValue={""}
                             name="message"
-                            onChange={(e) =>
-                              setField({ ...field, message: e.target.value })
-                            }
+                            value={formData.message}
+                            onChange={handleChange}
+                            required
                           />
                         </div>
                       </div>
@@ -301,6 +284,7 @@ const Home1Contact = () => {
                             style={{ height: "20px" }}
                             type="checkbox"
                             name="message"
+                            required
                             // onChange={(e) =>
                             //   setField({ ...field, message: e.target.value })
                             // }
@@ -317,18 +301,12 @@ const Home1Contact = () => {
                             .
                           </label>
                         </div>
-                        <div>
-                          <ReCAPTCHA
-                            sitekey="6LeMX9IpAAAAAMPWQvm3SYQ98X13vK2MI6CdQoiS"
-                            onChange={(val) => setcapVal(val)}
-                            onExpired={() => setcapVal(null)}
-                          />
-                        </div>
+                        <div></div>
                       </div>
                       <div className="col-lg-12">
                         <div className="form-inner">
                           <button
-                            disabled={!capVal}
+                            disabled={isSubmitting}
                             className="primary-btn2"
                             type="submit"
                             data-text="Submit Now"
@@ -339,6 +317,10 @@ const Home1Contact = () => {
                       </div>
                     </div>
                   </form>
+                  {successMessage && (
+                    <p className="text-success">{successMessage}</p>
+                  )}
+                  {errorMessage && <p>{errorMessage}</p>}
                   <span>{result}</span>
                 </div>
               </div>
@@ -346,7 +328,6 @@ const Home1Contact = () => {
           </div>
         </div>
       </div>
-      <ToastContainer />
     </>
   );
 };

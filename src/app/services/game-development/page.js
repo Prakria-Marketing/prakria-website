@@ -303,6 +303,9 @@ function GameDevelopment() {
 export default GameDevelopment;
 
 export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
   title: "Game Development Services: Creating Engaging and Innovative Games",
   description:
     "Unlock the potential of interactive entertainment with our game development services. We specialize in creating engaging, innovative, and visually stunning games across various platforms. From concept to launch, our expert team delivers captivating gaming experiences that resonate with players worldwide.",

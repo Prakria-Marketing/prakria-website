@@ -346,6 +346,9 @@ function ArAppDevelopment() {
 export default ArAppDevelopment;
 
 export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
   title:
     "AR & VR Development Services: Immersive Augmented and Virtual Reality Solutions",
   description:

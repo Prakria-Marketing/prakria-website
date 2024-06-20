@@ -1,11 +1,9 @@
-"use client";
+
 import MainLayout from "@/components/layout/MainLayout";
-import useWow from "@/hooks/useWow";
 import Link from "next/link";
 import React from "react";
 
 const ServicePage = () => {
-  useWow();
   return (
     <MainLayout>
       <div
@@ -343,3 +341,12 @@ const ServicePage = () => {
 };
 
 export default ServicePage;
+
+export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
+  title: "Custom Application & Software Development | Prakria Tech",
+  description:
+    "Discover Prakria Tech's extensive services in custom application and software development. Elevate your business with our tailored solutions designed to meet your unique needs.",
+};

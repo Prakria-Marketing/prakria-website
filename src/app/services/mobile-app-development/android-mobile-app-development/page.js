@@ -253,6 +253,9 @@ function AndroidAppDevelopment() {
 
 export default AndroidAppDevelopment;
 export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
   title: "Android App Development Services - Prakria Tech",
   description:
     "Elevate your business with custom Android app development. Our team creates high-performance, user-friendly Android applications tailored to your needs.",

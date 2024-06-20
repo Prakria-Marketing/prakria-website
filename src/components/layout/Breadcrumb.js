@@ -6,8 +6,6 @@ import Link from "next/link";
 
 const Breadcrumb = () => {
   const currentSlug = usePathname(); // Get the current route's slugz
-
-  console.log();
   // Filter breadcrumbData based on matching slugs
   const filteredBreadcrumbData = breadcrumbData.filter(
     (item) => item.slug[item.slug?.length - 1] === currentSlug

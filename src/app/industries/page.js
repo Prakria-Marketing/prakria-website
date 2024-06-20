@@ -1,11 +1,9 @@
-"use client";
 import MainLayout from "@/components/layout/MainLayout";
-import useWow from "@/hooks/useWow";
 import React from "react";
 import Industries from "../../data/industries.json";
 
 const IndustryPage = () => {
-  useWow();
+
 
   return (
     <MainLayout>
@@ -153,6 +151,9 @@ export default IndustryPage;
 
 
 export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
   title: "Industries We Serve - Prakria Tech",
   description:
     "Discover the diverse industries Prakria Tech serves. From healthcare to finance, learn how our customized technology solutions cater to various sectors and drive business success.",

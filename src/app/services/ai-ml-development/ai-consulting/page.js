@@ -224,6 +224,9 @@ Artificial intelligence implementation is no longer a choice for businesses aimi
 export default AiConsulting;
 
 export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
   title: "AI Consulting Services | Artificial Intelligence Advisors - Prakria Tech",
   description:
     "Get expert AI consulting services from Prakria Tech. Our AI advisors help businesses integrate artificial intelligence for enhanced performance. Contact us for tailored AI solutions.",

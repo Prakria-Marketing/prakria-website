@@ -231,6 +231,9 @@ We create top-notch Android, iOS, and cross-platform games in a variety of genre
 
 export default UnrealGameDevelopment;
 export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
   title: "Unreal Game Development Services - Prakria Tech",
   description:
     "Create breathtaking games with Prakria Tech's Unreal game development services. Our team delivers top-notch games using Unreal Engine's capabilities.",

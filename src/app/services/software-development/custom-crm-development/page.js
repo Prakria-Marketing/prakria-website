@@ -260,6 +260,9 @@ function CustomCrmDevelopment() {
 export default CustomCrmDevelopment;
 
 export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
   title: "Custom CRM Development Services - Prakria Tech",
   description:
     "Enhance your customer relationship management with our custom CRM development services.",

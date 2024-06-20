@@ -221,6 +221,9 @@ function CustomWebDesign() {
 
 export default CustomWebDesign;
 export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
   title: "Custom Web Design Services - Prakria Tech",
   description:
     "Stand out with our custom web design services. We create visually stunning, user-centric websites tailored to your brand and business goals.",

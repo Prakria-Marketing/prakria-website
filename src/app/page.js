@@ -17,7 +17,13 @@ export const metadata = {
   icons: {
     icon: "/assets/img/favicon.png",
   },
-}
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
+  title: "Prakria Tech - Top Mobile App Development Company l PRAKRIA",
+  description:
+    "Discover Prakria Tech's premier application and software development services. We specialize in delivering innovative solutions tailored to your business needs.",
+};
 export default function Home() {
   return (
     <>

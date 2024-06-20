@@ -239,6 +239,9 @@ function ReactAppDevelopment() {
 export default ReactAppDevelopment;
 
 export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
   title: "React Native App Development Services - Prakria Tech",
   description:
     "Develop powerful cross-platform apps with React Native. Our development services ensure fast, reliable, and feature-rich mobile applications.",

@@ -302,6 +302,9 @@ function AiMlDevelopment() {
 export default AiMlDevelopment;
 
 export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
   title: "AI Development Services: Custom AI Solutions for Business Innovation",
   description:
     "Transform your business with our AI development services. From custom AI solutions and machine learning models to deep learning applications, we harness the power of artificial intelligence to drive innovation and efficiency. Partner with us to unlock the full potential of AI technology.",

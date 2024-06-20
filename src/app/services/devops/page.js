@@ -27,7 +27,7 @@ function Devops() {
                     an innovative and automated culture. Our DevOps consulting
                     team combines people, procedures, and technology to drive
                     change.
-                  <br></br>
+                    <br></br>
                     We can help you with everything from assessing your present
                     technological situation to automating the management of your
                     delivery pipeline and providing round-the-clock monitoring
@@ -157,10 +157,7 @@ function Devops() {
                 data-wow-duration="1500ms"
               >
                 <div className="service-details-img">
-                  <img
-                    src="/assets/img/innerservices/devops/2.jpg"
-                    alt=""
-                  />
+                  <img src="/assets/img/innerservices/devops/2.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -173,10 +170,7 @@ function Devops() {
             <div className="row g-lg-4 gy-5 align-items-xl-center">
               <div className="col-lg-6">
                 <div className="service-details-faq-img">
-                  <img
-                    src="/assets/img/innerservices/devops/1.jpg"
-                    alt=""
-                  />
+                  <img src="/assets/img/innerservices/devops/1.jpg" alt="" />
                 </div>
               </div>
               <div className="col-lg-6">
@@ -202,8 +196,11 @@ function Devops() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                        DevOps is a set of practices that combines software development (Dev) and IT operations (Ops), aiming to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives.
-
+                          DevOps is a set of practices that combines software
+                          development (Dev) and IT operations (Ops), aiming to
+                          shorten the systems development life cycle while
+                          delivering features, fixes, and updates frequently in
+                          close alignment with business objectives.
                         </div>
                       </div>
                     </div>
@@ -227,7 +224,10 @@ function Devops() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                        Key practices include continuous integration (CI), continuous delivery (CD), microservices, infrastructure as code, monitoring and logging, and communication and collaboration across teams.
+                          Key practices include continuous integration (CI),
+                          continuous delivery (CD), microservices,
+                          infrastructure as code, monitoring and logging, and
+                          communication and collaboration across teams.
                         </div>
                       </div>
                     </div>
@@ -251,7 +251,11 @@ function Devops() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                        Tools such as Jenkins for CI/CD, Docker for containerization, Kubernetes for orchestration, Ansible for configuration management, and monitoring tools like Prometheus and Grafana are integral to DevOps methodologies.
+                          Tools such as Jenkins for CI/CD, Docker for
+                          containerization, Kubernetes for orchestration,
+                          Ansible for configuration management, and monitoring
+                          tools like Prometheus and Grafana are integral to
+                          DevOps methodologies.
                         </div>
                       </div>
                     </div>
@@ -275,7 +279,11 @@ function Devops() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                        DevOps improves collaboration between development and operations teams, enhances the speed and quality of deployments, reduces the failure rate of new releases, shortens lead time between fixes, and improves overall customer satisfaction.
+                          DevOps improves collaboration between development and
+                          operations teams, enhances the speed and quality of
+                          deployments, reduces the failure rate of new releases,
+                          shortens lead time between fixes, and improves overall
+                          customer satisfaction.
                         </div>
                       </div>
                     </div>
@@ -299,8 +307,12 @@ function Devops() {
                         data-bs-parent="#accordionTravel"
                       >
                         <div className="accordion-body">
-                        Essential skills include knowledge of coding and scripting, expertise in deployment and network operations, familiarity with DevOps tools, strong communication and collaboration skills, and an understanding of automation scripts and configuration management.
-
+                          Essential skills include knowledge of coding and
+                          scripting, expertise in deployment and network
+                          operations, familiarity with DevOps tools, strong
+                          communication and collaboration skills, and an
+                          understanding of automation scripts and configuration
+                          management.
                         </div>
                       </div>
                     </div>
@@ -317,8 +329,10 @@ function Devops() {
 
 export default Devops;
 
-
 export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
   title: "Innovative Solutions for DevOps : Prakria Tech",
   description:
     "Streamline your software development and operations with Prakria Tech's DevOps services. Enhance efficiency, collaboration, and delivery speed with our expert solutions.",

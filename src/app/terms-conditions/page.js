@@ -122,6 +122,9 @@ export default TermsAndConditions;
 
 
 export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
   title: "Terms & Conditions - Prakria Tech",
   description:
     "Read the terms and conditions for using Prakria Tech's services. Learn about your rights and obligations when engaging with our offerings.",

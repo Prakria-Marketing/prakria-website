@@ -118,6 +118,9 @@ function page() {
 export default page;
 
 export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
   title: "Disclaimer - Prakria Tech",
   description:
     "Review the disclaimer for Prakria Tech's website and services. Understand the limitations and responsibilities associated with the information provided.",
