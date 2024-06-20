@@ -23773,7 +23773,7 @@ ul.ruby-menu > li.ruby-menu-mega > div, ul.ruby-menu > li.ruby-menu-mega-blog > 
   width: 1200px;
   height: auto;
   top: 80px;
-  right: -400%;
+  right: -460%;
   background: #0b0c0c;
   overflow: hidden;
   padding: 35px;
@@ -24363,4 +24363,19 @@ hr {
 }
 .feature-card img{
   width: 60px;
+}
+
+#thank-you:before{
+  content : "";
+  background: url("/assets/bggg.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  filter: opacity(0.5);
+  position: absolute;
+  background-position: center;
+}
+
+#thankh1{
+  font-weight: 900 !important;
 }

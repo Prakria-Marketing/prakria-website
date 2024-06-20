@@ -232,3 +232,11 @@ We use the newest technology in gaming to create a PC game with captivating game
 }
 
 export default PcGameDevelopment;
+export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
+  title: "PC Game Development Services - Prakria Tech",
+  description:
+    "Bring your gaming ideas to life with our PC game development services. We deliver high-quality, engaging games for all genres and audiences.",
+};

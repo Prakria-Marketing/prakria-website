@@ -111,7 +111,7 @@
     "name": ["Privacy Policy"],
     "slug": ["/privacy-policy"],
     "pageTitle": "Privacy Policy",
-    "section_down_scroll": "#privacy-section"
+    "section_down_scroll": "#about-section"
   },
   {
     "id": "16",
@@ -132,7 +132,7 @@
     "name": ["Disclaimer"],
     "slug": ["/disclaimer"],
     "pageTitle": "Disclaimer",
-    "section_down_scroll": "#disclaimer-section"
+    "section_down_scroll": "#about-section"
   },
   {
     "id": "19",

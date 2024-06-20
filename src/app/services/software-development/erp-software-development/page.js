@@ -242,3 +242,12 @@ function AndroidAppDevelopment() {
 }
 
 export default AndroidAppDevelopment;
+
+export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
+  title: "ERP Software Development Services - Prakria Tech",
+  description:
+    "Optimize your business processes with Prakria Tech's ERP software development services. We develop comprehensive ERP solutions to integrate and manage your core business functions.",
+};

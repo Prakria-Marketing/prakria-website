@@ -301,3 +301,12 @@ function VrAppDevelopment() {
 }
 
 export default VrAppDevelopment;
+
+export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
+  title: "VR App Development Services - Prakria Tech",
+  description:
+    "Immerse your audience with Prakria Tech's VR app development services. We create engaging and interactive virtual reality applications tailored to your business needs.",
+};

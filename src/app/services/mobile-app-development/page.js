@@ -315,3 +315,12 @@ function MobileAppDevelopment() {
 }
 
 export default MobileAppDevelopment;
+
+export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
+  title: "Mobile App Development Services: Custom iOS & Android App Solutions",
+  description:
+    "Elevate your business with our mobile app development services. We specialize in creating custom iOS and Android apps that are user-friendly, feature-rich, and scalable. From concept to deployment, our expert team delivers innovative mobile solutions that drive engagement and growth.",
+};

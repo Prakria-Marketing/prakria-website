@@ -276,3 +276,12 @@ function ErpDevelopment() {
 }
 
 export default ErpDevelopment;
+
+export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
+  title: "Software Development Services: Custom Software Solutions for Your Business",
+  description:
+    "Transform your business with our software development services. We provide custom software solutions tailored to your unique needs, ensuring scalability, efficiency, and innovation. From design to deployment, our expert team delivers high-quality software that drives success and growth.",
+};

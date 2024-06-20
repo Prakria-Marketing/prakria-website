@@ -1,4 +1,4 @@
-"use client";
+
 import MainLayout from "@/components/layout/MainLayout";
 import React from "react";
 
@@ -134,3 +134,12 @@ function PrivacyPolicy() {
 }
 
 export default PrivacyPolicy;
+
+export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
+  title: "Privacy Policy - Prakria Tech",
+  description:
+    "Review Prakria Tech's privacy policy to understand how we collect, use, and protect your personal information. Learn about your privacy rights and our data practices.",
+};

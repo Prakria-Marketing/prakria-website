@@ -235,3 +235,12 @@ function WebsiteRedesign() {
 }
 
 export default WebsiteRedesign;
+
+export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
+  title: "Website Redesigning Services - Prakria Tech",
+  description:
+    "Refresh your online presence with our website redesigning services. We revamp your website to improve functionality, aesthetics, and user experience.",
+};

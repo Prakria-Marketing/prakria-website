@@ -194,3 +194,12 @@ Reinforcement learning: The model learns to make decisions based on trial and er
 }
 
 export default ArtificialIntelligence;
+
+export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
+  title: "AI Development Services | Custom AI Solutions - Prakria Tech",
+  description:
+    "Prakria Tech provides AI development services to create custom artificial intelligence solutions. Explore our AI capabilities and transform your business operations with AI.",
+};

@@ -18,13 +18,31 @@ function IphoneAppDevelopment() {
               >
                 <div className="service-details-top-content">
                   <h2>
-                  IPhone App <span>Development.</span>
+                    IPhone App <span>Development.</span>
                   </h2>
                   <p>
-                  The top iPhone app development company in New Delhi, India is Prakria. It creates cutting-edge iPhone mobile applications for companies in practically every industry, including gaming, healthcare, pharmaceuticals, eCommerce, travel, and logistics. We provide scalable, safe, and customized iPhone apps that work flawlessly on all iOS devices, including iPads and iPhones. 
+                    The top iPhone app development company in New Delhi, India
+                    is Prakria. It creates cutting-edge iPhone mobile
+                    applications for companies in practically every industry,
+                    including gaming, healthcare, pharmaceuticals, eCommerce,
+                    travel, and logistics. We provide scalable, safe, and
+                    customized iPhone apps that work flawlessly on all iOS
+                    devices, including iPads and iPhones.
                   </p>
-                  <h6>Get India's Finest iPhone App Development Services to Accelerate the Growth of Your Company</h6>
-                  <p>Being the best iPhone app development company in Delhi NCR, India, we're dedicated to offering dependable and strong iPhone app development services that flawlessly complement your distinct business goals. Our all-inclusive iPhone app development services in India prioritize innovation, quality, and user experience throughout the entire process, from consultation to designing, developing, testing, and final deployment. </p>
+                  <h6>
+                    Get India's Finest iPhone App Development Services to
+                    Accelerate the Growth of Your Company
+                  </h6>
+                  <p>
+                    Being the best iPhone app development company in Delhi NCR,
+                    India, we're dedicated to offering dependable and strong
+                    iPhone app development services that flawlessly complement
+                    your distinct business goals. Our all-inclusive iPhone app
+                    development services in India prioritize innovation,
+                    quality, and user experience throughout the entire process,
+                    from consultation to designing, developing, testing, and
+                    final deployment.{" "}
+                  </p>
                 </div>
               </div>
               <div
@@ -237,3 +255,12 @@ function IphoneAppDevelopment() {
 }
 
 export default IphoneAppDevelopment;
+
+export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
+  title: "iOS App Development Services - Prakria Tech",
+  description:
+    "Unlock the potential of iOS with our app development services. We build robust, intuitive iOS applications that offer exceptional user experiences.",
+};

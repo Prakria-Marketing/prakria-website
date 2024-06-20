@@ -448,7 +448,7 @@ const Header1 = () => {
                       width: "1200px",
                       height: "auto",
                       top: "80px",
-                      right: "-560%",
+                      right: "-610%",
                     }}
                   >
                     <div className="row">

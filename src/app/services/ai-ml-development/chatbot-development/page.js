@@ -234,3 +234,12 @@ function ChatbotDevelopment() {
 }
 
 export default ChatbotDevelopment;
+
+export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
+  title: "Chatbot Development Services | Custom Chatbot Solutions - Prakria Tech",
+  description:
+    "Develop intelligent chatbot solutions with Prakria Tech. Enhance customer engagement and support services with our expert chatbot development solutions.",
+};

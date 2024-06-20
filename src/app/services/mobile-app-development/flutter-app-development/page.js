@@ -235,3 +235,12 @@ function FlutterAppDevelopment() {
 }
 
 export default FlutterAppDevelopment;
+
+export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
+  title: "Flutter App Development Services - Prakria Tech",
+  description:
+    "Build cross-platform apps with our Flutter development services. Deliver seamless user experiences on both Android and iOS with a single codebase.",
+};

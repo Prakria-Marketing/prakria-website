@@ -240,3 +240,12 @@ function SapDevelopment() {
 }
 
 export default SapDevelopment;
+
+export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
+  title: "SAP Software Development Services - Prakria Tech",
+  description:
+    "Leverage the power of SAP with our software development services. Prakria Tech specializes in creating customized SAP solutions to meet your unique business requirements.",
+};

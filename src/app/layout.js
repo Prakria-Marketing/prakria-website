@@ -43,7 +43,6 @@ export default function RootLayout({ children }) {
           type="image/x-icon"
           sizes="16x16"
         />
-        <title>Prakria Tech - Top Mobile App Development Company l PRAKRIA</title>
         <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
       </head>
       <body>
@@ -54,3 +53,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+

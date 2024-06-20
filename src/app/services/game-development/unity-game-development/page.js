@@ -232,3 +232,12 @@ Our team has created games in a variety of genres, including strategy, multiplay
 }
 
 export default UnityGameDevelopment;
+
+export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
+  title: "Unity Game Development Services - Prakria Tech",
+  description:
+    "Develop stunning games with our Unity game development services. Our experts create visually appealing and highly interactive Unity games.",
+};

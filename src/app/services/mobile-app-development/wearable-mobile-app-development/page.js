@@ -236,3 +236,12 @@ function WearableAppDevelopment() {
 }
 
 export default WearableAppDevelopment;
+
+export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
+  title: "Wearable Mobile App Development Services - Prakria Tech",
+  description:
+    "Innovate with our wearable mobile app development services. Create cutting-edge apps for smartwatches, fitness trackers, and other wearable devices.",
+};

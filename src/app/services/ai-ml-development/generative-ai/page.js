@@ -176,3 +176,12 @@ Education and Research: Generative AI can synthesize information to create educa
 }
 
 export default GenerativeAi;
+
+export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
+  title: "Generative AI Development Services - Prakria Tech",
+  description:
+    "Transform your business with our advanced generative AI development services. Leverage AI to create innovative solutions and drive digital transformation.",
+};

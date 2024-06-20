@@ -75,7 +75,7 @@ const Footer = () => {
               <div className="col-lg-4 col-md-6 d-flex justify-content-lg-center justify-content-md-end justify-content-sm-start">
                 <div className="footer-logo-area">
                   <div className="logo-bg">
-                    <img src="/assets/img/logo.png" alt="" className="light loop-logo" />
+                    <img src="/assets/img/logo-dark.png" style={{maxWidth:"90px"}}  alt="" className="light loop-logo" />
                     <img
                       src="/assets/img/home1/footer-logo-bg-dark.png"
                       alt=""
@@ -83,7 +83,7 @@ const Footer = () => {
                     />
                   </div>
                   <div className="logo">
-                    <img src="/assets/img/logo.png" alt="" className="light loop-logo" />
+                    <img src="/assets/img/home1/footer-logo-bg-dark.png" alt="" className="light loop-logo" />
                     <img src="/assets/img/logo.png" alt="" className="dark loop-logo" />
                   </div>
                 </div>

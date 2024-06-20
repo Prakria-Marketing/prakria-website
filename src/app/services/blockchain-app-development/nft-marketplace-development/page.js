@@ -247,3 +247,13 @@ function NftMarketplace() {
 }
 
 export default NftMarketplace;
+
+
+export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
+  title: "NFT Marketplace Development Services - Prakria Tech",
+  description:
+    "Build your own NFT marketplace with Prakria Tech. Our development services provide secure, scalable platforms for buying, selling, and trading NFTs.",
+};

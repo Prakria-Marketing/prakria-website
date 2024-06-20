@@ -258,3 +258,12 @@ function CustomCrmDevelopment() {
 }
 
 export default CustomCrmDevelopment;
+
+export const metadata = {
+  icons: {
+    icon: "/assets/img/favicon.png",
+  },
+  title: "Accounting Software Development Services - Prakria Tech",
+  description:
+    "Simplify your financial management with Prakria Tech's accounting software development services. We create custom accounting solutions tailored to your business needs.",
+};
