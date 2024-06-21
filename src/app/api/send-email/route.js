@@ -1,5 +1,5 @@
 // pages/api/send-email.js
-require('dotenv').config();
+
 import { NextResponse, NextRequest } from "next/server";
 import nodemailer from "nodemailer";
 async function handler(req) {
