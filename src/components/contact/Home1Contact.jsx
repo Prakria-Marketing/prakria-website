@@ -320,7 +320,7 @@ const Home1Contact = () => {
                   {successMessage && (
                     <p className="text-success">{successMessage}</p>
                   )}
-                  {errorMessage && <p>{errorMessage}</p>}
+                  {errorMessage && <p className="text-danger">{errorMessage}</p>}
                   <span>{result}</span>
                 </div>
               </div>

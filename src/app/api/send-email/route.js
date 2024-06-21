@@ -6,15 +6,25 @@ async function handler(req) {
   if (req.method === "POST") {
     const body = await req.json();
     const { name, company, phone, email, subject, message } = body;
-    console.log(name)
     // Create a transporter object
+    // const transporter = nodemailer.createTransport({
+    //   service: "gmail", // or use another email service
+    //   auth: {
+    //     user: process.env.EMAIL_USER, // use environment variable
+    //     pass: process.env.EMAIL_PASS, // use environment variable
+    //   },
+    // });
+
     const transporter = nodemailer.createTransport({
-      service: "gmail", // or use another email service
+      host: process.env.SMTP_HOST,
+      port: process.env.SMTP_PORT,
+      secure: false, // true for 465, false for other ports
       auth: {
-        user: process.env.EMAIL_USER, // use environment variable
-        pass: process.env.EMAIL_PASS, // use environment variable
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
       },
     });
+
 
     // Email options
     const mailOptions = {
