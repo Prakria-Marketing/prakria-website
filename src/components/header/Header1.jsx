@@ -934,7 +934,7 @@ const Header1 = () => {
                 <Link href="/portfolio">Portfolio</Link>
               </li>
               <li>
-                <Link className="drop-down" href="/contact">
+                <Link href="/contact">
                   Contact
                 </Link>
               </li>
