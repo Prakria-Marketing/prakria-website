@@ -168,7 +168,8 @@ const Footer = () => {
                       
                         <div className="review">
                           <img
-                          className="w-50 mb-2 rounded"
+                          style={{width:"110px"}}
+                          className="mb-2 rounded"
                             src="/assets/img/ifcci.png"
                             alt=""
                           />
