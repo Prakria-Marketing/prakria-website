@@ -7156,6 +7156,7 @@ header.style-3 .main-menu > ul li.menu-item-has-children > i {
   display: flex;
   align-items: center;
   gap: 8px;
+  width: 180px;
 }
 .footer-section
   .footer-top
