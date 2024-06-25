@@ -127,8 +127,8 @@ const Footer = () => {
                     </p>
                   </div>
                   <ul className="rating-area">
-                    {/* <li>
-                      <a href="https://clutch.co/" className="single-rating">
+                    <li>
+                      <a target="_blank" href="https://clutch.co/profile/prakria" className="single-rating">
                         <div className="review">
                           <span>Review On</span>
                           <img
@@ -163,40 +163,19 @@ const Footer = () => {
                           <span>(50 reviews)</span>
                         </div>
                       </a>
-                    </li> */}
+                    </li>
                     <li>
-                      <a target="_blank"
-                        href="https://www.google.com/search?q=prakria&rlz=1C1ONGR_en-GBIN1075IN1075&oq=prakria&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyBggBEEUYPDIQCAIQLhivARjHARiABBiOBTIJCAMQABgKGIAEMgkIBBAAGAoYgAQyBggFEEUYPDIGCAYQRRg8MgYIBxBFGDzSAQg5Njc3ajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8#ip=1&lrd=0x390d0233844eff5f:0xce5c8fad12791189,1,,,,"
-                        className="single-rating google"
-                      >
+                      
                         <div className="review">
-                          <span>Review On</span>
                           <img
-                            src="/assets/img/home1/icon/google-logo.svg"
+                          style={{width:"110px"}}
+                          className="mb-2 rounded"
+                            src="/assets/img/ifcci.png"
                             alt=""
                           />
                         </div>
-                        <div className="rating">
-                          <ul className="star">
-                            <li>
-                              <i className="bi bi-star-fill" />
-                            </li>
-                            <li>
-                              <i className="bi bi-star-fill" />
-                            </li>
-                            <li>
-                              <i className="bi bi-star-fill" />
-                            </li>
-                            <li>
-                              <i className="bi bi-star-fill" />
-                            </li>
-                            <li>
-                              <i className="bi bi-star-half" />
-                            </li>
-                          </ul>
-                          <span>(50 reviews)</span>
-                        </div>
-                      </a>
+                          <p style={{fontSize:"10px", lineHeight:"15px"}}>ISO 9001:2015 and 27001:2022 certified company</p>
+                        
                     </li>
                   </ul>
                 </div>
