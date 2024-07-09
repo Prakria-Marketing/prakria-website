@@ -305,13 +305,8 @@ const Header2 = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.instagram.com/prakria/">
+                      <a href="https://in.linkedin.com/company/prakriauklimited">
                         <i className="bi bi-linkedin" /> Linkedin
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="bi bi-pinterest" /> Pinterest
                       </a>
                     </li>
                     <li>
