@@ -72,11 +72,7 @@ const ContactPage = () => {
                     </svg>
                   </div>
                   <div className="content">
-                    <span>Working Hours</span>
-                    <h6>Mon to Sat : 8am- 9pm</h6>
-                    <h6>
-                      Sunday : <span>Closed</span>
-                    </h6>
+                    <span>24x7x365</span>
                   </div>
                 </div>
               </div>
@@ -139,11 +135,7 @@ const ContactPage = () => {
                     </svg>
                   </div>
                   <div className="content">
-                    <span>Working Hours</span>
-                    <h6>Mon to Sat : 8am- 9pm</h6>
-                    <h6>
-                      Sunday : <span>Closed</span>
-                    </h6>
+                    <span>24x7x365</span>
                   </div>
                 </div>
               </div>
