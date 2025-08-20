@@ -16,6 +16,7 @@ import "../../public/assets/css/style.css";
 import ScrollProgress from "@/components/common/ScrollProgress";
 import ThemeSwitch from "@/components/common/Theme";
 import useWow from "@/hooks/useWow";
+import Whatsapp from "./whatsapp/Whatsapp";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -46,6 +47,7 @@ export default function RootLayout({ children }) {
         <script src="https://www.google.com/recaptcha/enterprise.js" async defer></script>
       </head>
       <body>
+        <Whatsapp />
         <ScrollProgress />
         <ThemeSwitch />
         {children}

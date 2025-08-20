@@ -124,7 +124,7 @@ const Home1Contact = () => {
                     <div className="content">
                       <span>Call us at:</span>
                       <h6>
-                        <a href="tel:+918800024166">+91 88000 24166</a>
+                        <a href="tel:+919810810034">+91 98108 10034</a>
                       </h6>
                     </div>
                   </div>
