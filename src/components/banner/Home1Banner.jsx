@@ -75,14 +75,13 @@ const Home1Banner = () => {
                 Cultivating groundbreaking solutions and propelling your digital journey to new heights, we at PRAKRIA are committed to exceeding boundaries and redefining industry standards. With innovative technologies and tailored strategies, we empower your brand to thrive in the ever-evolving digital landscape.
                 </p>
                 <div className="banner-content-bottom">
-                  <a
-                    target="_blank"
-                    href="https://calendly.com/abhishek-shukla1987"
+                  <Link
+                    href="/contact#cForm"
                     className="primary-btn1"
                     data-text="Free Consultation"
                   >
                     <span>Free Consultation</span>
-                  </a>
+                  </Link>
 
                   <a
                     target="_blank"

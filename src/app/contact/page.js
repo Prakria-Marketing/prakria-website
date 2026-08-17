@@ -54,9 +54,12 @@ const ContactPage = () => {
             >
               <div className="contact-area">
                 <div className="address">
-                  <h4 className="title">United Kingdom</h4>
-                  <span>London</span>
-                  <p>105 Palewell Park London, England SW14 8JJ</p>
+                  <h4 className="title">United Arab Emirates</h4>
+                  <span>Dubai</span>
+                  <p>
+                    Meydan Grandstand, 6th Floor, Meydan Road, Nad Al Sheba,
+                    Dubai, U.A.E.
+                  </p>
                 </div>
                 <div className="working-hour">
                   <div className="icon">
@@ -84,7 +87,7 @@ const ContactPage = () => {
             >
               <div className="company-map">
                 <iframe
-                  src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=105%20Palewell%20Park%20London,%20England%20SW14%208JJ+(Prakria%20Tech)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                  src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Meydan%20Grandstand,%20Meydan%20Road,%20Nad%20Al%20Sheba,%20Dubai+(Prakria%20Tech)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"

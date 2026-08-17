@@ -293,7 +293,10 @@ const Header1 = () => {
                           Pitampura, Delhi 110034
                         </h6>
                         <br></br>
-                        <h6>105 Palewell Park London, England SW14 8JJ</h6>
+                        <h6>
+                          Meydan Grandstand, 6th Floor, Meydan Road, Nad Al
+                          Sheba, Dubai, U.A.E.
+                        </h6>
                       </div>
                     </li>
                   </ul>
